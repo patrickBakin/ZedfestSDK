@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -67,14 +63,6 @@ struct UStoreSpecialItemCard_C_Get_WeaponCost_Text_1_Params
 	struct FText                                       ReturnValue;                                              // (Parm, OutParm, ReturnParm)
 };
 
-<<<<<<< HEAD
-=======
-// Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature
-struct UStoreSpecialItemCard_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature_Params
-{
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.SetIndex
 struct UStoreSpecialItemCard_C_SetIndex_Params
 {
@@ -104,28 +92,16 @@ struct UStoreSpecialItemCard_C_HoverDeselect_Params
 {
 };
 
-<<<<<<< HEAD
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
 struct UStoreSpecialItemCard_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 struct UStoreSpecialItemCard_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature_Params
 {
 };
 
-<<<<<<< HEAD
-=======
-// Function StoreSpecialItemCard.StoreSpecialItemCard_C.PreConstruct
-struct UStoreSpecialItemCard_C_PreConstruct_Params
-{
-	bool*                                              IsDesignTime;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.SetFocus
 struct UStoreSpecialItemCard_C_SetFocus_Params
 {
@@ -152,7 +128,6 @@ struct UStoreSpecialItemCard_C_NotEvent_Params
 	struct FText*                                      NewParam;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm)
 };
 
-<<<<<<< HEAD
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.PreConstruct
 struct UStoreSpecialItemCard_C_PreConstruct_Params
 {
@@ -161,16 +136,6 @@ struct UStoreSpecialItemCard_C_PreConstruct_Params
 
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature
 struct UStoreSpecialItemCard_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature_Params
-=======
-// Function StoreSpecialItemCard.StoreSpecialItemCard_C.ChangeValue
-struct UStoreSpecialItemCard_C_ChangeValue_Params
-{
-	bool*                                              Right;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
-// Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
-struct UStoreSpecialItemCard_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature_Params
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 {
 };
 
@@ -180,15 +145,12 @@ struct UStoreSpecialItemCard_C_StoreRef_Params
 	class UW_Store_C**                                 Store;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.ChangeValue
 struct UStoreSpecialItemCard_C_ChangeValue_Params
 {
 	bool*                                              Right;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.UpdateStoreSpecialItemCard
 struct UStoreSpecialItemCard_C_UpdateStoreSpecialItemCard_Params
 {

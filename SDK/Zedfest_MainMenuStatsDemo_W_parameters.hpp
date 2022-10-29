@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -121,14 +117,16 @@ struct UMainMenuStatsDemo_W_C_BndEvt__WonterfulWinterland_K2Node_ComponentBoundE
 {
 };
 
-<<<<<<< HEAD
 // Function MainMenuStatsDemo_W.MainMenuStatsDemo_W_C.BndEvt__TheNeighborhood_K2Node_ComponentBoundEvent_16_OnClicked__DelegateSignature
 struct UMainMenuStatsDemo_W_C_BndEvt__TheNeighborhood_K2Node_ComponentBoundEvent_16_OnClicked__DelegateSignature_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Function MainMenuStatsDemo_W.MainMenuStatsDemo_W_C.BndEvt__NeonFarm_K2Node_ComponentBoundEvent_17_OnClicked__DelegateSignature
+struct UMainMenuStatsDemo_W_C_BndEvt__NeonFarm_K2Node_ComponentBoundEvent_17_OnClicked__DelegateSignature_Params
+{
+};
+
 // Function MainMenuStatsDemo_W.MainMenuStatsDemo_W_C.ExecuteUbergraph_MainMenuStatsDemo_W
 struct UMainMenuStatsDemo_W_C_ExecuteUbergraph_MainMenuStatsDemo_W_Params
 {

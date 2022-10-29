@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,11 +13,7 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_Security_Camera_Tracking.BP_Security_Camera_Tracking_C
-<<<<<<< HEAD
 // 0x00CE (0x03FE - 0x0330)
-=======
-// 0x00CD (0x03FD - 0x0330)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 class ABP_Security_Camera_Tracking_C : public AActor
 {
 public:
@@ -64,10 +56,7 @@ public:
 	class ABP_CameraSpawnPoint_C*                      CameraSpawnPoint;                                         // 0x03F0(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, IsPlainOldData)
 	int                                                CameraNumber;                                             // 0x03F8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	bool                                               ShotDown_;                                                // 0x03FC(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-<<<<<<< HEAD
 	bool                                               CameraShot_;                                              // 0x03FD(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	static UClass* StaticClass()
 	{
@@ -77,10 +66,7 @@ public:
 
 
 	void Scene_capture_activation(bool* Activation, class UTextureRenderTarget2D** Capture_texture);
-<<<<<<< HEAD
 	void OnRep_CameraShot_();
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void UserConstructionScript();
 	void Scan_Rot_Timeline__FinishedFunc();
 	void Scan_Rot_Timeline__UpdateFunc();
@@ -96,10 +82,7 @@ public:
 	void DisableCamera();
 	void ReceiveRadialDamage(float* DamageReceived, class UDamageType** DamageType, struct FVector* Origin, struct FHitResult* HitInfo, class AController** InstigatedBy, class AActor** DamageCauser);
 	void ResetCamerasEvent(bool* Internmission);
-<<<<<<< HEAD
 	void DisableCameraRepEvent();
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void ExecuteUbergraph_BP_Security_Camera_Tracking(int* EntryPoint);
 };
 

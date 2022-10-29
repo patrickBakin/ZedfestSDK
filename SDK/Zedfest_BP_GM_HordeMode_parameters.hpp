@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -268,6 +264,11 @@ struct ABP_GM_HordeMode_C_ResetSpawnZedsMacro_Params
 
 // Function BP_GM_HordeMode.BP_GM_HordeMode_C.UpdateServerBrowserProperties
 struct ABP_GM_HordeMode_C_UpdateServerBrowserProperties_Params
+{
+};
+
+// Function BP_GM_HordeMode.BP_GM_HordeMode_C.TimeAttackPUGSClosing
+struct ABP_GM_HordeMode_C_TimeAttackPUGSClosing_Params
 {
 };
 

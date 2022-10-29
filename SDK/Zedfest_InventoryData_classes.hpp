@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -107,11 +103,7 @@ public:
 	void GetChar_DeathAnimNumber(int* NumberOfDeathAnim);
 	void GetChar_IsSprinting(bool* IsSprinting);
 	void GetChar_HasCharWeaponsComponent(bool* Result);
-<<<<<<< HEAD
 	void GetChar_CharacterWeaponsComponent(int* CWC_Reference);
-=======
-	void GetChar_CharacterWeaponsComponent(class UAC_CharacterWeapons_C** CWC_Reference);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void CWC_GetHUD(class UW_WpnCompHUD_C** HUD_Reference);
 	void GetChar_CurrentCamera(class UCameraComponent** CurrentCamera, bool* WeaponCamActive);
 	void GetChar_IsCloaked(bool* Cloak);
@@ -213,11 +205,7 @@ public:
 	void ArmorPickupInterface(class ABP_RubberArmor_C** PickupRef, bool* Autopickup_);
 	void WPN_CantShoot();
 	void CWC_SwitchCamera();
-<<<<<<< HEAD
 	void WPN_SetWeaponToInteract(int* WeaponReference, bool* AutoPickUp);
-=======
-	void WPN_SetWeaponToInteract(class ABPA_ParentWeapon_C** WeaponReference, bool* AutoPickUp);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void AmmoPickup(TEnumAsByte<E_AddAmmoTypes>* Mode, struct FName* WeaponID, int* AmountAmmo, TEnumAsByte<E_WeaponTypes>* WeaponType, class UClass** ProjectileType);
 	void AnimBP_AnimationRequest(class UAnimMontage** Montage, float* PlayRate);
 	void WPN_Recoil(float* Pitch, float* Yaw);

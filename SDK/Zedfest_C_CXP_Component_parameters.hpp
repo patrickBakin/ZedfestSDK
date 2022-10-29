@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -102,6 +98,11 @@ struct UC_CXP_Component_C_LevelupEvents_Params
 
 // Function C_CXP_Component.C_CXP_Component_C.ReceiveBeginPlay
 struct UC_CXP_Component_C_ReceiveBeginPlay_Params
+{
+};
+
+// Function C_CXP_Component.C_CXP_Component_C.InitializeMainMenuPopup
+struct UC_CXP_Component_C_InitializeMainMenuPopup_Params
 {
 };
 

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -849,6 +845,23 @@ void ABP_GM_HordeMode_C::UpdateServerBrowserProperties()
 	static auto fn = UObject::FindObject<UFunction>("Function BP_GM_HordeMode.BP_GM_HordeMode_C.UpdateServerBrowserProperties");
 
 	ABP_GM_HordeMode_C_UpdateServerBrowserProperties_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_GM_HordeMode.BP_GM_HordeMode_C.TimeAttackPUGSClosing
+// (BlueprintCallable, BlueprintEvent)
+
+void ABP_GM_HordeMode_C::TimeAttackPUGSClosing()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_GM_HordeMode.BP_GM_HordeMode_C.TimeAttackPUGSClosing");
+
+	ABP_GM_HordeMode_C_TimeAttackPUGSClosing_Params params;
 
 	auto flags = fn->FunctionFlags;
 

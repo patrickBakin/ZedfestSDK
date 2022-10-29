@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,11 +13,7 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_Base_HordeController.BP_Base_HordeController_C
-<<<<<<< HEAD
-// 0x0825 (0x0E9D - 0x0678)
-=======
-// 0x081D (0x0E95 - 0x0678)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// 0x082C (0x0EA4 - 0x0678)
 class ABP_Base_HordeController_C : public APlayerController
 {
 public:
@@ -140,12 +132,11 @@ public:
 	unsigned char                                      UnknownData18[0x3];                                       // 0x0E8D(0x0003) MISSED OFFSET
 	int                                                ClassLevel;                                               // 0x0E90(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               MusicFirstPlay_;                                          // 0x0E94(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-<<<<<<< HEAD
 	unsigned char                                      UnknownData19[0x3];                                       // 0x0E95(0x0003) MISSED OFFSET
 	int                                                DoubleKills;                                              // 0x0E98(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               FreshJoin_;                                               // 0x0E9C(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+	unsigned char                                      UnknownData20[0x3];                                       // 0x0E9D(0x0003) MISSED OFFSET
+	int                                                SecondaryWeaponsKills;                                    // 0x0EA0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 
 	static UClass* StaticClass()
 	{
@@ -154,45 +145,23 @@ public:
 	}
 
 
-<<<<<<< HEAD
 	void OnRep_FreshJoin_();
 	void DiscordSend();
 	void GetCurrentAnnouncement(struct FToolData* Output);
 	void AddScore(int* Added_Score, bool* Headshot_, bool* LastShot_, int* DamageCauserInt, class AActor** DamageWeapon, struct FName* ZedName, bool* DoubleKill_);
-=======
-	void DiscordSend();
-	void GetCurrentAnnouncement(struct FToolData* Output);
-	void AddScore(int* Added_Score, bool* Headshot_, bool* LastShot_, int* DamageCauserInt, class AActor** DamageWeapon, struct FName* ZedName);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void CharacterCheck();
 	void InitPlayerInfo();
 	void Client_Play2DSound(class USoundBase** Sound, float* VolumeMultiplier);
-	void Timeline_0__FinishedFunc();
-	void Timeline_0__UpdateFunc();
-<<<<<<< HEAD
-=======
 	void Timeline_2__FinishedFunc();
 	void Timeline_2__UpdateFunc();
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void Timeline_1__FinishedFunc();
 	void Timeline_1__UpdateFunc();
+	void Timeline_0__FinishedFunc();
+	void Timeline_0__UpdateFunc();
 	void Timeline_3__FinishedFunc();
 	void Timeline_3__UpdateFunc();
-<<<<<<< HEAD
-	void Timeline_2__FinishedFunc();
-	void Timeline_2__UpdateFunc();
 	void InpActEvt_EscapeButton_K2Node_InputActionEvent_7(struct FKey* Key);
 	void InpActEvt_E_K2Node_InputKeyEvent_6(struct FKey* Key);
-	void InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_6(struct FKey* Key);
-	void InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_5(struct FKey* Key);
-	void InpActEvt_Enter_Chat_K2Node_InputActionEvent_4(struct FKey* Key);
-=======
-	void InpActEvt_EscapeButton_K2Node_InputActionEvent_7(struct FKey* Key);
-	void InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_6(struct FKey* Key);
-	void InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_5(struct FKey* Key);
-	void InpActEvt_Enter_Chat_K2Node_InputActionEvent_4(struct FKey* Key);
-	void InpActEvt_E_K2Node_InputKeyEvent_6(struct FKey* Key);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void OnFailure_1E3F902448EAD1CDD4AF91B662FAC50C(int* LeaderboardValue);
 	void OnSuccess_1E3F902448EAD1CDD4AF91B662FAC50C(int* LeaderboardValue);
 	void OnFailure_738F8ACC4005F6DF6F0811A6B187E027();
@@ -209,15 +178,13 @@ public:
 	void OnSuccess_ED59D4374179BCD399D12886E6E2B3BD();
 	void OnFailure_AAA8C9EA4449C3EDD2362395E636FE39(struct FName* WrittenAchievementName, float* WrittenProgress, int* WrittenUserTag);
 	void OnSuccess_AAA8C9EA4449C3EDD2362395E636FE39(struct FName* WrittenAchievementName, float* WrittenProgress, int* WrittenUserTag);
-<<<<<<< HEAD
-=======
-	void OnFailure_B795C42244B186F8AA3FB6BEAB82D252();
-	void OnSuccess_B795C42244B186F8AA3FB6BEAB82D252();
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+	void InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_6(struct FKey* Key);
+	void InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_5(struct FKey* Key);
 	void OnFailure_934989E44C6FE8BFA49BE0A047327419(int* LeaderboardValue);
 	void OnSuccess_934989E44C6FE8BFA49BE0A047327419(int* LeaderboardValue);
 	void OnFailure_6AB578B54E4460E794CE54B16D6E1C3A();
 	void OnSuccess_6AB578B54E4460E794CE54B16D6E1C3A();
+	void InpActEvt_Enter_Chat_K2Node_InputActionEvent_4(struct FKey* Key);
 	void OnFailure_F3A553344116D174FBAADC8966B16BD9();
 	void OnSuccess_F3A553344116D174FBAADC8966B16BD9();
 	void OnFailure_FBDB8D5D426A9A9B6F233195F8459B41(struct FName* WrittenAchievementName, float* WrittenProgress, int* WrittenUserTag);
@@ -252,11 +219,8 @@ public:
 	void OnSuccess_A81AA0F943B222D85C32619FE4AAAE0A(int* LeaderboardValue);
 	void OnFailure_52BF4CC945EBA06DD5EB93B396121BCF();
 	void OnSuccess_52BF4CC945EBA06DD5EB93B396121BCF();
-<<<<<<< HEAD
 	void OnFailure_B795C42244B186F8AA3FB6BEAB82D252();
 	void OnSuccess_B795C42244B186F8AA3FB6BEAB82D252();
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void InpActEvt_F2_K2Node_InputKeyEvent_4(struct FKey* Key);
 	void InpActEvt___K2Node_InputKeyEvent_3(struct FKey* Key);
 	void I_2(struct FKey* Key);
@@ -279,7 +243,6 @@ public:
 	void InpActEvt_OpenRingMenuButton_K2Node_InputActionEvent_2(struct FKey* Key);
 	void InpActEvt_OpenRingMenuButton_K2Node_InputActionEvent_1(struct FKey* Key);
 	void InpActEvt_Q_K2Node_InputKeyEvent_1(struct FKey* Key);
-<<<<<<< HEAD
 	void OnFailure_CECE7ACF4D8785E45DEA1086D021A6B9(int* LeaderboardValue);
 	void OnSuccess_CECE7ACF4D8785E45DEA1086D021A6B9(int* LeaderboardValue);
 	void OnFailure_AC89E3C44543AA5639EC7BA556EA7B8C();
@@ -296,119 +259,77 @@ public:
 	void OnSuccess_1002C6D14FA3E0DD8E8B31872C712AC7(int* LeaderboardValue);
 	void OnFailure_E9A4D3824C6F975006EDCEBE8DC30D86();
 	void OnSuccess_E9A4D3824C6F975006EDCEBE8DC30D86();
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-	void ControllerCurrentObjective(struct FText* ObjectiveNameText, struct FText* ObjectiveMittenText, struct FText* ObjectiveText, bool* ShowObjective1Image_, bool* ShowObjective2Image_);
-	void HordeIntPCEvent(int* HordeIntPC, bool* ObjectiveMode_);
-	void AssignInventoryData(class AInventoryData_C** InventoryData);
+	void OnFailure_1E15EEBE453A6D16565DFE9C48F83936();
+	void OnSuccess_1E15EEBE453A6D16565DFE9C48F83936();
+	void OnFailure_9A1037514860DF32DD64E2B76D2296C4(struct FName* WrittenAchievementName, float* WrittenProgress, int* WrittenUserTag);
+	void OnSuccess_9A1037514860DF32DD64E2B76D2296C4(struct FName* WrittenAchievementName, float* WrittenProgress, int* WrittenUserTag);
 	void LevelUp();
 	void AddXP(float* XpToAdd);
 	void AddOnlySkillXp(TEnumAsByte<E_SkillTree>* Skill, float* XP);
 	void SkillMaxReached(TEnumAsByte<E_SkillTree>* SkillReached);
 	void ReceiveBeginPlay();
-<<<<<<< HEAD
-	void RemoveWidgets();
 	void ResumeTheGame();
 	void WaveAmountText(int* WaveAmount);
 	void SequencerPCEvent();
-=======
-	void ResumeTheGame();
-	void WaveAmountText(int* WaveAmount);
-	void SequencerPCEvent();
-	void MoneyBanktick();
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void EnterQuickItem();
 	void EventClientCalloutAnnouncement(class USoundBase** Sound);
 	void EventMultiCalloutAnnouncement(class USoundBase** Sound);
 	void ServerCountDownSound();
 	void EventDifferentCharCallout(int* CharacterVoice, bool* FromCharCards_);
-	void EventPersonalStatsArray();
-<<<<<<< HEAD
-	void MoneyBanktick();
-	void GameStatEvent(bool* Death_);
-	void PCConsoleCheatClose();
-	void ShowLoadingScreen();
-	void AddVictoryMoney(int* Money);
-	void FriendlyBotsText(int* FriendlyBots);
-	void DifficultyText(int* DifficultyInt);
-	void ChangeStartMoney(int* B);
-	void ShowUIEvent();
-	void AddScoreEvent(int* Added_Score, bool* Headshot_, class ABP_Base_HordeController_C** Lastshot, int* DamageCauserInt, class AActor** DamageWeapon, struct FName* ZedName, bool* DoubleKill_);
-	void PlayerListEvent();
-	void MapVoteEvent();
-	void MapVoteClient();
-=======
-	void GameStatEvent(bool* Death_);
 	void RemoveWidgets();
-	void ShowLoadingScreen();
-	void FriendlyBotsText(int* FriendlyBots);
-	void DifficultyText(int* DifficultyInt);
+	void EventPersonalStatsArray();
+	void MoneyBanktick();
 	void PCConsoleCheatClose();
-	void AddScoreEvent(int* Added_Score, bool* Headshot_, class ABP_Base_HordeController_C** Lastshot, int* DamageCauserInt, class AActor** DamageWeapon, struct FName* ZedName);
+	void GameStatEvent(bool* Death_);
 	void AddVictoryMoney(int* Money);
 	void ChangeStartMoney(int* B);
+	void ShowLoadingScreen();
 	void ShowUIEvent();
+	void FriendlyBotsText(int* FriendlyBots);
+	void DifficultyText(int* DifficultyInt);
 	void PlayerListEvent();
+	void AddScoreEvent(int* Added_Score, bool* Headshot_, class ABP_Base_HordeController_C** Lastshot, int* DamageCauserInt, class AActor** DamageWeapon, struct FName* ZedName, bool* DoubleKill_);
 	void MapVoteEvent();
 	void MapVoteClient();
-	void RemoveMoney(int* B);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void GameModeText(int* GameModeInt);
 	void HeadTextInfo();
 	void AddAlivePlayer();
 	void SpectateEvent();
 	void SpectatorModeWhenDead(bool* Dead_, class UWBP_Lobby_Main_C** LobbyRef);
 	void UpdatePlayerInfoFrontFromLobbySpectate();
-<<<<<<< HEAD
 	void DestroyBP_PawnEtc();
 	void RemoveMoney(int* B);
 	void ToggleScoreboard();
 	void Close_Lobby();
-=======
-	void ToggleScoreboard();
-	void Close_Lobby();
-	void DestroyBP_PawnEtc();
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void AssignPlayer(int* PrestigeLevel, struct FName* CharacterName, struct FName* PlayerName, int* ClassLevel, class USkeletalMesh** CharacterMesh);
 	void AssignSelectedCharacter(int* CharacterID, struct FName* CharacterName, class USkeletalMesh** CharacterMesh, int* PrestigeLevel, int* ClassLevel);
 	void Kicked();
 	void ReceiveEndPlay(TEnumAsByte<EEndPlayReason>* EndPlayReason);
 	void UpdateNumberOfPlayers(int* CurrentPlayers, int* MaxPlayers);
+	void CameraShot();
 	void UpdateLobbySettings(class UTexture2D** Map_Image, struct FText* Map_Name, struct FText* MapTime, struct FText* LevelDescription);
+	void SlidingScoreEvent(int* score);
 	void AddPlayerInfo(TArray<struct FS_Player_Info1>* ConnectedPlayerInfo, TArray<class APlayerState*>* PlayerstateArray);
-<<<<<<< HEAD
-	void CameraShot();
-	void SlidingScoreEvent(int* score);
 	void SetupLobbyMenu(struct FText* Server_Name, int* GameModeInt, int* WaveAmount, int* DifficultyInt, int* FriendlyBots, struct FString* ServerID, struct FText* MapName);
 	void Server_Lobby_CallUpdate(struct FS_Player_Info1* Player_Info, bool* Changed_Status);
 	void EnterChat();
+	void PCConsoleOpen();
 	void UpdateChat(struct FText* Sender, struct FText* Message, int* PlayerIndex);
 	void GetChatMessage(struct FText* TextToSend, bool* ServerMessage_, int* PlayerIndex);
-	void PCConsoleOpen();
 	void Add_Money(int* B);
-=======
-	void SetupLobbyMenu(struct FText* Server_Name, int* GameModeInt, int* WaveAmount, int* DifficultyInt, int* FriendlyBots, struct FString* ServerID, struct FText* MapName);
-	void Server_Lobby_CallUpdate(struct FS_Player_Info1* Player_Info, bool* Changed_Status);
-	void CameraShot();
-	void EnterChat();
-	void UpdateChat(struct FText* Sender, struct FText* Message, int* PlayerIndex);
-	void SlidingScoreEvent(int* score);
-	void GetChatMessage(struct FText* TextToSend, bool* ServerMessage_, int* PlayerIndex);
-	void Add_Money(int* B);
-	void PCConsoleOpen();
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void CustomEvent_1();
 	void OpenRingMenuEvent(bool* Open_);
 	void SomeoneIsTypingMessage(int* PlayerIndex, bool* StoppedTyping_);
 	void SomeoneIsTypingClient(struct FText* Sender, int* PlayerIndex, bool* StoppedTyping_);
-<<<<<<< HEAD
 	void DeflectChallengeEvent();
 	void ParryChallengeEvent();
 	void SnowballLauncherKillEvent();
 	void ChristmassTreeStarKillEvent();
 	void ZedCabOOmerKillEvent();
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+	void AddScoreMoneyEvent(int* ScoreMoney);
+	void AssignInventoryData(class AInventoryData_C** InventoryData);
+	void ControllerCurrentObjective(struct FText* ObjectiveNameText, struct FText* ObjectiveMittenText, struct FText* ObjectiveText, bool* ShowObjective1Image_, bool* ShowObjective2Image_);
+	void HordeIntPCEvent(int* HordeIntPC, bool* ObjectiveMode_);
 	void Add3HealthPoints();
 	void InvinciblePerk();
 	void SpawnAmmoBox();

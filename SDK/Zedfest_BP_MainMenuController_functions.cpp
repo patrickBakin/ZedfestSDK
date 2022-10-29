@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -66,6 +62,23 @@ void ABP_MainMenuController_C::SkillMaxReached(TEnumAsByte<E_SkillTree>* SkillRe
 
 	ABP_MainMenuController_C_SkillMaxReached_Params params;
 	params.SkillReached = SkillReached;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_MainMenuController.BP_MainMenuController_C.ReceiveBeginPlay
+// (Event, Protected, BlueprintEvent)
+
+void ABP_MainMenuController_C::ReceiveBeginPlay()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_MainMenuController.BP_MainMenuController_C.ReceiveBeginPlay");
+
+	ABP_MainMenuController_C_ReceiveBeginPlay_Params params;
 
 	auto flags = fn->FunctionFlags;
 

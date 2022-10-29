@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -377,43 +373,6 @@ void ABP_Store_C::Timeline_0__UpdateFunc()
 }
 
 
-// Function BP_Store.BP_Store_C.Clear Target
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_Store_C::Clear_Target()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Store.BP_Store_C.Clear Target");
-
-	ABP_Store_C_Clear_Target_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Store.BP_Store_C.Current Target
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class APawn**                  Pawn                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Store_C::Current_Target(class APawn** Pawn)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Store.BP_Store_C.Current Target");
-
-	ABP_Store_C_Current_Target_Params params;
-	params.Pawn = Pawn;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
 // Function BP_Store.BP_Store_C.Interact
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -495,6 +454,43 @@ void ABP_Store_C::Closed()
 	static auto fn = UObject::FindObject<UFunction>("Function BP_Store.BP_Store_C.Closed");
 
 	ABP_Store_C_Closed_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Store.BP_Store_C.Clear Target
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_Store_C::Clear_Target()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Store.BP_Store_C.Clear Target");
+
+	ABP_Store_C_Clear_Target_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Store.BP_Store_C.Current Target
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class APawn**                  Pawn                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void ABP_Store_C::Current_Target(class APawn** Pawn)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Store.BP_Store_C.Current Target");
+
+	ABP_Store_C_Current_Target_Params params;
+	params.Pawn = Pawn;
 
 	auto flags = fn->FunctionFlags;
 

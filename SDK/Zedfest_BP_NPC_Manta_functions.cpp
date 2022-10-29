@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -33,26 +29,6 @@ void ABP_NPC_Manta_C::UserConstructionScript()
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_NPC_Manta.BP_NPC_Manta_C.BndEvt__BehaviorComponent_K2Node_ComponentBoundEvent_0_OnEndAttackRanged__DelegateSignature
-// (BlueprintEvent)
-
-void ABP_NPC_Manta_C::BndEvt__BehaviorComponent_K2Node_ComponentBoundEvent_0_OnEndAttackRanged__DelegateSignature()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_NPC_Manta.BP_NPC_Manta_C.BndEvt__BehaviorComponent_K2Node_ComponentBoundEvent_0_OnEndAttackRanged__DelegateSignature");
-
-	ABP_NPC_Manta_C_BndEvt__BehaviorComponent_K2Node_ComponentBoundEvent_0_OnEndAttackRanged__DelegateSignature_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_NPC_Manta.BP_NPC_Manta_C.OnMeleeAttack
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -97,7 +73,6 @@ void ABP_NPC_Manta_C::OnDamaged(float* Damage, class AActor** DamageCauser)
 }
 
 
-<<<<<<< HEAD
 // Function BP_NPC_Manta.BP_NPC_Manta_C.BndEvt__BehaviorComponent_K2Node_ComponentBoundEvent_0_OnEndAttackRanged__DelegateSignature
 // (BlueprintEvent)
 
@@ -115,8 +90,6 @@ void ABP_NPC_Manta_C::BndEvt__BehaviorComponent_K2Node_ComponentBoundEvent_0_OnE
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_NPC_Manta.BP_NPC_Manta_C.OnDeath
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:

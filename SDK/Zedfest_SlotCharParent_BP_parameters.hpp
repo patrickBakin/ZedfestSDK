@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -89,11 +85,7 @@ struct ASlotCharParent_BP_C_GetChar_HasCharWeaponsComponent_Params
 // Function SlotCharParent_BP.SlotCharParent_BP_C.GetChar_CharacterWeaponsComponent
 struct ASlotCharParent_BP_C_GetChar_CharacterWeaponsComponent_Params
 {
-<<<<<<< HEAD
 	int                                                CWC_Reference;                                            // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
-=======
-	class UAC_CharacterWeapons_C*                      CWC_Reference;                                            // (Parm, OutParm, ZeroConstructor, InstancedReference, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 };
 
 // Function SlotCharParent_BP.SlotCharParent_BP_C.CWC_GetHUD
@@ -172,11 +164,7 @@ struct ASlotCharParent_BP_C_AmmoPickup_Params
 // Function SlotCharParent_BP.SlotCharParent_BP_C.WPN_SetWeaponToInteract
 struct ASlotCharParent_BP_C_WPN_SetWeaponToInteract_Params
 {
-<<<<<<< HEAD
 	int*                                               WeaponReference;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-=======
-	class ABPA_ParentWeapon_C**                        WeaponReference;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	bool*                                              AutoPickUp;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 

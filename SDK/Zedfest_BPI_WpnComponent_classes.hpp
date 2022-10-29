@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -35,21 +31,13 @@ public:
 	void GetChar_IsZooming(bool* Zoom);
 	void WPN_CantShoot();
 	void CWC_SwitchCamera();
-<<<<<<< HEAD
 	void WPN_SetWeaponToInteract(int* WeaponReference, bool* AutoPickUp);
-=======
-	void WPN_SetWeaponToInteract(class ABPA_ParentWeapon_C** WeaponReference, bool* AutoPickUp);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void GetChar_CurrentHealth(float* CurrentHP);
 	void AmmoPickup(TEnumAsByte<E_AddAmmoTypes>* Mode, struct FName* WeaponID, int* AmountAmmo, TEnumAsByte<E_WeaponTypes>* WeaponType, class UClass** ProjectileType);
 	void GetChar_IsCloaked(bool* Cloak);
 	void GetChar_CurrentCamera(class UCameraComponent** CurrentCamera, bool* WeaponCamActive);
 	void CWC_GetHUD(class UW_WpnCompHUD_C** HUD_Reference);
-<<<<<<< HEAD
 	void GetChar_CharacterWeaponsComponent(int* CWC_Reference);
-=======
-	void GetChar_CharacterWeaponsComponent(class UAC_CharacterWeapons_C** CWC_Reference);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void AnimBP_AnimationRequest(class UAnimMontage** Montage, float* PlayRate);
 	void GetChar_HasCharWeaponsComponent(bool* Result);
 	void GetChar_IsSprinting(bool* IsSprinting);

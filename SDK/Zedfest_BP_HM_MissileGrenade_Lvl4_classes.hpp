@@ -1,6 +1,6 @@
 #pragma once
 
-// Zedfest (0.804) SDK
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)

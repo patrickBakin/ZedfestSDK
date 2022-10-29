@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -210,7 +206,6 @@ void ABP_Grenade_Parent_C::BndEvt__CollisionComponent_K2Node_ComponentBoundEvent
 }
 
 
-<<<<<<< HEAD
 // Function BP_Grenade_Parent.BP_Grenade_Parent_C.DeflectSoundEvent
 // (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
 
@@ -228,8 +223,6 @@ void ABP_Grenade_Parent_C::DeflectSoundEvent()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Grenade_Parent.BP_Grenade_Parent_C.ExecuteUbergraph_BP_Grenade_Parent
 // (Final, HasDefaults)
 // Parameters:

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -564,15 +560,9 @@ void ABP_Pawn_C::GetChar_HasCharWeaponsComponent(bool* Result)
 // Function BP_Pawn.BP_Pawn_C.GetChar_CharacterWeaponsComponent
 // (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
-<<<<<<< HEAD
 // int                            CWC_Reference                  (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
 void ABP_Pawn_C::GetChar_CharacterWeaponsComponent(int* CWC_Reference)
-=======
-// class UAC_CharacterWeapons_C*  CWC_Reference                  (Parm, OutParm, ZeroConstructor, InstancedReference, IsPlainOldData)
-
-void ABP_Pawn_C::GetChar_CharacterWeaponsComponent(class UAC_CharacterWeapons_C** CWC_Reference)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.GetChar_CharacterWeaponsComponent");
 
@@ -702,7 +692,6 @@ void ABP_Pawn_C::GetChar_IsZooming(bool* Zoom)
 }
 
 
-<<<<<<< HEAD
 // Function BP_Pawn.BP_Pawn_C.OnRep_CharacterMeshRef
 // (BlueprintCallable, BlueprintEvent)
 
@@ -720,8 +709,6 @@ void ABP_Pawn_C::OnRep_CharacterMeshRef()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.CheckSwimming
 // (Public, BlueprintCallable, BlueprintEvent)
 
@@ -1122,7 +1109,6 @@ void ABP_Pawn_C::F_GetLookRotation()
 }
 
 
-<<<<<<< HEAD
 // Function BP_Pawn.BP_Pawn_C.HealthEmitterDestroyTimeline__FinishedFunc
 // (BlueprintEvent)
 
@@ -1157,8 +1143,6 @@ void ABP_Pawn_C::HealthEmitterDestroyTimeline__UpdateFunc()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.Timeline_2__FinishedFunc
 // (BlueprintEvent)
 
@@ -2253,39 +2237,6 @@ void ABP_Pawn_C::InpActEvt_Crouch_K2Node_InputActionEvent_1(struct FKey* Key)
 }
 
 
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature
-// (HasOutParms, BlueprintEvent)
-// Parameters:
-// class UPrimitiveComponent**    OverlappedComponent            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
-// class AActor**                 OtherActor                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// class UPrimitiveComponent**    OtherComp                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
-// int*                           OtherBodyIndex                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// bool*                          bFromSweep                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// struct FHitResult*             SweepResult                    (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
-
-void ABP_Pawn_C::BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent** OverlappedComponent, class AActor** OtherActor, class UPrimitiveComponent** OtherComp, int* OtherBodyIndex, bool* bFromSweep, struct FHitResult* SweepResult)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature");
-
-	ABP_Pawn_C_BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature_Params params;
-	params.OverlappedComponent = OverlappedComponent;
-	params.OtherActor = OtherActor;
-	params.OtherComp = OtherComp;
-	params.OtherBodyIndex = OtherBodyIndex;
-	params.bFromSweep = bFromSweep;
-	params.SweepResult = SweepResult;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.ReceiveHit
 // (Event, Public, HasOutParms, BlueprintEvent)
 // Parameters:
@@ -2348,48 +2299,6 @@ void ABP_Pawn_C::BndEvt__Mesh_K2Node_ComponentBoundEvent_0_ComponentHitSignature
 }
 
 
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.StopMeleeTrace
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_Pawn_C::StopMeleeTrace()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.StopMeleeTrace");
-
-	ABP_Pawn_C_StopMeleeTrace_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Pawn.BP_Pawn_C.ArmorPickupInterface
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class ABP_RubberArmor_C**      PickupRef                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// bool*                          Autopickup_                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Pawn_C::ArmorPickupInterface(class ABP_RubberArmor_C** PickupRef, bool* Autopickup_)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.ArmorPickupInterface");
-
-	ABP_Pawn_C_ArmorPickupInterface_Params params;
-	params.PickupRef = PickupRef;
-	params.Autopickup_ = Autopickup_;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.ServerComponentHit
 // (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2670,11 +2579,7 @@ void ABP_Pawn_C::CustomEvent_1()
 
 
 // Function BP_Pawn.BP_Pawn_C.HideVisibilityHeadTextSelf
-<<<<<<< HEAD
 // (Net, NetReliable, NetMulticast, BlueprintCallable, BlueprintEvent)
-=======
-// (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 void ABP_Pawn_C::HideVisibilityHeadTextSelf()
 {
@@ -2718,117 +2623,6 @@ void ABP_Pawn_C::OnDestroyed_Event_1(class AActor** DestroyedActor)
 
 	ABP_Pawn_C_OnDestroyed_Event_1_Params params;
 	params.DestroyedActor = DestroyedActor;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.WPN_CantShoot
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_Pawn_C::WPN_CantShoot()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.WPN_CantShoot");
-
-	ABP_Pawn_C_WPN_CantShoot_Params params;
-=======
-// Function BP_Pawn.BP_Pawn_C.EnterFPMode
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_Pawn_C::EnterFPMode()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.EnterFPMode");
-
-	ABP_Pawn_C_EnterFPMode_Params params;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.CWC_SwitchCamera
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_Pawn_C::CWC_SwitchCamera()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.CWC_SwitchCamera");
-
-	ABP_Pawn_C_CWC_SwitchCamera_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Pawn.BP_Pawn_C.WPN_SetWeaponToInteract
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           WeaponReference                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// bool*                          AutoPickUp                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Pawn_C::WPN_SetWeaponToInteract(int* WeaponReference, bool* AutoPickUp)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.WPN_SetWeaponToInteract");
-
-	ABP_Pawn_C_WPN_SetWeaponToInteract_Params params;
-	params.WeaponReference = WeaponReference;
-	params.AutoPickUp = AutoPickUp;
-=======
-// Function BP_Pawn.BP_Pawn_C.SetFirstPersonEvent
-// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool*                          FirstPerson_                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Pawn_C::SetFirstPersonEvent(bool* FirstPerson_)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.SetFirstPersonEvent");
-
-	ABP_Pawn_C_SetFirstPersonEvent_Params params;
-	params.FirstPerson_ = FirstPerson_;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Pawn.BP_Pawn_C.BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature
-// (HasOutParms, BlueprintEvent)
-// Parameters:
-// class UPrimitiveComponent**    OverlappedComponent            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
-// class AActor**                 OtherActor                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// class UPrimitiveComponent**    OtherComp                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
-// int*                           OtherBodyIndex                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// bool*                          bFromSweep                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// struct FHitResult*             SweepResult                    (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
-
-void ABP_Pawn_C::BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent** OverlappedComponent, class AActor** OtherActor, class UPrimitiveComponent** OtherComp, int* OtherBodyIndex, bool* bFromSweep, struct FHitResult* SweepResult)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature");
-
-	ABP_Pawn_C_BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature_Params params;
-	params.OverlappedComponent = OverlappedComponent;
-	params.OtherActor = OtherActor;
-	params.OtherComp = OtherComp;
-	params.OtherBodyIndex = OtherBodyIndex;
-	params.bFromSweep = bFromSweep;
-	params.SweepResult = SweepResult;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -2915,7 +2709,6 @@ void ABP_Pawn_C::ExpandingGroundEvent(float* DamageAmount)
 }
 
 
-<<<<<<< HEAD
 // Function BP_Pawn.BP_Pawn_C.HealthEmitterEvent
 // (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2953,8 +2746,6 @@ void ABP_Pawn_C::SetCharacterMeshEvent()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.ClimbLocation
 // (Net, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -3088,35 +2879,6 @@ void ABP_Pawn_C::BndEvt__bp_ragdoll_component_K2Node_ComponentBoundEvent_1_ragdo
 }
 
 
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.AmmoPickup
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// TEnumAsByte<E_AddAmmoTypes>*   Mode                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// struct FName*                  WeaponID                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// int*                           AmountAmmo                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// TEnumAsByte<E_WeaponTypes>*    WeaponType                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// class UClass**                 ProjectileType                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Pawn_C::AmmoPickup(TEnumAsByte<E_AddAmmoTypes>* Mode, struct FName* WeaponID, int* AmountAmmo, TEnumAsByte<E_WeaponTypes>* WeaponType, class UClass** ProjectileType)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.AmmoPickup");
-
-	ABP_Pawn_C_AmmoPickup_Params params;
-	params.Mode = Mode;
-	params.WeaponID = WeaponID;
-	params.AmountAmmo = AmountAmmo;
-	params.WeaponType = WeaponType;
-	params.ProjectileType = ProjectileType;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
 // Function BP_Pawn.BP_Pawn_C.ParryAimCancelEvent
 // (Net, NetClient, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -3137,8 +2899,6 @@ void ABP_Pawn_C::ParryAimCancelEvent(bool* IsBlocking_)
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.StopZoomEvent
 // (Net, NetServer, BlueprintCallable, BlueprintEvent)
 
@@ -3156,68 +2916,6 @@ void ABP_Pawn_C::StopZoomEvent()
 }
 
 
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.WPN_Recoil
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// float*                         Pitch                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// float*                         Yaw                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Pawn_C::WPN_Recoil(float* Pitch, float* Yaw)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.WPN_Recoil");
-
-	ABP_Pawn_C_WPN_Recoil_Params params;
-	params.Pitch = Pitch;
-	params.Yaw = Yaw;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Pawn.BP_Pawn_C.CWC_RefreshWeaponInHUD
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_Pawn_C::CWC_RefreshWeaponInHUD()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.CWC_RefreshWeaponInHUD");
-
-	ABP_Pawn_C_CWC_RefreshWeaponInHUD_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Pawn.BP_Pawn_C.PC_SetHUD
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class UW_WpnCompHUD_C**        HUD_Reference                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
-
-void ABP_Pawn_C::PC_SetHUD(class UW_WpnCompHUD_C** HUD_Reference)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.PC_SetHUD");
-
-	ABP_Pawn_C_PC_SetHUD_Params params;
-	params.HUD_Reference = HUD_Reference;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.StartAimTimer
 // (BlueprintCallable, BlueprintEvent)
 
@@ -3226,37 +2924,6 @@ void ABP_Pawn_C::StartAimTimer()
 	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.StartAimTimer");
 
 	ABP_Pawn_C_StartAimTimer_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.Toggle Widget
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool*                          Widget                         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Pawn_C::Toggle_Widget(bool* Widget)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.Toggle Widget");
-
-	ABP_Pawn_C_Toggle_Widget_Params params;
-	params.Widget = Widget;
-=======
-// Function BP_Pawn.BP_Pawn_C.ShootButtonHoldEvent
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_Pawn_C::ShootButtonHoldEvent()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.ShootButtonHoldEvent");
-
-	ABP_Pawn_C_ShootButtonHoldEvent_Params params;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -3869,6 +3536,78 @@ void ABP_Pawn_C::BuyHPFromStoreEvent(class UClass** Armor)
 }
 
 
+// Function BP_Pawn.BP_Pawn_C.BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature
+// (HasOutParms, BlueprintEvent)
+// Parameters:
+// class UPrimitiveComponent**    OverlappedComponent            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
+// class AActor**                 OtherActor                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// class UPrimitiveComponent**    OtherComp                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
+// int*                           OtherBodyIndex                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// bool*                          bFromSweep                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// struct FHitResult*             SweepResult                    (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
+
+void ABP_Pawn_C::BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent** OverlappedComponent, class AActor** OtherActor, class UPrimitiveComponent** OtherComp, int* OtherBodyIndex, bool* bFromSweep, struct FHitResult* SweepResult)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature");
+
+	ABP_Pawn_C_BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature_Params params;
+	params.OverlappedComponent = OverlappedComponent;
+	params.OtherActor = OtherActor;
+	params.OtherComp = OtherComp;
+	params.OtherBodyIndex = OtherBodyIndex;
+	params.bFromSweep = bFromSweep;
+	params.SweepResult = SweepResult;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Pawn.BP_Pawn_C.ProperlyDestroyedTrapEvent
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class AItemBase_C**            TrapRef                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// int*                           TrapNumber                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void ABP_Pawn_C::ProperlyDestroyedTrapEvent(class AItemBase_C** TrapRef, int* TrapNumber)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.ProperlyDestroyedTrapEvent");
+
+	ABP_Pawn_C_ProperlyDestroyedTrapEvent_Params params;
+	params.TrapRef = TrapRef;
+	params.TrapNumber = TrapNumber;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Pawn.BP_Pawn_C.TrapBoxInfoTextEvent
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool*                          DestroyFirstOne_               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void ABP_Pawn_C::TrapBoxInfoTextEvent(bool* DestroyFirstOne_)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.TrapBoxInfoTextEvent");
+
+	ABP_Pawn_C_TrapBoxInfoTextEvent_Params params;
+	params.DestroyFirstOne_ = DestroyFirstOne_;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function BP_Pawn.BP_Pawn_C.PlaceSpecialItemMulticast
 // (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -3889,48 +3628,6 @@ void ABP_Pawn_C::PlaceSpecialItemMulticast(struct FVector* NewParam)
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_Pawn.BP_Pawn_C.StopMeleeTrace
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_Pawn_C::StopMeleeTrace()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.StopMeleeTrace");
-
-	ABP_Pawn_C_StopMeleeTrace_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Pawn.BP_Pawn_C.ArmorPickupInterface
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// class ABP_RubberArmor_C**      PickupRef                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// bool*                          Autopickup_                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Pawn_C::ArmorPickupInterface(class ABP_RubberArmor_C** PickupRef, bool* Autopickup_)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.ArmorPickupInterface");
-
-	ABP_Pawn_C_ArmorPickupInterface_Params params;
-	params.PickupRef = PickupRef;
-	params.Autopickup_ = Autopickup_;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.StopSpecialItemEvent
 // (Net, NetClient, BlueprintCallable, BlueprintEvent)
 
@@ -4002,7 +3699,23 @@ void ABP_Pawn_C::PlaceSpecialItemServer()
 }
 
 
-<<<<<<< HEAD
+// Function BP_Pawn.BP_Pawn_C.StopMeleeTrace
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_Pawn_C::StopMeleeTrace()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.StopMeleeTrace");
+
+	ABP_Pawn_C_StopMeleeTrace_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function BP_Pawn.BP_Pawn_C.BndEvt__ParryBox_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature
 // (HasOutParms, BlueprintEvent)
 // Parameters:
@@ -4022,6 +3735,45 @@ void ABP_Pawn_C::BndEvt__ParryBox_K2Node_ComponentBoundEvent_0_ComponentHitSigna
 	params.OtherComp = OtherComp;
 	params.NormalImpulse = NormalImpulse;
 	params.Hit = Hit;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Pawn.BP_Pawn_C.ArmorPickupInterface
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class ABP_RubberArmor_C**      PickupRef                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// bool*                          Autopickup_                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void ABP_Pawn_C::ArmorPickupInterface(class ABP_RubberArmor_C** PickupRef, bool* Autopickup_)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.ArmorPickupInterface");
+
+	ABP_Pawn_C_ArmorPickupInterface_Params params;
+	params.PickupRef = PickupRef;
+	params.Autopickup_ = Autopickup_;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Pawn.BP_Pawn_C.WPN_CantShoot
+// (Public, BlueprintCallable, BlueprintEvent)
+
+void ABP_Pawn_C::WPN_CantShoot()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.WPN_CantShoot");
+
+	ABP_Pawn_C_WPN_CantShoot_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -4052,16 +3804,6 @@ void ABP_Pawn_C::BndEvt__ParryBox_K2Node_ComponentBoundEvent_0_ComponentBeginOve
 	params.OtherBodyIndex = OtherBodyIndex;
 	params.bFromSweep = bFromSweep;
 	params.SweepResult = SweepResult;
-=======
-// Function BP_Pawn.BP_Pawn_C.WPN_CantShoot
-// (Public, BlueprintCallable, BlueprintEvent)
-
-void ABP_Pawn_C::WPN_CantShoot()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.WPN_CantShoot");
-
-	ABP_Pawn_C_WPN_CantShoot_Params params;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -4125,8 +3867,6 @@ void ABP_Pawn_C::ReceiveTick(float* DeltaSeconds)
 }
 
 
-<<<<<<< HEAD
-=======
 // Function BP_Pawn.BP_Pawn_C.CWC_SwitchCamera
 // (Public, BlueprintCallable, BlueprintEvent)
 
@@ -4144,7 +3884,6 @@ void ABP_Pawn_C::CWC_SwitchCamera()
 }
 
 
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.GetUpFromSlideMulticast
 // (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
 
@@ -4196,15 +3935,13 @@ void ABP_Pawn_C::SlidingEvent()
 }
 
 
-<<<<<<< HEAD
-=======
 // Function BP_Pawn.BP_Pawn_C.WPN_SetWeaponToInteract
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-// class ABPA_ParentWeapon_C**    WeaponReference                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// int*                           WeaponReference                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // bool*                          AutoPickUp                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void ABP_Pawn_C::WPN_SetWeaponToInteract(class ABPA_ParentWeapon_C** WeaponReference, bool* AutoPickUp)
+void ABP_Pawn_C::WPN_SetWeaponToInteract(int* WeaponReference, bool* AutoPickUp)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.WPN_SetWeaponToInteract");
 
@@ -4287,7 +4024,6 @@ void ABP_Pawn_C::CWC_RefreshWeaponInHUD()
 }
 
 
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.EventMeleeSoundAll
 // (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
 
@@ -4325,7 +4061,6 @@ void ABP_Pawn_C::MeleeDamage(bool* MeleeWithWeapon_)
 }
 
 
-<<<<<<< HEAD
 // Function BP_Pawn.BP_Pawn_C.MeleeWeaponReleaseEvent
 // (BlueprintCallable, BlueprintEvent)
 
@@ -4334,7 +4069,15 @@ void ABP_Pawn_C::MeleeWeaponReleaseEvent()
 	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.MeleeWeaponReleaseEvent");
 
 	ABP_Pawn_C_MeleeWeaponReleaseEvent_Params params;
-=======
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function BP_Pawn.BP_Pawn_C.PC_SetHUD
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -4366,7 +4109,6 @@ void ABP_Pawn_C::Toggle_Widget(bool* Widget)
 
 	ABP_Pawn_C_Toggle_Widget_Params params;
 	params.Widget = Widget;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -4938,6 +4680,23 @@ void ABP_Pawn_C::Jumping(bool* SetJump)
 }
 
 
+// Function BP_Pawn.BP_Pawn_C.EndSprintPowerUp
+// (Net, NetClient, BlueprintCallable, BlueprintEvent)
+
+void ABP_Pawn_C::EndSprintPowerUp()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Pawn.BP_Pawn_C.EndSprintPowerUp");
+
+	ABP_Pawn_C_EndSprintPowerUp_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function BP_Pawn.BP_Pawn_C.BeginSprintPowerUp
 // (BlueprintCallable, BlueprintEvent)
 
@@ -5347,7 +5106,6 @@ void ABP_Pawn_C::EventCloakServer(int* ClassInt)
 }
 
 
-<<<<<<< HEAD
 // Function BP_Pawn.BP_Pawn_C.SetFirstPersonEvent
 // (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -5385,8 +5143,6 @@ void ABP_Pawn_C::EnterFPMode()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.ExecuteUbergraph_BP_Pawn
 // (Final, HasDefaults)
 // Parameters:

@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -274,14 +270,6 @@ struct UBP_BehaviorComponent_C_SetDefaults_Params
 	class AAIController**                              ControllerIn;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-=======
-// Function BP_BehaviorComponent.BP_BehaviorComponent_C.OnStopAnimation
-struct UBP_BehaviorComponent_C_OnStopAnimation_Params
-{
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_BehaviorComponent.BP_BehaviorComponent_C.ReceiveBeginPlay
 struct UBP_BehaviorComponent_C_ReceiveBeginPlay_Params
 {
@@ -351,14 +339,11 @@ struct UBP_BehaviorComponent_C_ReceiveEndPlay_Params
 	TEnumAsByte<EEndPlayReason>*                       EndPlayReason;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function BP_BehaviorComponent.BP_BehaviorComponent_C.OnStopAnimation
 struct UBP_BehaviorComponent_C_OnStopAnimation_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_BehaviorComponent.BP_BehaviorComponent_C.ExecuteUbergraph_BP_BehaviorComponent
 struct UBP_BehaviorComponent_C_ExecuteUbergraph_BP_BehaviorComponent_Params
 {

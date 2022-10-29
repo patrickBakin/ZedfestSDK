@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -341,6 +337,28 @@ void UW_CXP_PopUpText_C::BandNameEvent(struct FText* BandName, struct FText* Son
 	UW_CXP_PopUpText_C_BandNameEvent_Params params;
 	params.BandName = BandName;
 	params.SongName = SongName;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function W_CXP_PopUpText.W_CXP_PopUpText_C.PrestigeLevelUpPopup
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// struct FString*                PrestigeLvl                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
+// struct FString*                ClassName                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
+
+void UW_CXP_PopUpText_C::PrestigeLevelUpPopup(struct FString* PrestigeLvl, struct FString* ClassName)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function W_CXP_PopUpText.W_CXP_PopUpText_C.PrestigeLevelUpPopup");
+
+	UW_CXP_PopUpText_C_PrestigeLevelUpPopup_Params params;
+	params.PrestigeLvl = PrestigeLvl;
+	params.ClassName = ClassName;
 
 	auto flags = fn->FunctionFlags;
 

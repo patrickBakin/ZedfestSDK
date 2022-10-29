@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -31,11 +27,7 @@ public:
 	unsigned char                                      UnknownData00[0x4];                                       // 0x0264(0x0004) MISSED OFFSET
 	class UBP_navigation_manager_C*                    NavManagerRef;                                            // 0x0268(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	class UBP_navset_event_handler_C*                  NavEventManager;                                          // 0x0270(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-<<<<<<< HEAD
 	TEnumAsByte<EEscapeBehaviour>                      EscapeBehaviour;                                          // 0x0278(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-=======
-	TEnumAsByte<EEscapeBehaviour>                      escapeBehaviour;                                          // 0x0278(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	unsigned char                                      UnknownData01[0x7];                                       // 0x0279(0x0007) MISSED OFFSET
 	class UBP_Horde_Instance_C*                        GameInstanceRef1;                                         // 0x0280(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 
@@ -55,11 +47,7 @@ public:
 	void SetNavManager(class UBP_navigation_manager_C** NavManagerRef);
 	void SetStepIndex(int* StepIndex);
 	void BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature();
-<<<<<<< HEAD
 	void SetOnEscapeBehaviour(TEnumAsByte<EEscapeBehaviour>* EscapeBehaviour);
-=======
-	void SetOnEscapeBehaviour(TEnumAsByte<EEscapeBehaviour>* escapeBehaviour);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void BndEvt__DEVELOPMENTAREA_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature();
 	void BndEvt__UNDERGROUNDMADNESS_K2Node_ComponentBoundEvent_1_OnClicked__DelegateSignature();
 	void BndEvt__PLANETARIUM_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature();

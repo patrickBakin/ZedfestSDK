@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,6 +13,24 @@ namespace ZF
 //---------------------------------------------------------------------------
 //Parameters
 //---------------------------------------------------------------------------
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.TimeAttackToolTip
+struct UWBP_Lobby_Main_C_TimeAttackToolTip_Params
+{
+	class UWidget*                                     ReturnValue;                                              // (Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData)
+};
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.ObjectiveModeToolTip
+struct UWBP_Lobby_Main_C_ObjectiveModeToolTip_Params
+{
+	class UWidget*                                     ReturnValue;                                              // (Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData)
+};
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.HordeModeToolTip
+struct UWBP_Lobby_Main_C_HordeModeToolTip_Params
+{
+	class UWidget*                                     ReturnValue;                                              // (Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData)
+};
 
 // Function WBP_Lobby_Main.WBP_Lobby_Main_C.OnPreviewKeyDown
 struct UWBP_Lobby_Main_C_OnPreviewKeyDown_Params
@@ -52,10 +66,7 @@ struct UWBP_Lobby_Main_C_UpdatePlayerWindow_Params
 {
 	TArray<struct FS_Player_Info1>*                    Player_Info;                                              // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm)
 	TArray<class APlayerState*>*                       PlayerState;                                              // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm)
-<<<<<<< HEAD
 	int*                                               MaxPlayers;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 };
 
 // Function WBP_Lobby_Main.WBP_Lobby_Main_C.Construct
@@ -359,6 +370,23 @@ struct UWBP_Lobby_Main_C_BndEvt__Kamikaze_Buttom_K2Node_ComponentBoundEvent_19_O
 
 // Function WBP_Lobby_Main.WBP_Lobby_Main_C.CustomEvent_4
 struct UWBP_Lobby_Main_C_CustomEvent_4_Params
+{
+};
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.LatestWaveAmountSelected
+struct UWBP_Lobby_Main_C_LatestWaveAmountSelected_Params
+{
+	int*                                               Int;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.LatestDiffSelected
+struct UWBP_Lobby_Main_C_LatestDiffSelected_Params
+{
+	int*                                               Int;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.BndEvt__Button_46_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature
+struct UWBP_Lobby_Main_C_BndEvt__Button_46_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature_Params
 {
 };
 

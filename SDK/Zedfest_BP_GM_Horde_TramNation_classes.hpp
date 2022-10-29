@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,7 +13,7 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_GM_Horde_TramNation.BP_GM_Horde_TramNation_C
-// 0x0000 (0x06C0 - 0x06C0)
+// 0x0000 (0x06C1 - 0x06C1)
 class ABP_GM_Horde_TramNation_C : public ABP_GM_HordeMode_C
 {
 public:

@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -21,10 +17,6 @@ namespace ZF
 class UObject
 {
 public:
-<<<<<<< HEAD
-=======
-	static DWORD64	StaticConstructObject_InternalAddress;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	static FUObjectArray*                              GObjects;                                                 // 0x0000(0x0000)
 	void*                                              VTableObject;                                             // 0x0000(0x0000) NOT AUTO-GENERATED PROPERTY
 	int32_t                                            Flags;                                                    // 0x0000(0x0000) NOT AUTO-GENERATED PROPERTY
@@ -33,11 +25,7 @@ public:
 	FName                                              Name;                                                     // 0x0000(0x0000) NOT AUTO-GENERATED PROPERTY
 	class UObject*                                     Outer;                                                    // 0x0000(0x0000) NOT AUTO-GENERATED PROPERTY
 
-<<<<<<< HEAD
 	static inline TUObjectArray& GetGlobalObjects()
-=======
-	static inline FChunkedFixedUObjectArray& GetGlobalObjects()
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	{
 		return GObjects->ObjObjects;
 	}
@@ -51,36 +39,18 @@ public:
 	{
 		for (int i = 0; i < GetGlobalObjects().Num(); ++i)
 		{
-<<<<<<< HEAD
 			auto object = GetGlobalObjects().GetByIndex(i);
 	
-=======
-			auto object = GetGlobalObjects().GetByIndex(i).Object;
-			
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 			if (object == nullptr)
 			{
 				continue;
 			}
-<<<<<<< HEAD
 	
-=======
-			
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 			if (object->GetFullName() == name)
 			{
 				return static_cast<T*>(object);
 			}
-<<<<<<< HEAD
 		}
-=======
-
-
-		}
-
-	
-		//return nullptr;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 		return nullptr;
 	}
 
@@ -105,18 +75,10 @@ public:
 
 	inline void ProcessEvent(class UFunction* function, void* parms)
 	{
-<<<<<<< HEAD
 		return GetVFunction<void(*)(UObject*, class UFunction*, void*)>(this, 64)(this, function, parms);
 	}
 
 
-=======
-		//return GetVFunction<void(*)(UObject*, class UFunction*, void*)>(this, %d)(this, function, parms);
-		GetVFunction<void(*)(UObject*, class UFunction*, void*)>(this, 0x40)(this, function, parms);
-	}
-	static UObject* StaticConstructObject_Internal(UClass* Class, UObject* InOuter, FName Name, unsigned int SetFlags, FUObjectItem::EInternalObjectFlags InternalSetFlags, UObject* Template, bool bCopyTransientsFromClassDefaults, void* InstanceGraph, bool bAssumeTemplateIsArchetype);
-	
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void ExecuteUbergraph(int* EntryPoint);
 };
 

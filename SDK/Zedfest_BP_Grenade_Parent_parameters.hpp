@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -82,14 +78,11 @@ struct ABP_Grenade_Parent_C_BndEvt__CollisionComponent_K2Node_ComponentBoundEven
 	struct FHitResult*                                 Hit;                                                      // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function BP_Grenade_Parent.BP_Grenade_Parent_C.DeflectSoundEvent
 struct ABP_Grenade_Parent_C_DeflectSoundEvent_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Grenade_Parent.BP_Grenade_Parent_C.ExecuteUbergraph_BP_Grenade_Parent
 struct ABP_Grenade_Parent_C_ExecuteUbergraph_BP_Grenade_Parent_Params
 {

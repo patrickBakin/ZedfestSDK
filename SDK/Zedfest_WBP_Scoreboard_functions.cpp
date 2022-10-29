@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -39,8 +35,9 @@ void UWBP_Scoreboard_C::Construct()
 // TArray<struct FS_Player_Info1>* Players                        (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm)
 // TArray<class APlayerState*>*   Game_States                    (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm)
 // struct FText*                  DifficultyText                 (BlueprintVisible, BlueprintReadOnly, Parm)
+// struct FText*                  GameModeText                   (BlueprintVisible, BlueprintReadOnly, Parm)
 
-void UWBP_Scoreboard_C::UpdatePlayerInfo(TArray<struct FS_Player_Info1>* Players, TArray<class APlayerState*>* Game_States, struct FText* DifficultyText)
+void UWBP_Scoreboard_C::UpdatePlayerInfo(TArray<struct FS_Player_Info1>* Players, TArray<class APlayerState*>* Game_States, struct FText* DifficultyText, struct FText* GameModeText)
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_Scoreboard.WBP_Scoreboard_C.UpdatePlayerInfo");
 
@@ -48,6 +45,7 @@ void UWBP_Scoreboard_C::UpdatePlayerInfo(TArray<struct FS_Player_Info1>* Players
 	params.Players = Players;
 	params.Game_States = Game_States;
 	params.DifficultyText = DifficultyText;
+	params.GameModeText = GameModeText;
 
 	auto flags = fn->FunctionFlags;
 

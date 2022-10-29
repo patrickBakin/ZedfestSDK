@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,19 +13,10 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_NPC_DroneBoss.BP_NPC_DroneBoss_C
-<<<<<<< HEAD
-// 0x008D (0x0A04 - 0x0977)
+// 0x008C (0x0A04 - 0x0978)
 class ABP_NPC_DroneBoss_C : public ABP_NPC_Base_C
 {
 public:
-	unsigned char                                      UnknownData00[0x1];                                       // 0x0977(0x0001) MISSED OFFSET
-=======
-// 0x008F (0x0A04 - 0x0975)
-class ABP_NPC_DroneBoss_C : public ABP_NPC_Base_C
-{
-public:
-	unsigned char                                      UnknownData00[0x3];                                       // 0x0975(0x0003) MISSED OFFSET
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0978(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
 	class UBillboardComponent*                         BossWidgetLoc;                                            // 0x0980(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData)
 	class UStaticMeshComponent*                        Shield_Kupol;                                             // 0x0988(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData)
@@ -38,15 +25,15 @@ public:
 	float                                              Timeline_1_NewTrack_2_027007BA4F2D0E13E29938A41D9B2800;   // 0x09A0(0x0004) (ZeroConstructor, IsPlainOldData)
 	float                                              Timeline_1_NewTrack_0_027007BA4F2D0E13E29938A41D9B2800;   // 0x09A4(0x0004) (ZeroConstructor, IsPlainOldData)
 	TEnumAsByte<ETimelineDirection>                    Timeline_1__Direction_027007BA4F2D0E13E29938A41D9B2800;   // 0x09A8(0x0001) (ZeroConstructor, IsPlainOldData)
-	unsigned char                                      UnknownData01[0x7];                                       // 0x09A9(0x0007) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x7];                                       // 0x09A9(0x0007) MISSED OFFSET
 	class UTimelineComponent*                          Timeline_2;                                               // 0x09B0(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData)
 	float                                              Timeline_0_NewTrack_0_38DE990748CC9B5DAC54F4BA06C749C8;   // 0x09B8(0x0004) (ZeroConstructor, IsPlainOldData)
 	TEnumAsByte<ETimelineDirection>                    Timeline_0__Direction_38DE990748CC9B5DAC54F4BA06C749C8;   // 0x09BC(0x0001) (ZeroConstructor, IsPlainOldData)
-	unsigned char                                      UnknownData02[0x3];                                       // 0x09BD(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x3];                                       // 0x09BD(0x0003) MISSED OFFSET
 	class UTimelineComponent*                          Timeline_1;                                               // 0x09C0(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData)
 	bool                                               Enraged_;                                                 // 0x09C8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               ShieldUp_;                                                // 0x09C9(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	unsigned char                                      UnknownData03[0x2];                                       // 0x09CA(0x0002) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x2];                                       // 0x09CA(0x0002) MISSED OFFSET
 	int                                                GlitchFaceThingsToSpawn;                                  // 0x09CC(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	int                                                GlitchFaceThingsToSpawnTotal;                             // 0x09D0(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	int                                                GlitchFaceTimeRemaining;                                  // 0x09D4(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)

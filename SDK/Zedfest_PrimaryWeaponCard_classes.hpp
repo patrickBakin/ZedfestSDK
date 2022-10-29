@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -73,11 +69,7 @@ public:
 	bool                                               IngameUnlockable_;                                        // 0x0420(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	unsigned char                                      UnknownData05[0x7];                                       // 0x0421(0x0007) MISSED OFFSET
 	struct FString                                     UnlockInfo;                                               // 0x0428(0x0010) (Edit, BlueprintVisible, ZeroConstructor)
-<<<<<<< HEAD
 	bool                                               ¡_C;                                                      // 0x0438(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
-=======
-	bool                                               _C;                                                      // 0x0438(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	static UClass* StaticClass()
 	{
@@ -114,6 +106,7 @@ public:
 	void BndEvt__UpgradeButton_K2Node_ComponentBoundEvent_6_OnButtonClickedEvent__DelegateSignature();
 	void EventWeaponLvl();
 	void CustomEvent_4();
+	void CustomEvent_6();
 	void CustomEvent_23();
 	void CustomEvent_12();
 	void CustomEvent_5();

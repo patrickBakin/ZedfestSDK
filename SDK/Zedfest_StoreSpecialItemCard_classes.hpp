@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -68,37 +64,22 @@ public:
 	struct FLinearColor GetBrushColor_1();
 	struct FText GetSpecialItemAmountSlot7();
 	struct FText Get_WeaponCost_Text_1();
-<<<<<<< HEAD
-=======
-	void BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature();
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void SetIndex(int* SelectedIndex, int* StepIndex);
 	void SetEventHandler(class UBP_navset_event_handler_C** Event_Handler);
 	void SetIsSelected(bool* IsSelected);
 	void HoverSelect();
 	void HoverDeselect();
-<<<<<<< HEAD
 	void BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature();
 	void BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature();
-=======
-	void BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature();
-	void PreConstruct(bool* IsDesignTime);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void SetFocus();
 	void RemoveFocus();
 	void OnClick();
 	void Construct();
 	void NotEvent(struct FText* NewParam);
-<<<<<<< HEAD
 	void PreConstruct(bool* IsDesignTime);
 	void BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature();
 	void StoreRef(class UW_Store_C** Store);
 	void ChangeValue(bool* Right);
-=======
-	void ChangeValue(bool* Right);
-	void BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature();
-	void StoreRef(class UW_Store_C** Store);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void UpdateStoreSpecialItemCard();
 	void ExecuteUbergraph_StoreSpecialItemCard(int* EntryPoint);
 	void OnUnhover__DelegateSignature();

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -365,7 +361,6 @@ void UMainMenuStatsDemo_W_C::BndEvt__WonterfulWinterland_K2Node_ComponentBoundEv
 }
 
 
-<<<<<<< HEAD
 // Function MainMenuStatsDemo_W.MainMenuStatsDemo_W_C.BndEvt__TheNeighborhood_K2Node_ComponentBoundEvent_16_OnClicked__DelegateSignature
 // (BlueprintEvent)
 
@@ -383,8 +378,23 @@ void UMainMenuStatsDemo_W_C::BndEvt__TheNeighborhood_K2Node_ComponentBoundEvent_
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Function MainMenuStatsDemo_W.MainMenuStatsDemo_W_C.BndEvt__NeonFarm_K2Node_ComponentBoundEvent_17_OnClicked__DelegateSignature
+// (BlueprintEvent)
+
+void UMainMenuStatsDemo_W_C::BndEvt__NeonFarm_K2Node_ComponentBoundEvent_17_OnClicked__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function MainMenuStatsDemo_W.MainMenuStatsDemo_W_C.BndEvt__NeonFarm_K2Node_ComponentBoundEvent_17_OnClicked__DelegateSignature");
+
+	UMainMenuStatsDemo_W_C_BndEvt__NeonFarm_K2Node_ComponentBoundEvent_17_OnClicked__DelegateSignature_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function MainMenuStatsDemo_W.MainMenuStatsDemo_W_C.ExecuteUbergraph_MainMenuStatsDemo_W
 // (Final, HasDefaults)
 // Parameters:

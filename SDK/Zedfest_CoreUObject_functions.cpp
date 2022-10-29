@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -86,19 +82,7 @@ void UObject::ExecuteUbergraph(int* EntryPoint)
 	fn->FunctionFlags = flags;
 }
 
-<<<<<<< HEAD
 
-=======
-UObject* UObject::StaticConstructObject_Internal(UClass* Class, UObject* InOuter, FName Name, unsigned int SetFlags,FUObjectItem::EInternalObjectFlags InternalSetFlags, UObject* Template, bool bCopyTransientsFromClassDefaults, void* InstanceGraph, bool bAssumeTemplateIsArchetype)
-{	
-	
-	
-			return reinterpret_cast<UObject * (__fastcall*)(UClass*, UObject*, FName, unsigned int, unsigned int, UObject*, bool, void*, bool)>(StaticConstructObject_InternalAddress)(Class, InOuter, Name, SetFlags, InternalSetFlags, Template, bCopyTransientsFromClassDefaults, InstanceGraph, bAssumeTemplateIsArchetype);
-	
-	
-	//return nullptr;
-}
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 }
 
 #ifdef _MSC_VER

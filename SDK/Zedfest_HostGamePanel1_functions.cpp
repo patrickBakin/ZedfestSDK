@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -82,7 +78,6 @@ void UHostGamePanel1_C::GetStepIndex(int* StepIndex)
 }
 
 
-<<<<<<< HEAD
 // Function HostGamePanel1.HostGamePanel1_C.TimeAttackToolTip
 // (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -104,8 +99,6 @@ class UWidget* UHostGamePanel1_C::TimeAttackToolTip()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function HostGamePanel1.HostGamePanel1_C.HordeModeToolTip
 // (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
 // Parameters:
@@ -287,26 +280,6 @@ void UHostGamePanel1_C::BndEvt__Randomizer_K2Node_ComponentBoundEvent_3_OnClicke
 }
 
 
-<<<<<<< HEAD
-=======
-// Function HostGamePanel1.HostGamePanel1_C.BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHostGamePanel1_C::BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature");
-
-	UHostGamePanel1_C_BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function HostGamePanel1.HostGamePanel1_C.BndEvt__3WavesButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature
 // (BlueprintEvent)
 
@@ -375,26 +348,6 @@ void UHostGamePanel1_C::BndEvt__EndlessButton_K2Node_ComponentBoundEvent_6_OnCli
 }
 
 
-<<<<<<< HEAD
-// Function HostGamePanel1.HostGamePanel1_C.BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UHostGamePanel1_C::BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature");
-
-	UHostGamePanel1_C_BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function HostGamePanel1.HostGamePanel1_C.BndEvt__Button1_C_0_K2Node_ComponentBoundEvent_7_OnClicked__DelegateSignature
 // (BlueprintEvent)
 
@@ -420,53 +373,6 @@ void UHostGamePanel1_C::BndEvt__Endless_Button_K2Node_ComponentBoundEvent_8_OnCl
 	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.BndEvt__Endless+Button_K2Node_ComponentBoundEvent_8_OnClicked__DelegateSignature");
 
 	UHostGamePanel1_C_BndEvt__Endless_Button_K2Node_ComponentBoundEvent_8_OnClicked__DelegateSignature_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function HostGamePanel1.HostGamePanel1_C.SetOnEscapeBehaviour
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-<<<<<<< HEAD
-// TEnumAsByte<EEscapeBehaviour>* EscapeBehaviour                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void UHostGamePanel1_C::SetOnEscapeBehaviour(TEnumAsByte<EEscapeBehaviour>* EscapeBehaviour)
-=======
-// TEnumAsByte<EEscapeBehaviour>* escapeBehaviour                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void UHostGamePanel1_C::SetOnEscapeBehaviour(TEnumAsByte<EEscapeBehaviour>* escapeBehaviour)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-{
-	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.SetOnEscapeBehaviour");
-
-	UHostGamePanel1_C_SetOnEscapeBehaviour_Params params;
-<<<<<<< HEAD
-	params.EscapeBehaviour = EscapeBehaviour;
-=======
-	params.escapeBehaviour = escapeBehaviour;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function HostGamePanel1.HostGamePanel1_C.BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature
-// (BlueprintEvent)
-
-void UHostGamePanel1_C::BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
-
-	UHostGamePanel1_C_BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -544,6 +450,23 @@ void UHostGamePanel1_C::BndEvt__Button1_C_1_K2Node_ComponentBoundEvent_15_OnClic
 }
 
 
+// Function HostGamePanel1.HostGamePanel1_C.BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UHostGamePanel1_C::BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature");
+
+	UHostGamePanel1_C_BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function HostGamePanel1.HostGamePanel1_C.BndEvt__Button1_C_2_K2Node_ComponentBoundEvent_16_OnClicked__DelegateSignature
 // (BlueprintEvent)
 
@@ -569,6 +492,43 @@ void UHostGamePanel1_C::BndEvt__ChangeMapButto_K2Node_ComponentBoundEvent_17_OnC
 	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.BndEvt__ChangeMapButto_K2Node_ComponentBoundEvent_17_OnClicked__DelegateSignature");
 
 	UHostGamePanel1_C_BndEvt__ChangeMapButto_K2Node_ComponentBoundEvent_17_OnClicked__DelegateSignature_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function HostGamePanel1.HostGamePanel1_C.SetOnEscapeBehaviour
+// (Public, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// TEnumAsByte<EEscapeBehaviour>* EscapeBehaviour                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UHostGamePanel1_C::SetOnEscapeBehaviour(TEnumAsByte<EEscapeBehaviour>* EscapeBehaviour)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.SetOnEscapeBehaviour");
+
+	UHostGamePanel1_C_SetOnEscapeBehaviour_Params params;
+	params.EscapeBehaviour = EscapeBehaviour;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function HostGamePanel1.HostGamePanel1_C.BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature
+// (BlueprintEvent)
+
+void UHostGamePanel1_C::BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature");
+
+	UHostGamePanel1_C_BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -760,6 +720,46 @@ void UHostGamePanel1_C::CustomEvent_4()
 	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.CustomEvent_4");
 
 	UHostGamePanel1_C_CustomEvent_4_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function HostGamePanel1.HostGamePanel1_C.LatestWaveAmountSelected
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int*                           Int                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UHostGamePanel1_C::LatestWaveAmountSelected(int* Int)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.LatestWaveAmountSelected");
+
+	UHostGamePanel1_C_LatestWaveAmountSelected_Params params;
+	params.Int = Int;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function HostGamePanel1.HostGamePanel1_C.LatestDiffSelected
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int*                           Int                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UHostGamePanel1_C::LatestDiffSelected(int* Int)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function HostGamePanel1.HostGamePanel1_C.LatestDiffSelected");
+
+	UHostGamePanel1_C_LatestDiffSelected_Params params;
+	params.Int = Int;
 
 	auto flags = fn->FunctionFlags;
 

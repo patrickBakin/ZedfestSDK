@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -208,6 +204,121 @@ void UInventoryManager_C::Update_Inventory_View()
 	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Update Inventory View");
 
 	UInventoryManager_C_Update_Inventory_View_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function InventoryManager.InventoryManager_C.Server Pick Item Found
+// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
+
+void UInventoryManager_C::Server_Pick_Item_Found()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Pick Item Found");
+
+	UInventoryManager_C_Server_Pick_Item_Found_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function InventoryManager.InventoryManager_C.Server Select Next Slot
+// (Net, NetServer, BlueprintCallable, BlueprintEvent)
+
+void UInventoryManager_C::Server_Select_Next_Slot()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Select Next Slot");
+
+	UInventoryManager_C_Server_Select_Next_Slot_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function InventoryManager.InventoryManager_C.Server Select Previous Slot
+// (Net, NetServer, BlueprintCallable, BlueprintEvent)
+
+void UInventoryManager_C::Server_Select_Previous_Slot()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Select Previous Slot");
+
+	UInventoryManager_C_Server_Select_Previous_Slot_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function InventoryManager.InventoryManager_C.Server Select Slot
+// (Net, NetServer, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// TEnumAsByte<ESlotsIndex>*      Slot                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UInventoryManager_C::Server_Select_Slot(TEnumAsByte<ESlotsIndex>* Slot)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Select Slot");
+
+	UInventoryManager_C_Server_Select_Slot_Params params;
+	params.Slot = Slot;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function InventoryManager.InventoryManager_C.Server Move Item To
+// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int*                           Old_Slot_Index                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// int*                           New_Slot_Index                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UInventoryManager_C::Server_Move_Item_To(int* Old_Slot_Index, int* New_Slot_Index)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Move Item To");
+
+	UInventoryManager_C_Server_Move_Item_To_Params params;
+	params.Old_Slot_Index = Old_Slot_Index;
+	params.New_Slot_Index = New_Slot_Index;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function InventoryManager.InventoryManager_C.Server Swap Item
+// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int*                           FirstSlotIndex                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// int*                           SecondSlotIndex                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UInventoryManager_C::Server_Swap_Item(int* FirstSlotIndex, int* SecondSlotIndex)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Swap Item");
+
+	UInventoryManager_C_Server_Swap_Item_Params params;
+	params.FirstSlotIndex = FirstSlotIndex;
+	params.SecondSlotIndex = SecondSlotIndex;
 
 	auto flags = fn->FunctionFlags;
 
@@ -450,77 +561,6 @@ void UInventoryManager_C::Server_Use_Crafting_Station()
 	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Use Crafting Station");
 
 	UInventoryManager_C_Server_Use_Crafting_Station_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function InventoryManager.InventoryManager_C.Server Select Slot
-// (Net, NetServer, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// TEnumAsByte<ESlotsIndex>*      Slot                           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void UInventoryManager_C::Server_Select_Slot(TEnumAsByte<ESlotsIndex>* Slot)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Select Slot");
-
-	UInventoryManager_C_Server_Select_Slot_Params params;
-	params.Slot = Slot;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function InventoryManager.InventoryManager_C.Server Select Previous Slot
-// (Net, NetServer, BlueprintCallable, BlueprintEvent)
-
-void UInventoryManager_C::Server_Select_Previous_Slot()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Select Previous Slot");
-
-	UInventoryManager_C_Server_Select_Previous_Slot_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function InventoryManager.InventoryManager_C.Server Select Next Slot
-// (Net, NetServer, BlueprintCallable, BlueprintEvent)
-
-void UInventoryManager_C::Server_Select_Next_Slot()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Select Next Slot");
-
-	UInventoryManager_C_Server_Select_Next_Slot_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function InventoryManager.InventoryManager_C.Server Pick Item Found
-// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
-
-void UInventoryManager_C::Server_Pick_Item_Found()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Pick Item Found");
-
-	UInventoryManager_C_Server_Pick_Item_Found_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -773,50 +813,6 @@ void UInventoryManager_C::HealthRegen1()
 	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.HealthRegen1");
 
 	UInventoryManager_C_HealthRegen1_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function InventoryManager.InventoryManager_C.Server Swap Item
-// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           FirstSlotIndex                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// int*                           SecondSlotIndex                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void UInventoryManager_C::Server_Swap_Item(int* FirstSlotIndex, int* SecondSlotIndex)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Swap Item");
-
-	UInventoryManager_C_Server_Swap_Item_Params params;
-	params.FirstSlotIndex = FirstSlotIndex;
-	params.SecondSlotIndex = SecondSlotIndex;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function InventoryManager.InventoryManager_C.Server Move Item To
-// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           Old_Slot_Index                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// int*                           New_Slot_Index                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void UInventoryManager_C::Server_Move_Item_To(int* Old_Slot_Index, int* New_Slot_Index)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function InventoryManager.InventoryManager_C.Server Move Item To");
-
-	UInventoryManager_C_Server_Move_Item_To_Params params;
-	params.Old_Slot_Index = Old_Slot_Index;
-	params.New_Slot_Index = New_Slot_Index;
 
 	auto flags = fn->FunctionFlags;
 

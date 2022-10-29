@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -120,17 +116,6 @@ struct ABP_Store_C_Timeline_0__UpdateFunc_Params
 {
 };
 
-// Function BP_Store.BP_Store_C.Clear Target
-struct ABP_Store_C_Clear_Target_Params
-{
-};
-
-// Function BP_Store.BP_Store_C.Current Target
-struct ABP_Store_C_Current_Target_Params
-{
-	class APawn**                                      Pawn;                                                     // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
 // Function BP_Store.BP_Store_C.Interact
 struct ABP_Store_C_Interact_Params
 {
@@ -156,6 +141,17 @@ struct ABP_Store_C_OpenTrader_Params
 // Function BP_Store.BP_Store_C.Closed
 struct ABP_Store_C_Closed_Params
 {
+};
+
+// Function BP_Store.BP_Store_C.Clear Target
+struct ABP_Store_C_Clear_Target_Params
+{
+};
+
+// Function BP_Store.BP_Store_C.Current Target
+struct ABP_Store_C_Current_Target_Params
+{
+	class APawn**                                      Pawn;                                                     // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function BP_Store.BP_Store_C.Toggle Widget

@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -137,19 +133,6 @@ struct UW_WpnCompHUD_C_OnSuccess_1BC11FD941F1CF9D6D1DF080A9A579C3_Params
 	int*                                               WrittenUserTag;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-// Function W_WpnCompHUD.W_WpnCompHUD_C.MultiplierBarEvent
-struct UW_WpnCompHUD_C_MultiplierBarEvent_Params
-{
-};
-
-<<<<<<< HEAD
-// Function W_WpnCompHUD.W_WpnCompHUD_C.ScorePopinAnimation
-struct UW_WpnCompHUD_C_ScorePopinAnimation_Params
-{
-};
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function W_WpnCompHUD.W_WpnCompHUD_C.PlaceCurrent
 struct UW_WpnCompHUD_C_PlaceCurrent_Params
 {
@@ -168,14 +151,6 @@ struct UW_WpnCompHUD_C_InteractBar_Params
 	bool*                                              Stop_;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-=======
-// Function W_WpnCompHUD.W_WpnCompHUD_C.ScorePopinAnimation
-struct UW_WpnCompHUD_C_ScorePopinAnimation_Params
-{
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function W_WpnCompHUD.W_WpnCompHUD_C.PlayAddDeductAnimation
 struct UW_WpnCompHUD_C_PlayAddDeductAnimation_Params
 {
@@ -194,20 +169,6 @@ struct UW_WpnCompHUD_C_Send_Message_to_HUD_Params
 	struct FText*                                      Menssage;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm)
 };
 
-// Function W_WpnCompHUD.W_WpnCompHUD_C.ScoreBankTick
-struct UW_WpnCompHUD_C_ScoreBankTick_Params
-{
-};
-
-<<<<<<< HEAD
-=======
-// Function W_WpnCompHUD.W_WpnCompHUD_C.UpdateAmmoBP
-struct UW_WpnCompHUD_C_UpdateAmmoBP_Params
-{
-	int*                                               CurrentAmmoBP;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function W_WpnCompHUD.W_WpnCompHUD_C.EventWeaponName
 struct UW_WpnCompHUD_C_EventWeaponName_Params
 {
@@ -219,15 +180,32 @@ struct UW_WpnCompHUD_C_EventRecordingUMG_Params
 	bool*                                              Recording_;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
+// Function W_WpnCompHUD.W_WpnCompHUD_C.ScorePopinAnimation
+struct UW_WpnCompHUD_C_ScorePopinAnimation_Params
+{
+};
+
+// Function W_WpnCompHUD.W_WpnCompHUD_C.ScoreBankTick
+struct UW_WpnCompHUD_C_ScoreBankTick_Params
+{
+};
+
+// Function W_WpnCompHUD.W_WpnCompHUD_C.ReloadTimerBarEvent
+struct UW_WpnCompHUD_C_ReloadTimerBarEvent_Params
+{
+};
+
+// Function W_WpnCompHUD.W_WpnCompHUD_C.OnInitialized
+struct UW_WpnCompHUD_C_OnInitialized_Params
+{
+};
+
 // Function W_WpnCompHUD.W_WpnCompHUD_C.UpdateAmmoBP
 struct UW_WpnCompHUD_C_UpdateAmmoBP_Params
 {
 	int*                                               CurrentAmmoBP;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function W_WpnCompHUD.W_WpnCompHUD_C.UpdateAmmoMag
 struct UW_WpnCompHUD_C_UpdateAmmoMag_Params
 {
@@ -259,13 +237,8 @@ struct UW_WpnCompHUD_C_UpdateWeaponStatus_Params
 	TEnumAsByte<E_WeaponState>*                        WeaponState;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-// Function W_WpnCompHUD.W_WpnCompHUD_C.ReloadTimerBarEvent
-struct UW_WpnCompHUD_C_ReloadTimerBarEvent_Params
-{
-};
-
-// Function W_WpnCompHUD.W_WpnCompHUD_C.OnInitialized
-struct UW_WpnCompHUD_C_OnInitialized_Params
+// Function W_WpnCompHUD.W_WpnCompHUD_C.MultiplierBarEvent
+struct UW_WpnCompHUD_C_MultiplierBarEvent_Params
 {
 };
 
@@ -290,6 +263,19 @@ struct UW_WpnCompHUD_C_HPChangedValue_Params
 // Function W_WpnCompHUD.W_WpnCompHUD_C.AlwaysShowEvent
 struct UW_WpnCompHUD_C_AlwaysShowEvent_Params
 {
+};
+
+// Function W_WpnCompHUD.W_WpnCompHUD_C.TrapBoxInfoEvent
+struct UW_WpnCompHUD_C_TrapBoxInfoEvent_Params
+{
+	bool*                                              DestroyFirstOne_;                                         // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class AItemBase_C**                                TrapRef;                                                  // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function W_WpnCompHUD.W_WpnCompHUD_C.TrapBoxRemoveInfoEvent
+struct UW_WpnCompHUD_C_TrapBoxRemoveInfoEvent_Params
+{
+	class AItemBase_C**                                TrapRef;                                                  // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function W_WpnCompHUD.W_WpnCompHUD_C.ExecuteUbergraph_W_WpnCompHUD

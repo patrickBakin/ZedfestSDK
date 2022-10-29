@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,11 +13,7 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_Horde_Instance.BP_Horde_Instance_C
-<<<<<<< HEAD
 // 0x053C (0x0724 - 0x01E8)
-=======
-// 0x0538 (0x0720 - 0x01E8)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 class UBP_Horde_Instance_C : public UBPAdvancedFriendInstance_C
 {
 public:
@@ -137,10 +129,7 @@ public:
 	unsigned char                                      UnknownData11[0x4];                                       // 0x0704(0x0004) MISSED OFFSET
 	class UW_Store_C*                                  PUGSStoreRef;                                             // 0x0708(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, InstancedReference, IsPlainOldData)
 	TArray<struct FString>                             ChatTextArray;                                            // 0x0710(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance)
-<<<<<<< HEAD
 	int                                                NrOfPlayerMadness;                                        // 0x0720(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	static UClass* StaticClass()
 	{

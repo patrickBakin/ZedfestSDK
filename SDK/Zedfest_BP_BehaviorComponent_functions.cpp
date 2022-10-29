@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -900,26 +896,6 @@ void UBP_BehaviorComponent_C::SetDefaults(class AAIController** ControllerIn)
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_BehaviorComponent.BP_BehaviorComponent_C.OnStopAnimation
-// (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
-
-void UBP_BehaviorComponent_C::OnStopAnimation()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_BehaviorComponent.BP_BehaviorComponent_C.OnStopAnimation");
-
-	UBP_BehaviorComponent_C_OnStopAnimation_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_BehaviorComponent.BP_BehaviorComponent_C.ReceiveBeginPlay
 // (Event, Public, BlueprintEvent)
 
@@ -1148,7 +1124,6 @@ void UBP_BehaviorComponent_C::ReceiveEndPlay(TEnumAsByte<EEndPlayReason>* EndPla
 }
 
 
-<<<<<<< HEAD
 // Function BP_BehaviorComponent.BP_BehaviorComponent_C.OnStopAnimation
 // (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
 
@@ -1166,8 +1141,6 @@ void UBP_BehaviorComponent_C::OnStopAnimation()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_BehaviorComponent.BP_BehaviorComponent_C.ExecuteUbergraph_BP_BehaviorComponent
 // (Final, HasDefaults)
 // Parameters:

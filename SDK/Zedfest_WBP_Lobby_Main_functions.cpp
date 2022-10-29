@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -15,6 +11,69 @@ namespace ZF
 //---------------------------------------------------------------------------
 //Functions
 //---------------------------------------------------------------------------
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.TimeAttackToolTip
+// (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// class UWidget*                 ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData)
+
+class UWidget* UWBP_Lobby_Main_C::TimeAttackToolTip()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Lobby_Main.WBP_Lobby_Main_C.TimeAttackToolTip");
+
+	UWBP_Lobby_Main_C_TimeAttackToolTip_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.ObjectiveModeToolTip
+// (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// class UWidget*                 ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData)
+
+class UWidget* UWBP_Lobby_Main_C::ObjectiveModeToolTip()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Lobby_Main.WBP_Lobby_Main_C.ObjectiveModeToolTip");
+
+	UWBP_Lobby_Main_C_ObjectiveModeToolTip_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.HordeModeToolTip
+// (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
+// Parameters:
+// class UWidget*                 ReturnValue                    (Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData)
+
+class UWidget* UWBP_Lobby_Main_C::HordeModeToolTip()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Lobby_Main.WBP_Lobby_Main_C.HordeModeToolTip");
+
+	UWBP_Lobby_Main_C_HordeModeToolTip_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+
+	return params.ReturnValue;
+}
+
 
 // Function WBP_Lobby_Main.WBP_Lobby_Main_C.OnPreviewKeyDown
 // (Event, Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent)
@@ -118,24 +177,16 @@ void UWBP_Lobby_Main_C::ClearPlayerList()
 // Parameters:
 // TArray<struct FS_Player_Info1>* Player_Info                    (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm)
 // TArray<class APlayerState*>*   PlayerState                    (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm)
-<<<<<<< HEAD
 // int*                           MaxPlayers                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
 void UWBP_Lobby_Main_C::UpdatePlayerWindow(TArray<struct FS_Player_Info1>* Player_Info, TArray<class APlayerState*>* PlayerState, int* MaxPlayers)
-=======
-
-void UWBP_Lobby_Main_C::UpdatePlayerWindow(TArray<struct FS_Player_Info1>* Player_Info, TArray<class APlayerState*>* PlayerState)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 {
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_Lobby_Main.WBP_Lobby_Main_C.UpdatePlayerWindow");
 
 	UWBP_Lobby_Main_C_UpdatePlayerWindow_Params params;
 	params.Player_Info = Player_Info;
 	params.PlayerState = PlayerState;
-<<<<<<< HEAD
 	params.MaxPlayers = MaxPlayers;
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -1164,6 +1215,63 @@ void UWBP_Lobby_Main_C::CustomEvent_4()
 	static auto fn = UObject::FindObject<UFunction>("Function WBP_Lobby_Main.WBP_Lobby_Main_C.CustomEvent_4");
 
 	UWBP_Lobby_Main_C_CustomEvent_4_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.LatestWaveAmountSelected
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int*                           Int                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UWBP_Lobby_Main_C::LatestWaveAmountSelected(int* Int)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Lobby_Main.WBP_Lobby_Main_C.LatestWaveAmountSelected");
+
+	UWBP_Lobby_Main_C_LatestWaveAmountSelected_Params params;
+	params.Int = Int;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.LatestDiffSelected
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int*                           Int                            (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UWBP_Lobby_Main_C::LatestDiffSelected(int* Int)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Lobby_Main.WBP_Lobby_Main_C.LatestDiffSelected");
+
+	UWBP_Lobby_Main_C_LatestDiffSelected_Params params;
+	params.Int = Int;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function WBP_Lobby_Main.WBP_Lobby_Main_C.BndEvt__Button_46_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature
+// (BlueprintEvent)
+
+void UWBP_Lobby_Main_C::BndEvt__Button_46_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function WBP_Lobby_Main.WBP_Lobby_Main_C.BndEvt__Button_46_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature");
+
+	UWBP_Lobby_Main_C_BndEvt__Button_46_K2Node_ComponentBoundEvent_3_OnButtonClickedEvent__DelegateSignature_Params params;
 
 	auto flags = fn->FunctionFlags;
 

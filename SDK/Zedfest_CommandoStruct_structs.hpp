@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -26,11 +22,7 @@ struct FCommandoStruct
 	int                                                WeaponIndex_29_CAA1E3A8482BE4043B732196340B498E;          // 0x0028(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	bool                                               Free__32_143BA8E0463A7C441037768122D4242C;                // 0x002C(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	bool                                               IngameUnlockable__44_35F18691457392AD247858BEFE700CF5;    // 0x002D(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
-<<<<<<< HEAD
 	bool                                               ¡_C;                                                      // 0x002E(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
-=======
-	bool                                               _C;                                                      // 0x002E(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	TEnumAsByte<EItemCategory>                         Category_37_07C027C942184087C8487F8FE32524DC;             // 0x002F(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 };
 

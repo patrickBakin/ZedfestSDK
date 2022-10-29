@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,11 +13,7 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass MeleeWeaponBase.MeleeWeaponBase_C
-<<<<<<< HEAD
 // 0x02A1 (0x0631 - 0x0390)
-=======
-// 0x029D (0x062D - 0x0390)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 class AMeleeWeaponBase_C : public AWeaponBase_C
 {
 public:
@@ -74,13 +66,10 @@ public:
 	unsigned char                                      UnknownData05[0x3];                                       // 0x0625(0x0003) MISSED OFFSET
 	int                                                WeaponInt1;                                               // 0x0628(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               IsWeaponBought_;                                          // 0x062C(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-<<<<<<< HEAD
 	bool                                               Block_;                                                   // 0x062D(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               IsBlocking_;                                              // 0x062E(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               Parry_;                                                   // 0x062F(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               IsZooming_;                                               // 0x0630(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	static UClass* StaticClass()
 	{
@@ -100,11 +89,7 @@ public:
 	void GetChar_DeathAnimNumber(int* NumberOfDeathAnim);
 	void GetChar_IsSprinting(bool* IsSprinting);
 	void GetChar_HasCharWeaponsComponent(bool* Result);
-<<<<<<< HEAD
 	void GetChar_CharacterWeaponsComponent(int* CWC_Reference);
-=======
-	void GetChar_CharacterWeaponsComponent(class UAC_CharacterWeapons_C** CWC_Reference);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void CWC_GetHUD(class UW_WpnCompHUD_C** HUD_Reference);
 	void GetChar_CurrentCamera(class UCameraComponent** CurrentCamera, bool* WeaponCamActive);
 	void GetChar_IsCloaked(bool* Cloak);
@@ -129,11 +114,7 @@ public:
 	void WPN_Recoil(float* Pitch, float* Yaw);
 	void AnimBP_AnimationRequest(class UAnimMontage** Montage, float* PlayRate);
 	void AmmoPickup(TEnumAsByte<E_AddAmmoTypes>* Mode, struct FName* WeaponID, int* AmountAmmo, TEnumAsByte<E_WeaponTypes>* WeaponType, class UClass** ProjectileType);
-<<<<<<< HEAD
 	void WPN_SetWeaponToInteract(int* WeaponReference, bool* AutoPickUp);
-=======
-	void WPN_SetWeaponToInteract(class ABPA_ParentWeapon_C** WeaponReference, bool* AutoPickUp);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void CWC_SwitchCamera();
 	void WPN_CantShoot();
 	void ArmorPickupInterface(class ABP_RubberArmor_C** PickupRef, bool* Autopickup_);

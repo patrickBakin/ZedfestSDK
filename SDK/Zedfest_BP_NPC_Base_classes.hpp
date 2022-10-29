@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,11 +13,7 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_NPC_Base.BP_NPC_Base_C
-<<<<<<< HEAD
-// 0x017F (0x0977 - 0x07F8)
-=======
-// 0x017D (0x0975 - 0x07F8)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// 0x0180 (0x0978 - 0x07F8)
 class ABP_NPC_Base_C : public ABP_DismemberableCharacter_C
 {
 public:
@@ -90,11 +82,9 @@ public:
 	struct FName                                       WeakPointName;                                            // 0x0964(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	struct FName                                       ZedName;                                                  // 0x096C(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               Burning_;                                                 // 0x0974(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-<<<<<<< HEAD
 	bool                                               DoubleKill_;                                              // 0x0975(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               ZeroG_;                                                   // 0x0976(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+	bool                                               ZedEnraged_;                                              // 0x0977(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 
 	static UClass* StaticClass()
 	{
@@ -135,12 +125,9 @@ public:
 	void PerformSpecialDamage4();
 	void PerformSpecialDamage1();
 	void FlameThrowerEvent(float* Damage);
-<<<<<<< HEAD
 	void StunZedEvent();
 	void StunZedAnimEvent();
 	void StompGroundEvent();
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void ExecuteUbergraph_BP_NPC_Base(int* EntryPoint);
 };
 

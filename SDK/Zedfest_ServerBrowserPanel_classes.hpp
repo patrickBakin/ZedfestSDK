@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -36,11 +32,7 @@ public:
 	unsigned char                                      UnknownData00[0x4];                                       // 0x028C(0x0004) MISSED OFFSET
 	class UBP_navigation_manager_C*                    NavManagerRef;                                            // 0x0290(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	class UBP_navset_event_handler_C*                  NavEventManager;                                          // 0x0298(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-<<<<<<< HEAD
 	TEnumAsByte<EEscapeBehaviour>                      EscapeBehaviour;                                          // 0x02A0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-=======
-	TEnumAsByte<EEscapeBehaviour>                      escapeBehaviour;                                          // 0x02A0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	unsigned char                                      UnknownData01[0x7];                                       // 0x02A1(0x0007) MISSED OFFSET
 	struct FString                                     Status;                                                   // 0x02A8(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance)
 	int                                                FoundServersInt;                                          // 0x02B8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
@@ -73,11 +65,7 @@ public:
 	void SetStepIndex(int* StepIndex);
 	void BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature();
 	void OnNavigationScroll();
-<<<<<<< HEAD
 	void SetOnEscapeBehaviour(TEnumAsByte<EEscapeBehaviour>* EscapeBehaviour);
-=======
-	void SetOnEscapeBehaviour(TEnumAsByte<EEscapeBehaviour>* escapeBehaviour);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void BndEvt__Button_125_K2Node_ComponentBoundEvent_192_OnButtonClickedEvent__DelegateSignature();
 	void BndEvt__JoinGameButton_K2Node_ComponentBoundEvent_50_OnButtonClickedEvent__DelegateSignature();
 	void BndEvt__JoinGameButton_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature();

@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,19 +13,10 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_NPC_AndroidBoss.BP_NPC_AndroidBoss_C
-<<<<<<< HEAD
-// 0x007D (0x09F4 - 0x0977)
+// 0x007C (0x09F4 - 0x0978)
 class ABP_NPC_AndroidBoss_C : public ABP_NPC_Base_C
 {
 public:
-	unsigned char                                      UnknownData00[0x1];                                       // 0x0977(0x0001) MISSED OFFSET
-=======
-// 0x007F (0x09F4 - 0x0975)
-class ABP_NPC_AndroidBoss_C : public ABP_NPC_Base_C
-{
-public:
-	unsigned char                                      UnknownData00[0x3];                                       // 0x0975(0x0003) MISSED OFFSET
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	struct FPointerToUberGraphFrame                    UberGraphFrame;                                           // 0x0978(0x0008) (ZeroConstructor, Transient, DuplicateTransient)
 	class UBillboardComponent*                         BossWidgetLoc;                                            // 0x0980(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData)
 	class USkeletalMeshComponent*                      SkeletalMesh2;                                            // 0x0988(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData)
@@ -38,17 +25,17 @@ public:
 	class USpringArmComponent*                         SpringArm;                                                // 0x09A0(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData)
 	float                                              Timeline_0_NewTrack_0_9F8BD4E74D3B4A3C9D99469D6DBA7034;   // 0x09A8(0x0004) (ZeroConstructor, IsPlainOldData)
 	TEnumAsByte<ETimelineDirection>                    Timeline_0__Direction_9F8BD4E74D3B4A3C9D99469D6DBA7034;   // 0x09AC(0x0001) (ZeroConstructor, IsPlainOldData)
-	unsigned char                                      UnknownData01[0x3];                                       // 0x09AD(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData00[0x3];                                       // 0x09AD(0x0003) MISSED OFFSET
 	class UTimelineComponent*                          Timeline_1;                                               // 0x09B0(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData)
 	bool                                               ShieldUp_;                                                // 0x09B8(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	unsigned char                                      UnknownData02[0x3];                                       // 0x09B9(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData01[0x3];                                       // 0x09B9(0x0003) MISSED OFFSET
 	int                                                AndroidShieldButtonsToSpawn;                              // 0x09BC(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	int                                                AndroidShieldButtonsToSpawnTotal;                         // 0x09C0(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	unsigned char                                      UnknownData03[0x4];                                       // 0x09C4(0x0004) MISSED OFFSET
+	unsigned char                                      UnknownData02[0x4];                                       // 0x09C4(0x0004) MISSED OFFSET
 	TArray<class ABP_AndroidShieldButtons_C*>          AndroidShieldButtons;                                     // 0x09C8(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance)
 	int                                                AndroidTimeRemaining;                                     // 0x09D8(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               Enraged_;                                                 // 0x09DC(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	unsigned char                                      UnknownData04[0x3];                                       // 0x09DD(0x0003) MISSED OFFSET
+	unsigned char                                      UnknownData03[0x3];                                       // 0x09DD(0x0003) MISSED OFFSET
 	TArray<class ABP_Base_AI_SpawnExpand_C*>           ShuffleEnemySpawnPointsRef;                               // 0x09E0(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance)
 	int                                                AddOneSpawnInt;                                           // 0x09F0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 

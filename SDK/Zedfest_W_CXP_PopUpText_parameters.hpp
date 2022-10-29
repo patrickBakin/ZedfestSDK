@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -120,6 +116,13 @@ struct UW_CXP_PopUpText_C_BandNameEvent_Params
 {
 	struct FText*                                      BandName;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm)
 	struct FText*                                      SongName;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm)
+};
+
+// Function W_CXP_PopUpText.W_CXP_PopUpText_C.PrestigeLevelUpPopup
+struct UW_CXP_PopUpText_C_PrestigeLevelUpPopup_Params
+{
+	struct FString*                                    PrestigeLvl;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
+	struct FString*                                    ClassName;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor)
 };
 
 // Function W_CXP_PopUpText.W_CXP_PopUpText_C.ExecuteUbergraph_W_CXP_PopUpText

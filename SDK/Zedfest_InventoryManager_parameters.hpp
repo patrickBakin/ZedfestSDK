@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -77,6 +73,41 @@ struct UInventoryManager_C_Update_Inventory_View_Params
 {
 };
 
+// Function InventoryManager.InventoryManager_C.Server Pick Item Found
+struct UInventoryManager_C_Server_Pick_Item_Found_Params
+{
+};
+
+// Function InventoryManager.InventoryManager_C.Server Select Next Slot
+struct UInventoryManager_C_Server_Select_Next_Slot_Params
+{
+};
+
+// Function InventoryManager.InventoryManager_C.Server Select Previous Slot
+struct UInventoryManager_C_Server_Select_Previous_Slot_Params
+{
+};
+
+// Function InventoryManager.InventoryManager_C.Server Select Slot
+struct UInventoryManager_C_Server_Select_Slot_Params
+{
+	TEnumAsByte<ESlotsIndex>*                          Slot;                                                     // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function InventoryManager.InventoryManager_C.Server Move Item To
+struct UInventoryManager_C_Server_Move_Item_To_Params
+{
+	int*                                               Old_Slot_Index;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	int*                                               New_Slot_Index;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function InventoryManager.InventoryManager_C.Server Swap Item
+struct UInventoryManager_C_Server_Swap_Item_Params
+{
+	int*                                               FirstSlotIndex;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	int*                                               SecondSlotIndex;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
 // Function InventoryManager.InventoryManager_C.Server Select Item
 struct UInventoryManager_C_Server_Select_Item_Params
 {
@@ -147,27 +178,6 @@ struct UInventoryManager_C_Server_Consume_Item_Params
 
 // Function InventoryManager.InventoryManager_C.Server Use Crafting Station
 struct UInventoryManager_C_Server_Use_Crafting_Station_Params
-{
-};
-
-// Function InventoryManager.InventoryManager_C.Server Select Slot
-struct UInventoryManager_C_Server_Select_Slot_Params
-{
-	TEnumAsByte<ESlotsIndex>*                          Slot;                                                     // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
-// Function InventoryManager.InventoryManager_C.Server Select Previous Slot
-struct UInventoryManager_C_Server_Select_Previous_Slot_Params
-{
-};
-
-// Function InventoryManager.InventoryManager_C.Server Select Next Slot
-struct UInventoryManager_C_Server_Select_Next_Slot_Params
-{
-};
-
-// Function InventoryManager.InventoryManager_C.Server Pick Item Found
-struct UInventoryManager_C_Server_Pick_Item_Found_Params
 {
 };
 
@@ -257,20 +267,6 @@ struct UInventoryManager_C_InventoryManageWeaponsOnly_Params
 // Function InventoryManager.InventoryManager_C.HealthRegen1
 struct UInventoryManager_C_HealthRegen1_Params
 {
-};
-
-// Function InventoryManager.InventoryManager_C.Server Swap Item
-struct UInventoryManager_C_Server_Swap_Item_Params
-{
-	int*                                               FirstSlotIndex;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	int*                                               SecondSlotIndex;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
-// Function InventoryManager.InventoryManager_C.Server Move Item To
-struct UInventoryManager_C_Server_Move_Item_To_Params
-{
-	int*                                               Old_Slot_Index;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	int*                                               New_Slot_Index;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function InventoryManager.InventoryManager_C.HealthRegenEvent

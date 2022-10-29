@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -64,11 +60,7 @@ public:
 	TArray<class UClass*>                              MeleeWeaponUpgrades;                                      // 0x03C0(0x0010) (Edit, BlueprintVisible, ZeroConstructor)
 	int                                                WeaponLvlInt;                                             // 0x03D0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               IngameUnlockable_;                                        // 0x03D4(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
-<<<<<<< HEAD
 	bool                                               ¡_C;                                                      // 0x03D5(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
-=======
-	bool                                               _C;                                                      // 0x03D5(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	static UClass* StaticClass()
 	{

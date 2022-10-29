@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -193,24 +189,14 @@ void ULeaderboardSelectionPanel_C::BndEvt__backBtn_K2Node_ComponentBoundEvent_0_
 // Function LeaderboardSelectionPanel.LeaderboardSelectionPanel_C.SetOnEscapeBehaviour
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-<<<<<<< HEAD
 // TEnumAsByte<EEscapeBehaviour>* EscapeBehaviour                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
 void ULeaderboardSelectionPanel_C::SetOnEscapeBehaviour(TEnumAsByte<EEscapeBehaviour>* EscapeBehaviour)
-=======
-// TEnumAsByte<EEscapeBehaviour>* escapeBehaviour                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ULeaderboardSelectionPanel_C::SetOnEscapeBehaviour(TEnumAsByte<EEscapeBehaviour>* escapeBehaviour)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 {
 	static auto fn = UObject::FindObject<UFunction>("Function LeaderboardSelectionPanel.LeaderboardSelectionPanel_C.SetOnEscapeBehaviour");
 
 	ULeaderboardSelectionPanel_C_SetOnEscapeBehaviour_Params params;
-<<<<<<< HEAD
 	params.EscapeBehaviour = EscapeBehaviour;
-=======
-	params.escapeBehaviour = escapeBehaviour;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 

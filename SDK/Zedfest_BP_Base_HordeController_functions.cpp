@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -16,7 +12,6 @@ namespace ZF
 //Functions
 //---------------------------------------------------------------------------
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnRep_FreshJoin?
 // (BlueprintCallable, BlueprintEvent)
 
@@ -34,8 +29,6 @@ void ABP_Base_HordeController_C::OnRep_FreshJoin_()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.DiscordSend
 // (Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 
@@ -84,14 +77,9 @@ void ABP_Base_HordeController_C::GetCurrentAnnouncement(struct FToolData* Output
 // int*                           DamageCauserInt                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // class AActor**                 DamageWeapon                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // struct FName*                  ZedName                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-<<<<<<< HEAD
 // bool*                          DoubleKill_                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
 void ABP_Base_HordeController_C::AddScore(int* Added_Score, bool* Headshot_, bool* LastShot_, int* DamageCauserInt, class AActor** DamageWeapon, struct FName* ZedName, bool* DoubleKill_)
-=======
-
-void ABP_Base_HordeController_C::AddScore(int* Added_Score, bool* Headshot_, bool* LastShot_, int* DamageCauserInt, class AActor** DamageWeapon, struct FName* ZedName)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.AddScore");
 
@@ -102,10 +90,7 @@ void ABP_Base_HordeController_C::AddScore(int* Added_Score, bool* Headshot_, boo
 	params.DamageCauserInt = DamageCauserInt;
 	params.DamageWeapon = DamageWeapon;
 	params.ZedName = ZedName;
-<<<<<<< HEAD
 	params.DoubleKill_ = DoubleKill_;
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -171,42 +156,6 @@ void ABP_Base_HordeController_C::Client_Play2DSound(class USoundBase** Sound, fl
 }
 
 
-// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__FinishedFunc
-// (BlueprintEvent)
-
-void ABP_Base_HordeController_C::Timeline_0__FinishedFunc()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__FinishedFunc");
-
-	ABP_Base_HordeController_C_Timeline_0__FinishedFunc_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__UpdateFunc
-// (BlueprintEvent)
-
-void ABP_Base_HordeController_C::Timeline_0__UpdateFunc()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__UpdateFunc");
-
-	ABP_Base_HordeController_C_Timeline_0__UpdateFunc_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-<<<<<<< HEAD
-=======
 // Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_2__FinishedFunc
 // (BlueprintEvent)
 
@@ -241,7 +190,6 @@ void ABP_Base_HordeController_C::Timeline_2__UpdateFunc()
 }
 
 
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_1__FinishedFunc
 // (BlueprintEvent)
 
@@ -267,6 +215,40 @@ void ABP_Base_HordeController_C::Timeline_1__UpdateFunc()
 	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_1__UpdateFunc");
 
 	ABP_Base_HordeController_C_Timeline_1__UpdateFunc_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__FinishedFunc
+// (BlueprintEvent)
+
+void ABP_Base_HordeController_C::Timeline_0__FinishedFunc()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__FinishedFunc");
+
+	ABP_Base_HordeController_C_Timeline_0__FinishedFunc_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__UpdateFunc
+// (BlueprintEvent)
+
+void ABP_Base_HordeController_C::Timeline_0__UpdateFunc()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__UpdateFunc");
+
+	ABP_Base_HordeController_C_Timeline_0__UpdateFunc_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -310,43 +292,6 @@ void ABP_Base_HordeController_C::Timeline_3__UpdateFunc()
 }
 
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_2__FinishedFunc
-// (BlueprintEvent)
-
-void ABP_Base_HordeController_C::Timeline_2__FinishedFunc()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_2__FinishedFunc");
-
-	ABP_Base_HordeController_C_Timeline_2__FinishedFunc_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_2__UpdateFunc
-// (BlueprintEvent)
-
-void ABP_Base_HordeController_C::Timeline_2__UpdateFunc()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_2__UpdateFunc");
-
-	ABP_Base_HordeController_C_Timeline_2__UpdateFunc_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_EscapeButton_K2Node_InputActionEvent_7
 // (BlueprintEvent)
 // Parameters:
@@ -367,7 +312,6 @@ void ABP_Base_HordeController_C::InpActEvt_EscapeButton_K2Node_InputActionEvent_
 }
 
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_E_K2Node_InputKeyEvent_6
 // (BlueprintEvent)
 // Parameters:
@@ -388,91 +332,6 @@ void ABP_Base_HordeController_C::InpActEvt_E_K2Node_InputKeyEvent_6(struct FKey*
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_6
-// (BlueprintEvent)
-// Parameters:
-// struct FKey*                   Key                            (BlueprintVisible, BlueprintReadOnly, Parm)
-
-void ABP_Base_HordeController_C::InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_6(struct FKey* Key)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_6");
-
-	ABP_Base_HordeController_C_InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_6_Params params;
-	params.Key = Key;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_5
-// (BlueprintEvent)
-// Parameters:
-// struct FKey*                   Key                            (BlueprintVisible, BlueprintReadOnly, Parm)
-
-void ABP_Base_HordeController_C::InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_5(struct FKey* Key)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_5");
-
-	ABP_Base_HordeController_C_InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_5_Params params;
-	params.Key = Key;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Enter Chat_K2Node_InputActionEvent_4
-// (BlueprintEvent)
-// Parameters:
-// struct FKey*                   Key                            (BlueprintVisible, BlueprintReadOnly, Parm)
-
-void ABP_Base_HordeController_C::InpActEvt_Enter_Chat_K2Node_InputActionEvent_4(struct FKey* Key)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Enter Chat_K2Node_InputActionEvent_4");
-
-	ABP_Base_HordeController_C_InpActEvt_Enter_Chat_K2Node_InputActionEvent_4_Params params;
-	params.Key = Key;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_E_K2Node_InputKeyEvent_6
-// (BlueprintEvent)
-// Parameters:
-// struct FKey*                   Key                            (BlueprintVisible, BlueprintReadOnly, Parm)
-
-void ABP_Base_HordeController_C::InpActEvt_E_K2Node_InputKeyEvent_6(struct FKey* Key)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_E_K2Node_InputKeyEvent_6");
-
-	ABP_Base_HordeController_C_InpActEvt_E_K2Node_InputKeyEvent_6_Params params;
-	params.Key = Key;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_1E3F902448EAD1CDD4AF91B662FAC50C
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -785,16 +644,17 @@ void ABP_Base_HordeController_C::OnSuccess_AAA8C9EA4449C3EDD2362395E636FE39(stru
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_B795C42244B186F8AA3FB6BEAB82D252
-// (BlueprintCallable, BlueprintEvent)
+// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_6
+// (BlueprintEvent)
+// Parameters:
+// struct FKey*                   Key                            (BlueprintVisible, BlueprintReadOnly, Parm)
 
-void ABP_Base_HordeController_C::OnFailure_B795C42244B186F8AA3FB6BEAB82D252()
+void ABP_Base_HordeController_C::InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_6(struct FKey* Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_B795C42244B186F8AA3FB6BEAB82D252");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_6");
 
-	ABP_Base_HordeController_C_OnFailure_B795C42244B186F8AA3FB6BEAB82D252_Params params;
+	ABP_Base_HordeController_C_InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_6_Params params;
+	params.Key = Key;
 
 	auto flags = fn->FunctionFlags;
 
@@ -804,14 +664,17 @@ void ABP_Base_HordeController_C::OnFailure_B795C42244B186F8AA3FB6BEAB82D252()
 }
 
 
-// Function BP_Base_HordeController.BP_Base_HordeController_C.OnSuccess_B795C42244B186F8AA3FB6BEAB82D252
-// (BlueprintCallable, BlueprintEvent)
+// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_5
+// (BlueprintEvent)
+// Parameters:
+// struct FKey*                   Key                            (BlueprintVisible, BlueprintReadOnly, Parm)
 
-void ABP_Base_HordeController_C::OnSuccess_B795C42244B186F8AA3FB6BEAB82D252()
+void ABP_Base_HordeController_C::InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_5(struct FKey* Key)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.OnSuccess_B795C42244B186F8AA3FB6BEAB82D252");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_5");
 
-	ABP_Base_HordeController_C_OnSuccess_B795C42244B186F8AA3FB6BEAB82D252_Params params;
+	ABP_Base_HordeController_C_InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_5_Params params;
+	params.Key = Key;
 
 	auto flags = fn->FunctionFlags;
 
@@ -821,7 +684,6 @@ void ABP_Base_HordeController_C::OnSuccess_B795C42244B186F8AA3FB6BEAB82D252()
 }
 
 
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_934989E44C6FE8BFA49BE0A047327419
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -887,6 +749,26 @@ void ABP_Base_HordeController_C::OnSuccess_6AB578B54E4460E794CE54B16D6E1C3A()
 	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.OnSuccess_6AB578B54E4460E794CE54B16D6E1C3A");
 
 	ABP_Base_HordeController_C_OnSuccess_6AB578B54E4460E794CE54B16D6E1C3A_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Enter Chat_K2Node_InputActionEvent_4
+// (BlueprintEvent)
+// Parameters:
+// struct FKey*                   Key                            (BlueprintVisible, BlueprintReadOnly, Parm)
+
+void ABP_Base_HordeController_C::InpActEvt_Enter_Chat_K2Node_InputActionEvent_4(struct FKey* Key)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Enter Chat_K2Node_InputActionEvent_4");
+
+	ABP_Base_HordeController_C_InpActEvt_Enter_Chat_K2Node_InputActionEvent_4_Params params;
+	params.Key = Key;
 
 	auto flags = fn->FunctionFlags;
 
@@ -1568,7 +1450,6 @@ void ABP_Base_HordeController_C::OnSuccess_52BF4CC945EBA06DD5EB93B396121BCF()
 }
 
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_B795C42244B186F8AA3FB6BEAB82D252
 // (BlueprintCallable, BlueprintEvent)
 
@@ -1603,8 +1484,6 @@ void ABP_Base_HordeController_C::OnSuccess_B795C42244B186F8AA3FB6BEAB82D252()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_F2_K2Node_InputKeyEvent_4
 // (BlueprintEvent)
 // Parameters:
@@ -2021,7 +1900,6 @@ void ABP_Base_HordeController_C::InpActEvt_Q_K2Node_InputKeyEvent_1(struct FKey*
 }
 
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_CECE7ACF4D8785E45DEA1086D021A6B9
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2318,27 +2196,14 @@ void ABP_Base_HordeController_C::OnSuccess_E9A4D3824C6F975006EDCEBE8DC30D86()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-// Function BP_Base_HordeController.BP_Base_HordeController_C.ControllerCurrentObjective
-// (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// struct FText*                  ObjectiveNameText              (BlueprintVisible, BlueprintReadOnly, Parm)
-// struct FText*                  ObjectiveMittenText            (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm)
-// struct FText*                  ObjectiveText                  (BlueprintVisible, BlueprintReadOnly, Parm)
-// bool*                          ShowObjective1Image_           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// bool*                          ShowObjective2Image_           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_1E15EEBE453A6D16565DFE9C48F83936
+// (BlueprintCallable, BlueprintEvent)
 
-void ABP_Base_HordeController_C::ControllerCurrentObjective(struct FText* ObjectiveNameText, struct FText* ObjectiveMittenText, struct FText* ObjectiveText, bool* ShowObjective1Image_, bool* ShowObjective2Image_)
+void ABP_Base_HordeController_C::OnFailure_1E15EEBE453A6D16565DFE9C48F83936()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.ControllerCurrentObjective");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_1E15EEBE453A6D16565DFE9C48F83936");
 
-	ABP_Base_HordeController_C_ControllerCurrentObjective_Params params;
-	params.ObjectiveNameText = ObjectiveNameText;
-	params.ObjectiveMittenText = ObjectiveMittenText;
-	params.ObjectiveText = ObjectiveText;
-	params.ShowObjective1Image_ = ShowObjective1Image_;
-	params.ShowObjective2Image_ = ShowObjective2Image_;
+	ABP_Base_HordeController_C_OnFailure_1E15EEBE453A6D16565DFE9C48F83936_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -2348,19 +2213,14 @@ void ABP_Base_HordeController_C::ControllerCurrentObjective(struct FText* Object
 }
 
 
-// Function BP_Base_HordeController.BP_Base_HordeController_C.HordeIntPCEvent
-// (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           HordeIntPC                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// bool*                          ObjectiveMode_                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// Function BP_Base_HordeController.BP_Base_HordeController_C.OnSuccess_1E15EEBE453A6D16565DFE9C48F83936
+// (BlueprintCallable, BlueprintEvent)
 
-void ABP_Base_HordeController_C::HordeIntPCEvent(int* HordeIntPC, bool* ObjectiveMode_)
+void ABP_Base_HordeController_C::OnSuccess_1E15EEBE453A6D16565DFE9C48F83936()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.HordeIntPCEvent");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.OnSuccess_1E15EEBE453A6D16565DFE9C48F83936");
 
-	ABP_Base_HordeController_C_HordeIntPCEvent_Params params;
-	params.HordeIntPC = HordeIntPC;
-	params.ObjectiveMode_ = ObjectiveMode_;
+	ABP_Base_HordeController_C_OnSuccess_1E15EEBE453A6D16565DFE9C48F83936_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -2370,17 +2230,45 @@ void ABP_Base_HordeController_C::HordeIntPCEvent(int* HordeIntPC, bool* Objectiv
 }
 
 
-// Function BP_Base_HordeController.BP_Base_HordeController_C.AssignInventoryData
+// Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_9A1037514860DF32DD64E2B76D2296C4
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
-// class AInventoryData_C**       InventoryData                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// struct FName*                  WrittenAchievementName         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// float*                         WrittenProgress                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// int*                           WrittenUserTag                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void ABP_Base_HordeController_C::AssignInventoryData(class AInventoryData_C** InventoryData)
+void ABP_Base_HordeController_C::OnFailure_9A1037514860DF32DD64E2B76D2296C4(struct FName* WrittenAchievementName, float* WrittenProgress, int* WrittenUserTag)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.AssignInventoryData");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_9A1037514860DF32DD64E2B76D2296C4");
 
-	ABP_Base_HordeController_C_AssignInventoryData_Params params;
-	params.InventoryData = InventoryData;
+	ABP_Base_HordeController_C_OnFailure_9A1037514860DF32DD64E2B76D2296C4_Params params;
+	params.WrittenAchievementName = WrittenAchievementName;
+	params.WrittenProgress = WrittenProgress;
+	params.WrittenUserTag = WrittenUserTag;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.OnSuccess_9A1037514860DF32DD64E2B76D2296C4
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// struct FName*                  WrittenAchievementName         (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// float*                         WrittenProgress                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// int*                           WrittenUserTag                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void ABP_Base_HordeController_C::OnSuccess_9A1037514860DF32DD64E2B76D2296C4(struct FName* WrittenAchievementName, float* WrittenProgress, int* WrittenUserTag)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.OnSuccess_9A1037514860DF32DD64E2B76D2296C4");
+
+	ABP_Base_HordeController_C_OnSuccess_9A1037514860DF32DD64E2B76D2296C4_Params params;
+	params.WrittenAchievementName = WrittenAchievementName;
+	params.WrittenProgress = WrittenProgress;
+	params.WrittenUserTag = WrittenUserTag;
 
 	auto flags = fn->FunctionFlags;
 
@@ -2486,26 +2374,6 @@ void ABP_Base_HordeController_C::ReceiveBeginPlay()
 }
 
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveWidgets
-// (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
-
-void ABP_Base_HordeController_C::RemoveWidgets()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveWidgets");
-
-	ABP_Base_HordeController_C_RemoveWidgets_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.ResumeTheGame
 // (BlueprintCallable, BlueprintEvent)
 
@@ -2560,26 +2428,6 @@ void ABP_Base_HordeController_C::SequencerPCEvent()
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.MoneyBanktick
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_Base_HordeController_C::MoneyBanktick()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.MoneyBanktick");
-
-	ABP_Base_HordeController_C_MoneyBanktick_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.EnterQuickItem
 // (BlueprintCallable, BlueprintEvent)
 
@@ -2676,6 +2524,23 @@ void ABP_Base_HordeController_C::EventDifferentCharCallout(int* CharacterVoice, 
 }
 
 
+// Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveWidgets
+// (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
+
+void ABP_Base_HordeController_C::RemoveWidgets()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveWidgets");
+
+	ABP_Base_HordeController_C_RemoveWidgets_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function BP_Base_HordeController.BP_Base_HordeController_C.EventPersonalStatsArray
 // (BlueprintCallable, BlueprintEvent)
 
@@ -2693,7 +2558,6 @@ void ABP_Base_HordeController_C::EventPersonalStatsArray()
 }
 
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.MoneyBanktick
 // (BlueprintCallable, BlueprintEvent)
 
@@ -2711,8 +2575,23 @@ void ABP_Base_HordeController_C::MoneyBanktick()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleCheatClose
+// (BlueprintCallable, BlueprintEvent)
+
+void ABP_Base_HordeController_C::PCConsoleCheatClose()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleCheatClose");
+
+	ABP_Base_HordeController_C_PCConsoleCheatClose_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function BP_Base_HordeController.BP_Base_HordeController_C.GameStatEvent
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2733,25 +2612,37 @@ void ABP_Base_HordeController_C::GameStatEvent(bool* Death_)
 }
 
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleCheatClose
-// (BlueprintCallable, BlueprintEvent)
+// Function BP_Base_HordeController.BP_Base_HordeController_C.AddVictoryMoney
+// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int*                           Money                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void ABP_Base_HordeController_C::PCConsoleCheatClose()
+void ABP_Base_HordeController_C::AddVictoryMoney(int* Money)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleCheatClose");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.AddVictoryMoney");
 
-	ABP_Base_HordeController_C_PCConsoleCheatClose_Params params;
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveWidgets
-// (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
+	ABP_Base_HordeController_C_AddVictoryMoney_Params params;
+	params.Money = Money;
 
-void ABP_Base_HordeController_C::RemoveWidgets()
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.ChangeStartMoney
+// (Net, NetServer, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int*                           B                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void ABP_Base_HordeController_C::ChangeStartMoney(int* B)
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveWidgets");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.ChangeStartMoney");
 
-	ABP_Base_HordeController_C_RemoveWidgets_Params params;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+	ABP_Base_HordeController_C_ChangeStartMoney_Params params;
+	params.B = B;
 
 	auto flags = fn->FunctionFlags;
 
@@ -2778,18 +2669,14 @@ void ABP_Base_HordeController_C::ShowLoadingScreen()
 }
 
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.AddVictoryMoney
-// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           Money                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// Function BP_Base_HordeController.BP_Base_HordeController_C.ShowUIEvent
+// (BlueprintCallable, BlueprintEvent)
 
-void ABP_Base_HordeController_C::AddVictoryMoney(int* Money)
+void ABP_Base_HordeController_C::ShowUIEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.AddVictoryMoney");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.ShowUIEvent");
 
-	ABP_Base_HordeController_C_AddVictoryMoney_Params params;
-	params.Money = Money;
+	ABP_Base_HordeController_C_ShowUIEvent_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -2799,8 +2686,6 @@ void ABP_Base_HordeController_C::AddVictoryMoney(int* Money)
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.FriendlyBotsText
 // (Net, NetClient, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2841,66 +2726,14 @@ void ABP_Base_HordeController_C::DifficultyText(int* DifficultyInt)
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleCheatClose
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_Base_HordeController_C::PCConsoleCheatClose()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleCheatClose");
-
-	ABP_Base_HordeController_C_PCConsoleCheatClose_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.AddScoreEvent
-// (Net, NetClient, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           Added_Score                    (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// bool*                          Headshot_                      (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// class ABP_Base_HordeController_C** Lastshot                       (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// int*                           DamageCauserInt                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// class AActor**                 DamageWeapon                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// struct FName*                  ZedName                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Base_HordeController_C::AddScoreEvent(int* Added_Score, bool* Headshot_, class ABP_Base_HordeController_C** Lastshot, int* DamageCauserInt, class AActor** DamageWeapon, struct FName* ZedName)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.AddScoreEvent");
-
-	ABP_Base_HordeController_C_AddScoreEvent_Params params;
-	params.Added_Score = Added_Score;
-	params.Headshot_ = Headshot_;
-	params.Lastshot = Lastshot;
-	params.DamageCauserInt = DamageCauserInt;
-	params.DamageWeapon = DamageWeapon;
-	params.ZedName = ZedName;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.AddVictoryMoney
+// Function BP_Base_HordeController.BP_Base_HordeController_C.PlayerListEvent
 // (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           Money                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
-void ABP_Base_HordeController_C::AddVictoryMoney(int* Money)
+void ABP_Base_HordeController_C::PlayerListEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.AddVictoryMoney");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.PlayerListEvent");
 
-	ABP_Base_HordeController_C_AddVictoryMoney_Params params;
-	params.Money = Money;
+	ABP_Base_HordeController_C_PlayerListEvent_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -2910,45 +2743,6 @@ void ABP_Base_HordeController_C::AddVictoryMoney(int* Money)
 }
 
 
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-// Function BP_Base_HordeController.BP_Base_HordeController_C.ChangeStartMoney
-// (Net, NetServer, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           B                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Base_HordeController_C::ChangeStartMoney(int* B)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.ChangeStartMoney");
-
-	ABP_Base_HordeController_C_ChangeStartMoney_Params params;
-	params.B = B;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.ShowUIEvent
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_Base_HordeController_C::ShowUIEvent()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.ShowUIEvent");
-
-	ABP_Base_HordeController_C_ShowUIEvent_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.AddScoreEvent
 // (Net, NetClient, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -2972,25 +2766,6 @@ void ABP_Base_HordeController_C::AddScoreEvent(int* Added_Score, bool* Headshot_
 	params.DamageWeapon = DamageWeapon;
 	params.ZedName = ZedName;
 	params.DoubleKill_ = DoubleKill_;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-// Function BP_Base_HordeController.BP_Base_HordeController_C.PlayerListEvent
-// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
-
-void ABP_Base_HordeController_C::PlayerListEvent()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.PlayerListEvent");
-
-	ABP_Base_HordeController_C_PlayerListEvent_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -3034,29 +2809,6 @@ void ABP_Base_HordeController_C::MapVoteClient()
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveMoney
-// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           B                              (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Base_HordeController_C::RemoveMoney(int* B)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveMoney");
-
-	ABP_Base_HordeController_C_RemoveMoney_Params params;
-	params.B = B;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.GameModeText
 // (Net, NetClient, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -3167,7 +2919,6 @@ void ABP_Base_HordeController_C::UpdatePlayerInfoFrontFromLobbySpectate()
 }
 
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.DestroyBP_PawnEtc
 // (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 
@@ -3205,8 +2956,6 @@ void ABP_Base_HordeController_C::RemoveMoney(int* B)
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.ToggleScoreboard
 // (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
 
@@ -3241,26 +2990,6 @@ void ABP_Base_HordeController_C::Close_Lobby()
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.DestroyBP_PawnEtc
-// (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
-
-void ABP_Base_HordeController_C::DestroyBP_PawnEtc()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.DestroyBP_PawnEtc");
-
-	ABP_Base_HordeController_C_DestroyBP_PawnEtc_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.AssignPlayer
 // (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -3376,6 +3105,23 @@ void ABP_Base_HordeController_C::UpdateNumberOfPlayers(int* CurrentPlayers, int*
 }
 
 
+// Function BP_Base_HordeController.BP_Base_HordeController_C.CameraShot
+// (Net, NetClient, BlueprintCallable, BlueprintEvent)
+
+void ABP_Base_HordeController_C::CameraShot()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.CameraShot");
+
+	ABP_Base_HordeController_C_CameraShot_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function BP_Base_HordeController.BP_Base_HordeController_C.UpdateLobbySettings
 // (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -3393,6 +3139,26 @@ void ABP_Base_HordeController_C::UpdateLobbySettings(class UTexture2D** Map_Imag
 	params.Map_Name = Map_Name;
 	params.MapTime = MapTime;
 	params.LevelDescription = LevelDescription;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.SlidingScoreEvent
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int*                           score                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void ABP_Base_HordeController_C::SlidingScoreEvent(int* score)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.SlidingScoreEvent");
+
+	ABP_Base_HordeController_C_SlidingScoreEvent_Params params;
+	params.score = score;
 
 	auto flags = fn->FunctionFlags;
 
@@ -3424,46 +3190,6 @@ void ABP_Base_HordeController_C::AddPlayerInfo(TArray<struct FS_Player_Info1>* C
 }
 
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.CameraShot
-// (Net, NetClient, BlueprintCallable, BlueprintEvent)
-
-void ABP_Base_HordeController_C::CameraShot()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.CameraShot");
-
-	ABP_Base_HordeController_C_CameraShot_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.SlidingScoreEvent
-// (BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           score                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Base_HordeController_C::SlidingScoreEvent(int* score)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.SlidingScoreEvent");
-
-	ABP_Base_HordeController_C_SlidingScoreEvent_Params params;
-	params.score = score;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.SetupLobbyMenu
 // (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -3518,16 +3244,14 @@ void ABP_Base_HordeController_C::Server_Lobby_CallUpdate(struct FS_Player_Info1*
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.CameraShot
+// Function BP_Base_HordeController.BP_Base_HordeController_C.EnterChat
 // (Net, NetClient, BlueprintCallable, BlueprintEvent)
 
-void ABP_Base_HordeController_C::CameraShot()
+void ABP_Base_HordeController_C::EnterChat()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.CameraShot");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.EnterChat");
 
-	ABP_Base_HordeController_C_CameraShot_Params params;
+	ABP_Base_HordeController_C_EnterChat_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -3537,15 +3261,14 @@ void ABP_Base_HordeController_C::CameraShot()
 }
 
 
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-// Function BP_Base_HordeController.BP_Base_HordeController_C.EnterChat
-// (Net, NetClient, BlueprintCallable, BlueprintEvent)
+// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleOpen
+// (BlueprintCallable, BlueprintEvent)
 
-void ABP_Base_HordeController_C::EnterChat()
+void ABP_Base_HordeController_C::PCConsoleOpen()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.EnterChat");
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleOpen");
 
-	ABP_Base_HordeController_C_EnterChat_Params params;
+	ABP_Base_HordeController_C_PCConsoleOpen_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -3579,29 +3302,6 @@ void ABP_Base_HordeController_C::UpdateChat(struct FText* Sender, struct FText* 
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.SlidingScoreEvent
-// (BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           score                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_Base_HordeController_C::SlidingScoreEvent(int* score)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.SlidingScoreEvent");
-
-	ABP_Base_HordeController_C_SlidingScoreEvent_Params params;
-	params.score = score;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.GetChatMessage
 // (Net, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -3626,26 +3326,6 @@ void ABP_Base_HordeController_C::GetChatMessage(struct FText* TextToSend, bool* 
 }
 
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleOpen
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_Base_HordeController_C::PCConsoleOpen()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleOpen");
-
-	ABP_Base_HordeController_C_PCConsoleOpen_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.Add Money
 // (Net, NetReliable, NetServer, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -3666,26 +3346,6 @@ void ABP_Base_HordeController_C::Add_Money(int* B)
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleOpen
-// (BlueprintCallable, BlueprintEvent)
-
-void ABP_Base_HordeController_C::PCConsoleOpen()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleOpen");
-
-	ABP_Base_HordeController_C_PCConsoleOpen_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.CustomEvent_1
 // (BlueprintCallable, BlueprintEvent)
 
@@ -3769,7 +3429,6 @@ void ABP_Base_HordeController_C::SomeoneIsTypingClient(struct FText* Sender, int
 }
 
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.DeflectChallengeEvent
 // (Net, NetClient, BlueprintCallable, BlueprintEvent)
 
@@ -3855,8 +3514,96 @@ void ABP_Base_HordeController_C::ZedCabOOmerKillEvent()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Function BP_Base_HordeController.BP_Base_HordeController_C.AddScoreMoneyEvent
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int*                           ScoreMoney                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void ABP_Base_HordeController_C::AddScoreMoneyEvent(int* ScoreMoney)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.AddScoreMoneyEvent");
+
+	ABP_Base_HordeController_C_AddScoreMoneyEvent_Params params;
+	params.ScoreMoney = ScoreMoney;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.AssignInventoryData
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class AInventoryData_C**       InventoryData                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void ABP_Base_HordeController_C::AssignInventoryData(class AInventoryData_C** InventoryData)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.AssignInventoryData");
+
+	ABP_Base_HordeController_C_AssignInventoryData_Params params;
+	params.InventoryData = InventoryData;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.ControllerCurrentObjective
+// (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// struct FText*                  ObjectiveNameText              (BlueprintVisible, BlueprintReadOnly, Parm)
+// struct FText*                  ObjectiveMittenText            (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm)
+// struct FText*                  ObjectiveText                  (BlueprintVisible, BlueprintReadOnly, Parm)
+// bool*                          ShowObjective1Image_           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// bool*                          ShowObjective2Image_           (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void ABP_Base_HordeController_C::ControllerCurrentObjective(struct FText* ObjectiveNameText, struct FText* ObjectiveMittenText, struct FText* ObjectiveText, bool* ShowObjective1Image_, bool* ShowObjective2Image_)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.ControllerCurrentObjective");
+
+	ABP_Base_HordeController_C_ControllerCurrentObjective_Params params;
+	params.ObjectiveNameText = ObjectiveNameText;
+	params.ObjectiveMittenText = ObjectiveMittenText;
+	params.ObjectiveText = ObjectiveText;
+	params.ShowObjective1Image_ = ShowObjective1Image_;
+	params.ShowObjective2Image_ = ShowObjective2Image_;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.HordeIntPCEvent
+// (Net, NetReliable, NetClient, BlueprintCallable, BlueprintEvent)
+// Parameters:
+// int*                           HordeIntPC                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// bool*                          ObjectiveMode_                 (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void ABP_Base_HordeController_C::HordeIntPCEvent(int* HordeIntPC, bool* ObjectiveMode_)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function BP_Base_HordeController.BP_Base_HordeController_C.HordeIntPCEvent");
+
+	ABP_Base_HordeController_C_HordeIntPCEvent_Params params;
+	params.HordeIntPC = HordeIntPC;
+	params.ObjectiveMode_ = ObjectiveMode_;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function BP_Base_HordeController.BP_Base_HordeController_C.Add3HealthPoints
 // (BlueprintCallable, BlueprintEvent)
 

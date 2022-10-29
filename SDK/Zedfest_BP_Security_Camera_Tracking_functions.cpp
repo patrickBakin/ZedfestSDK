@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -40,7 +36,6 @@ void ABP_Security_Camera_Tracking_C::Scene_capture_activation(bool* Activation, 
 }
 
 
-<<<<<<< HEAD
 // Function BP_Security_Camera_Tracking.BP_Security_Camera_Tracking_C.OnRep_CameraShot?
 // (BlueprintCallable, BlueprintEvent)
 
@@ -58,8 +53,6 @@ void ABP_Security_Camera_Tracking_C::OnRep_CameraShot_()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Security_Camera_Tracking.BP_Security_Camera_Tracking_C.UserConstructionScript
 // (Event, Public, HasDefaults, BlueprintCallable, BlueprintEvent)
 
@@ -377,7 +370,6 @@ void ABP_Security_Camera_Tracking_C::ResetCamerasEvent(bool* Internmission)
 }
 
 
-<<<<<<< HEAD
 // Function BP_Security_Camera_Tracking.BP_Security_Camera_Tracking_C.DisableCameraRepEvent
 // (BlueprintCallable, BlueprintEvent)
 
@@ -395,8 +387,6 @@ void ABP_Security_Camera_Tracking_C::DisableCameraRepEvent()
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Security_Camera_Tracking.BP_Security_Camera_Tracking_C.ExecuteUbergraph_BP_Security_Camera_Tracking
 // (Final, HasDefaults)
 // Parameters:

@@ -1,11 +1,6 @@
 #pragma once
-<<<<<<< HEAD
 
-// Zedfest (0.804) SDK
-=======
-#include <locale>
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -13,12 +8,6 @@
 
 namespace ZF
 {
-<<<<<<< HEAD
-=======
-
-	
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 template<typename Fn>
 inline Fn GetVFunction(const void *instance, std::size_t index)
 {
@@ -28,11 +17,6 @@ inline Fn GetVFunction(const void *instance, std::size_t index)
 
 class UObject;
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 class FUObjectItem
 {
 public:
@@ -41,11 +25,7 @@ public:
 	int32_t ClusterIndex;
 	int32_t SerialNumber;
 
-<<<<<<< HEAD
 	enum class EInternalObjectFlags : int32_t
-=======
-	enum EInternalObjectFlags//enum class EInternalObjectFlags : int32_t
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	{
 		None = 0,
 		Native = 1 << 25,
@@ -184,65 +164,17 @@ public:
 		auto Chunk = Chunks[ChunkIndex];
 		return Chunk + WithinChunkIndex;
 	}
-<<<<<<< HEAD
 
-=======
-	inline FNameEntry const* const& operator[](int Index) 
-	{
-		return *GetItemPtr(Index);
-	}
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	FNameEntry** Chunks[ChunkTableSize];
 	int NumElements;
 	int NumChunks;
 };
-<<<<<<< HEAD
 
 
 TNameEntryArray* GlobalNames = nullptr;
 
 struct FName
 {
-=======
-/*
-class TNameEntryArray
-{
-public:
-	inline int Num() const
-	{
-		return GetNumElements();
-	}
-
-	inline bool IsValidIndex(int Index) const
-	{
-		return Index < Num() && Index >= 0;
-	}
-
-	inline FNameEntry const* const& operator[](int Index) const
-	{
-		return *GetItemPtr(Index);
-	}
-
-private:
-	inline FNameEntry const* const* GetItemPtr(int Index) const
-	{
-		auto ChunkIndex = Index / 16384;
-		auto WithinChunkIndex = Index % 16384;
-		auto Chunk = Chunks[ChunkIndex];
-		return Chunk + WithinChunkIndex;
-	}
-	int GetNumElements() const { return Read<int>((byte*)this + 0x8 + 0x4); };
-	FNameEntry** Chunks[];
-};
-*/
-
-
-
-struct FName
-{	
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	union
 	{
 		struct
@@ -274,11 +206,7 @@ struct FName
 
 		for (auto i : cache)
 		{
-<<<<<<< HEAD
 			if (!std::strcmp(GetGlobalNames()[i]->GetAnsiName(), nameToFind))
-=======
-			if (!std::strcmp(GetGlobalNames()[i]->AnsiName, nameToFind))
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 			{
 				ComparisonIndex = i;
 				
@@ -286,19 +214,11 @@ struct FName
 			}
 		}
 
-<<<<<<< HEAD
 		for (auto i = 0; i < GetGlobalNames().Num(); ++i)
 		{
 			if (GetGlobalNames()[i] != nullptr)
 			{
 				if (!std::strcmp(GetGlobalNames()[i]->GetAnsiName(), nameToFind))
-=======
-		for (auto i = 0; i < GetGlobalNames().NumElements; ++i)
-		{
-			if (GetGlobalNames()[i] != nullptr)
-			{
-				if (!std::strcmp(GetGlobalNames()[i]->AnsiName, nameToFind))
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 				{
 					cache.insert(i);
 
@@ -313,20 +233,12 @@ struct FName
 	static TNameEntryArray *GNames;
 	static inline TNameEntryArray& GetGlobalNames()
 	{
-<<<<<<< HEAD
 		return *GNames;
-=======
-		return *GNames;//*GNames;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	};
 
 	inline const char* GetName() const
 	{
-<<<<<<< HEAD
 		return GetGlobalNames()[ComparisonIndex]->GetAnsiName();
-=======
-		return GetGlobalNames()[ComparisonIndex]->AnsiName;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	};
 
 	inline bool operator==(const FName &other) const
@@ -368,11 +280,7 @@ struct FString : private TArray<wchar_t>
 		std::string str(length, '\0');
 
 		std::use_facet<std::ctype<wchar_t>>(std::locale()).narrow(Data, Data + length, '?', &str[0]);
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 		return str;
 	}
 };

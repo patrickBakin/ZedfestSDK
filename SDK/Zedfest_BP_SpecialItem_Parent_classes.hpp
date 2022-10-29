@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,7 +13,7 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_SpecialItem_Parent.BP_SpecialItem_Parent_C
-// 0x0041 (0x0371 - 0x0330)
+// 0x0058 (0x0388 - 0x0330)
 class ABP_SpecialItem_Parent_C : public AActor
 {
 public:
@@ -30,6 +26,11 @@ public:
 	class UStaticMeshComponent*                        StaticMesh;                                               // 0x0360(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData)
 	class USceneComponent*                             DefaultSceneRoot;                                         // 0x0368(0x0008) (BlueprintVisible, ZeroConstructor, InstancedReference, IsPlainOldData)
 	bool                                               IsProperlyPlaced_;                                        // 0x0370(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, IsPlainOldData)
+	unsigned char                                      UnknownData00[0x3];                                       // 0x0371(0x0003) MISSED OFFSET
+	int                                                TrapArrayNumber;                                          // 0x0374(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
+	bool                                               DestroyedByUsing_;                                        // 0x0378(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	unsigned char                                      UnknownData01[0x7];                                       // 0x0379(0x0007) MISSED OFFSET
+	class AItemBase_C*                                 TrapRef;                                                  // 0x0380(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, IsPlainOldData)
 
 	static UClass* StaticClass()
 	{
@@ -39,6 +40,7 @@ public:
 
 
 	void ReceiveBeginPlay();
+	void OnDestroyed_Event_1(class AActor** DestroyedActor);
 	void ExecuteUbergraph_BP_SpecialItem_Parent(int* EntryPoint);
 };
 

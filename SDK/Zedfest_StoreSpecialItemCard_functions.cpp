@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -191,26 +187,6 @@ struct FText UStoreSpecialItemCard_C::Get_WeaponCost_Text_1()
 }
 
 
-<<<<<<< HEAD
-=======
-// Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UStoreSpecialItemCard_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
-
-	UStoreSpecialItemCard_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.SetIndex
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -307,7 +283,6 @@ void UStoreSpecialItemCard_C::HoverDeselect()
 }
 
 
-<<<<<<< HEAD
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
 // (BlueprintEvent)
 
@@ -316,16 +291,6 @@ void UStoreSpecialItemCard_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnBu
 	static auto fn = UObject::FindObject<UFunction>("Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
 
 	UStoreSpecialItemCard_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature_Params params;
-=======
-// Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UStoreSpecialItemCard_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
-
-	UStoreSpecialItemCard_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature_Params params;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -335,7 +300,6 @@ void UStoreSpecialItemCard_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnBu
 }
 
 
-<<<<<<< HEAD
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
 // (BlueprintEvent)
 
@@ -344,19 +308,6 @@ void UStoreSpecialItemCard_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnBu
 	static auto fn = UObject::FindObject<UFunction>("Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature");
 
 	UStoreSpecialItemCard_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature_Params params;
-=======
-// Function StoreSpecialItemCard.StoreSpecialItemCard_C.PreConstruct
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-// Parameters:
-// bool*                          IsDesignTime                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void UStoreSpecialItemCard_C::PreConstruct(bool* IsDesignTime)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function StoreSpecialItemCard.StoreSpecialItemCard_C.PreConstruct");
-
-	UStoreSpecialItemCard_C_PreConstruct_Params params;
-	params.IsDesignTime = IsDesignTime;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -454,7 +405,6 @@ void UStoreSpecialItemCard_C::NotEvent(struct FText* NewParam)
 }
 
 
-<<<<<<< HEAD
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.PreConstruct
 // (BlueprintCosmetic, Event, Public, BlueprintEvent)
 // Parameters:
@@ -466,19 +416,6 @@ void UStoreSpecialItemCard_C::PreConstruct(bool* IsDesignTime)
 
 	UStoreSpecialItemCard_C_PreConstruct_Params params;
 	params.IsDesignTime = IsDesignTime;
-=======
-// Function StoreSpecialItemCard.StoreSpecialItemCard_C.ChangeValue
-// (Public, BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool*                          Right                          (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void UStoreSpecialItemCard_C::ChangeValue(bool* Right)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function StoreSpecialItemCard.StoreSpecialItemCard_C.ChangeValue");
-
-	UStoreSpecialItemCard_C_ChangeValue_Params params;
-	params.Right = Right;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -488,7 +425,6 @@ void UStoreSpecialItemCard_C::ChangeValue(bool* Right)
 }
 
 
-<<<<<<< HEAD
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature
 // (BlueprintEvent)
 
@@ -497,16 +433,6 @@ void UStoreSpecialItemCard_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnBu
 	static auto fn = UObject::FindObject<UFunction>("Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature");
 
 	UStoreSpecialItemCard_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_2_OnButtonHoverEvent__DelegateSignature_Params params;
-=======
-// Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature
-// (BlueprintEvent)
-
-void UStoreSpecialItemCard_C::BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function StoreSpecialItemCard.StoreSpecialItemCard_C.BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature");
-
-	UStoreSpecialItemCard_C_BndEvt__Button_0_K2Node_ComponentBoundEvent_1_OnButtonHoverEvent__DelegateSignature_Params params;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -536,7 +462,6 @@ void UStoreSpecialItemCard_C::StoreRef(class UW_Store_C** Store)
 }
 
 
-<<<<<<< HEAD
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.ChangeValue
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -557,8 +482,6 @@ void UStoreSpecialItemCard_C::ChangeValue(bool* Right)
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function StoreSpecialItemCard.StoreSpecialItemCard_C.UpdateStoreSpecialItemCard
 // (BlueprintCallable, BlueprintEvent)
 

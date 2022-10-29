@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -172,11 +168,7 @@ struct ABP_Pawn_C_GetChar_HasCharWeaponsComponent_Params
 // Function BP_Pawn.BP_Pawn_C.GetChar_CharacterWeaponsComponent
 struct ABP_Pawn_C_GetChar_CharacterWeaponsComponent_Params
 {
-<<<<<<< HEAD
 	int                                                CWC_Reference;                                            // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
-=======
-	class UAC_CharacterWeapons_C*                      CWC_Reference;                                            // (Parm, OutParm, ZeroConstructor, InstancedReference, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 };
 
 // Function BP_Pawn.BP_Pawn_C.CWC_GetHUD
@@ -210,14 +202,11 @@ struct ABP_Pawn_C_GetChar_IsZooming_Params
 	bool                                               Zoom;                                                     // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function BP_Pawn.BP_Pawn_C.OnRep_CharacterMeshRef
 struct ABP_Pawn_C_OnRep_CharacterMeshRef_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.CheckSwimming
 struct ABP_Pawn_C_CheckSwimming_Params
 {
@@ -336,7 +325,6 @@ struct ABP_Pawn_C_F_GetLookRotation_Params
 {
 };
 
-<<<<<<< HEAD
 // Function BP_Pawn.BP_Pawn_C.HealthEmitterDestroyTimeline__FinishedFunc
 struct ABP_Pawn_C_HealthEmitterDestroyTimeline__FinishedFunc_Params
 {
@@ -347,8 +335,6 @@ struct ABP_Pawn_C_HealthEmitterDestroyTimeline__UpdateFunc_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.Timeline_2__FinishedFunc
 struct ABP_Pawn_C_Timeline_2__FinishedFunc_Params
 {
@@ -679,20 +665,6 @@ struct ABP_Pawn_C_InpActEvt_Crouch_K2Node_InputActionEvent_1_Params
 	struct FKey*                                       Key;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm)
 };
 
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature
-struct ABP_Pawn_C_BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature_Params
-{
-	class UPrimitiveComponent**                        OverlappedComponent;                                      // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
-	class AActor**                                     OtherActor;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	class UPrimitiveComponent**                        OtherComp;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
-	int*                                               OtherBodyIndex;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	bool*                                              bFromSweep;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	struct FHitResult*                                 SweepResult;                                              // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
-};
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.ReceiveHit
 struct ABP_Pawn_C_ReceiveHit_Params
 {
@@ -716,21 +688,6 @@ struct ABP_Pawn_C_BndEvt__Mesh_K2Node_ComponentBoundEvent_0_ComponentHitSignatur
 	struct FHitResult*                                 Hit;                                                      // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.StopMeleeTrace
-struct ABP_Pawn_C_StopMeleeTrace_Params
-{
-};
-
-// Function BP_Pawn.BP_Pawn_C.ArmorPickupInterface
-struct ABP_Pawn_C_ArmorPickupInterface_Params
-{
-	class ABP_RubberArmor_C**                          PickupRef;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	bool*                                              Autopickup_;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.ServerComponentHit
 struct ABP_Pawn_C_ServerComponentHit_Params
 {
@@ -831,46 +788,6 @@ struct ABP_Pawn_C_OnDestroyed_Event_1_Params
 	class AActor**                                     DestroyedActor;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.WPN_CantShoot
-struct ABP_Pawn_C_WPN_CantShoot_Params
-{
-};
-
-// Function BP_Pawn.BP_Pawn_C.CWC_SwitchCamera
-struct ABP_Pawn_C_CWC_SwitchCamera_Params
-{
-};
-
-// Function BP_Pawn.BP_Pawn_C.WPN_SetWeaponToInteract
-struct ABP_Pawn_C_WPN_SetWeaponToInteract_Params
-{
-	int*                                               WeaponReference;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	bool*                                              AutoPickUp;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-=======
-// Function BP_Pawn.BP_Pawn_C.EnterFPMode
-struct ABP_Pawn_C_EnterFPMode_Params
-{
-};
-
-// Function BP_Pawn.BP_Pawn_C.SetFirstPersonEvent
-struct ABP_Pawn_C_SetFirstPersonEvent_Params
-{
-	bool*                                              FirstPerson_;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
-// Function BP_Pawn.BP_Pawn_C.BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature
-struct ABP_Pawn_C_BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature_Params
-{
-	class UPrimitiveComponent**                        OverlappedComponent;                                      // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
-	class AActor**                                     OtherActor;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	class UPrimitiveComponent**                        OtherComp;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
-	int*                                               OtherBodyIndex;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	bool*                                              bFromSweep;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	struct FHitResult*                                 SweepResult;                                              // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-};
-
 // Function BP_Pawn.BP_Pawn_C.EventRemoveHPOverTime
 struct ABP_Pawn_C_EventRemoveHPOverTime_Params
 {
@@ -894,7 +811,6 @@ struct ABP_Pawn_C_ExpandingGroundEvent_Params
 	float*                                             DamageAmount;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function BP_Pawn.BP_Pawn_C.HealthEmitterEvent
 struct ABP_Pawn_C_HealthEmitterEvent_Params
 {
@@ -906,8 +822,6 @@ struct ABP_Pawn_C_SetCharacterMeshEvent_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.ClimbLocation
 struct ABP_Pawn_C_ClimbLocation_Params
 {
@@ -949,66 +863,20 @@ struct ABP_Pawn_C_BndEvt__bp_ragdoll_component_K2Node_ComponentBoundEvent_1_ragd
 	bool*                                              recover_end;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.AmmoPickup
-struct ABP_Pawn_C_AmmoPickup_Params
-{
-	TEnumAsByte<E_AddAmmoTypes>*                       Mode;                                                     // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	struct FName*                                      WeaponID;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	int*                                               AmountAmmo;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	TEnumAsByte<E_WeaponTypes>*                        WeaponType;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	class UClass**                                     ProjectileType;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
 // Function BP_Pawn.BP_Pawn_C.ParryAimCancelEvent
 struct ABP_Pawn_C_ParryAimCancelEvent_Params
 {
 	bool*                                              IsBlocking_;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.StopZoomEvent
 struct ABP_Pawn_C_StopZoomEvent_Params
 {
 };
 
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.WPN_Recoil
-struct ABP_Pawn_C_WPN_Recoil_Params
-{
-	float*                                             Pitch;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	float*                                             Yaw;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
-// Function BP_Pawn.BP_Pawn_C.CWC_RefreshWeaponInHUD
-struct ABP_Pawn_C_CWC_RefreshWeaponInHUD_Params
-{
-};
-
-// Function BP_Pawn.BP_Pawn_C.PC_SetHUD
-struct ABP_Pawn_C_PC_SetHUD_Params
-{
-	class UW_WpnCompHUD_C**                            HUD_Reference;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
-};
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.StartAimTimer
 struct ABP_Pawn_C_StartAimTimer_Params
 {
-};
-
-<<<<<<< HEAD
-// Function BP_Pawn.BP_Pawn_C.Toggle Widget
-struct ABP_Pawn_C_Toggle_Widget_Params
-{
-	bool*                                              Widget;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-=======
-// Function BP_Pawn.BP_Pawn_C.ShootButtonHoldEvent
-struct ABP_Pawn_C_ShootButtonHoldEvent_Params
-{
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 };
 
 // Function BP_Pawn.BP_Pawn_C.StartStopAim
@@ -1195,27 +1063,36 @@ struct ABP_Pawn_C_BuyHPFromStoreEvent_Params
 	class UClass**                                     Armor;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
+// Function BP_Pawn.BP_Pawn_C.BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature
+struct ABP_Pawn_C_BndEvt__HeadFalling_K2Node_ComponentBoundEvent_648_ComponentBeginOverlapSignature__DelegateSignature_Params
+{
+	class UPrimitiveComponent**                        OverlappedComponent;                                      // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
+	class AActor**                                     OtherActor;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	class UPrimitiveComponent**                        OtherComp;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
+	int*                                               OtherBodyIndex;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	bool*                                              bFromSweep;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	struct FHitResult*                                 SweepResult;                                              // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
+};
+
+// Function BP_Pawn.BP_Pawn_C.ProperlyDestroyedTrapEvent
+struct ABP_Pawn_C_ProperlyDestroyedTrapEvent_Params
+{
+	class AItemBase_C**                                TrapRef;                                                  // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	int*                                               TrapNumber;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function BP_Pawn.BP_Pawn_C.TrapBoxInfoTextEvent
+struct ABP_Pawn_C_TrapBoxInfoTextEvent_Params
+{
+	bool*                                              DestroyFirstOne_;                                         // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
 // Function BP_Pawn.BP_Pawn_C.PlaceSpecialItemMulticast
 struct ABP_Pawn_C_PlaceSpecialItemMulticast_Params
 {
 	struct FVector*                                    NewParam;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-=======
-// Function BP_Pawn.BP_Pawn_C.StopMeleeTrace
-struct ABP_Pawn_C_StopMeleeTrace_Params
-{
-};
-
-// Function BP_Pawn.BP_Pawn_C.ArmorPickupInterface
-struct ABP_Pawn_C_ArmorPickupInterface_Params
-{
-	class ABP_RubberArmor_C**                          PickupRef;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	bool*                                              Autopickup_;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.StopSpecialItemEvent
 struct ABP_Pawn_C_StopSpecialItemEvent_Params
 {
@@ -1237,7 +1114,11 @@ struct ABP_Pawn_C_PlaceSpecialItemServer_Params
 {
 };
 
-<<<<<<< HEAD
+// Function BP_Pawn.BP_Pawn_C.StopMeleeTrace
+struct ABP_Pawn_C_StopMeleeTrace_Params
+{
+};
+
 // Function BP_Pawn.BP_Pawn_C.BndEvt__ParryBox_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature
 struct ABP_Pawn_C_BndEvt__ParryBox_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature_Params
 {
@@ -1246,6 +1127,18 @@ struct ABP_Pawn_C_BndEvt__ParryBox_K2Node_ComponentBoundEvent_0_ComponentHitSign
 	class UPrimitiveComponent**                        OtherComp;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, InstancedReference, IsPlainOldData)
 	struct FVector*                                    NormalImpulse;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	struct FHitResult*                                 Hit;                                                      // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
+};
+
+// Function BP_Pawn.BP_Pawn_C.ArmorPickupInterface
+struct ABP_Pawn_C_ArmorPickupInterface_Params
+{
+	class ABP_RubberArmor_C**                          PickupRef;                                                // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	bool*                                              Autopickup_;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function BP_Pawn.BP_Pawn_C.WPN_CantShoot
+struct ABP_Pawn_C_WPN_CantShoot_Params
+{
 };
 
 // Function BP_Pawn.BP_Pawn_C.BndEvt__ParryBox_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature
@@ -1257,11 +1150,6 @@ struct ABP_Pawn_C_BndEvt__ParryBox_K2Node_ComponentBoundEvent_0_ComponentBeginOv
 	int*                                               OtherBodyIndex;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	bool*                                              bFromSweep;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	struct FHitResult*                                 SweepResult;                                              // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
-=======
-// Function BP_Pawn.BP_Pawn_C.WPN_CantShoot
-struct ABP_Pawn_C_WPN_CantShoot_Params
-{
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 };
 
 // Function BP_Pawn.BP_Pawn_C.SlidePush
@@ -1280,14 +1168,11 @@ struct ABP_Pawn_C_ReceiveTick_Params
 	float*                                             DeltaSeconds;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-=======
 // Function BP_Pawn.BP_Pawn_C.CWC_SwitchCamera
 struct ABP_Pawn_C_CWC_SwitchCamera_Params
 {
 };
 
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.GetUpFromSlideMulticast
 struct ABP_Pawn_C_GetUpFromSlideMulticast_Params
 {
@@ -1303,12 +1188,10 @@ struct ABP_Pawn_C_SlidingEvent_Params
 {
 };
 
-<<<<<<< HEAD
-=======
 // Function BP_Pawn.BP_Pawn_C.WPN_SetWeaponToInteract
 struct ABP_Pawn_C_WPN_SetWeaponToInteract_Params
 {
-	class ABPA_ParentWeapon_C**                        WeaponReference;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	int*                                               WeaponReference;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	bool*                                              AutoPickUp;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
@@ -1334,7 +1217,6 @@ struct ABP_Pawn_C_CWC_RefreshWeaponInHUD_Params
 {
 };
 
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.EventMeleeSoundAll
 struct ABP_Pawn_C_EventMeleeSoundAll_Params
 {
@@ -1346,11 +1228,11 @@ struct ABP_Pawn_C_MeleeDamage_Params
 	bool*                                              MeleeWithWeapon_;                                         // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function BP_Pawn.BP_Pawn_C.MeleeWeaponReleaseEvent
 struct ABP_Pawn_C_MeleeWeaponReleaseEvent_Params
 {
-=======
+};
+
 // Function BP_Pawn.BP_Pawn_C.PC_SetHUD
 struct ABP_Pawn_C_PC_SetHUD_Params
 {
@@ -1361,7 +1243,6 @@ struct ABP_Pawn_C_PC_SetHUD_Params
 struct ABP_Pawn_C_Toggle_Widget_Params
 {
 	bool*                                              Widget;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 };
 
 // Function BP_Pawn.BP_Pawn_C.HolsterWhenDeadEvent
@@ -1537,6 +1418,11 @@ struct ABP_Pawn_C_Jumping_Params
 	bool*                                              SetJump;                                                  // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
+// Function BP_Pawn.BP_Pawn_C.EndSprintPowerUp
+struct ABP_Pawn_C_EndSprintPowerUp_Params
+{
+};
+
 // Function BP_Pawn.BP_Pawn_C.BeginSprintPowerUp
 struct ABP_Pawn_C_BeginSprintPowerUp_Params
 {
@@ -1661,7 +1547,6 @@ struct ABP_Pawn_C_EventCloakServer_Params
 	int*                                               ClassInt;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function BP_Pawn.BP_Pawn_C.SetFirstPersonEvent
 struct ABP_Pawn_C_SetFirstPersonEvent_Params
 {
@@ -1673,8 +1558,6 @@ struct ABP_Pawn_C_EnterFPMode_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Pawn.BP_Pawn_C.ExecuteUbergraph_BP_Pawn
 struct ABP_Pawn_C_ExecuteUbergraph_BP_Pawn_Params
 {

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -282,11 +278,7 @@ void UW_WpnCompHUD_C::Get_TotalScoreBank()
 
 
 // Function W_WpnCompHUD.W_WpnCompHUD_C.ScoreMittenText
-<<<<<<< HEAD
 // (Public, HasOutParms, BlueprintCallable, BlueprintEvent, BlueprintPure)
-=======
-// (Public, HasOutParms, HasDefaults, BlueprintCallable, BlueprintEvent, BlueprintPure)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Parameters:
 // struct FText                   ReturnValue                    (Parm, OutParm, ReturnParm)
 
@@ -426,43 +418,6 @@ void UW_WpnCompHUD_C::OnSuccess_1BC11FD941F1CF9D6D1DF080A9A579C3(struct FName* W
 }
 
 
-// Function W_WpnCompHUD.W_WpnCompHUD_C.MultiplierBarEvent
-// (BlueprintCallable, BlueprintEvent)
-
-void UW_WpnCompHUD_C::MultiplierBarEvent()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.MultiplierBarEvent");
-
-	UW_WpnCompHUD_C_MultiplierBarEvent_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-<<<<<<< HEAD
-// Function W_WpnCompHUD.W_WpnCompHUD_C.ScorePopinAnimation
-// (BlueprintCallable, BlueprintEvent)
-
-void UW_WpnCompHUD_C::ScorePopinAnimation()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.ScorePopinAnimation");
-
-	UW_WpnCompHUD_C_ScorePopinAnimation_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function W_WpnCompHUD.W_WpnCompHUD_C.PlaceCurrent
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -523,26 +478,6 @@ void UW_WpnCompHUD_C::InteractBar(bool* Stop_)
 }
 
 
-<<<<<<< HEAD
-=======
-// Function W_WpnCompHUD.W_WpnCompHUD_C.ScorePopinAnimation
-// (BlueprintCallable, BlueprintEvent)
-
-void UW_WpnCompHUD_C::ScorePopinAnimation()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.ScorePopinAnimation");
-
-	UW_WpnCompHUD_C_ScorePopinAnimation_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function W_WpnCompHUD.W_WpnCompHUD_C.PlayAddDeductAnimation
 // (Net, NetClient, BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -602,46 +537,6 @@ void UW_WpnCompHUD_C::Send_Message_to_HUD(struct FText* Menssage)
 }
 
 
-// Function W_WpnCompHUD.W_WpnCompHUD_C.ScoreBankTick
-// (BlueprintCallable, BlueprintEvent)
-
-void UW_WpnCompHUD_C::ScoreBankTick()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.ScoreBankTick");
-
-	UW_WpnCompHUD_C_ScoreBankTick_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-<<<<<<< HEAD
-=======
-// Function W_WpnCompHUD.W_WpnCompHUD_C.UpdateAmmoBP
-// (BlueprintCallable, BlueprintEvent)
-// Parameters:
-// int*                           CurrentAmmoBP                  (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void UW_WpnCompHUD_C::UpdateAmmoBP(int* CurrentAmmoBP)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.UpdateAmmoBP");
-
-	UW_WpnCompHUD_C_UpdateAmmoBP_Params params;
-	params.CurrentAmmoBP = CurrentAmmoBP;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function W_WpnCompHUD.W_WpnCompHUD_C.EventWeaponName
 // (BlueprintCallable, BlueprintEvent)
 
@@ -679,7 +574,74 @@ void UW_WpnCompHUD_C::EventRecordingUMG(bool* Recording_)
 }
 
 
-<<<<<<< HEAD
+// Function W_WpnCompHUD.W_WpnCompHUD_C.ScorePopinAnimation
+// (BlueprintCallable, BlueprintEvent)
+
+void UW_WpnCompHUD_C::ScorePopinAnimation()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.ScorePopinAnimation");
+
+	UW_WpnCompHUD_C_ScorePopinAnimation_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function W_WpnCompHUD.W_WpnCompHUD_C.ScoreBankTick
+// (BlueprintCallable, BlueprintEvent)
+
+void UW_WpnCompHUD_C::ScoreBankTick()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.ScoreBankTick");
+
+	UW_WpnCompHUD_C_ScoreBankTick_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function W_WpnCompHUD.W_WpnCompHUD_C.ReloadTimerBarEvent
+// (BlueprintCallable, BlueprintEvent)
+
+void UW_WpnCompHUD_C::ReloadTimerBarEvent()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.ReloadTimerBarEvent");
+
+	UW_WpnCompHUD_C_ReloadTimerBarEvent_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function W_WpnCompHUD.W_WpnCompHUD_C.OnInitialized
+// (BlueprintCosmetic, Event, Public, BlueprintEvent)
+
+void UW_WpnCompHUD_C::OnInitialized()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.OnInitialized");
+
+	UW_WpnCompHUD_C_OnInitialized_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function W_WpnCompHUD.W_WpnCompHUD_C.UpdateAmmoBP
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -700,8 +662,6 @@ void UW_WpnCompHUD_C::UpdateAmmoBP(int* CurrentAmmoBP)
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function W_WpnCompHUD.W_WpnCompHUD_C.UpdateAmmoMag
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -796,31 +756,14 @@ void UW_WpnCompHUD_C::UpdateWeaponStatus(TEnumAsByte<E_WeaponState>* WeaponState
 }
 
 
-// Function W_WpnCompHUD.W_WpnCompHUD_C.ReloadTimerBarEvent
+// Function W_WpnCompHUD.W_WpnCompHUD_C.MultiplierBarEvent
 // (BlueprintCallable, BlueprintEvent)
 
-void UW_WpnCompHUD_C::ReloadTimerBarEvent()
+void UW_WpnCompHUD_C::MultiplierBarEvent()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.ReloadTimerBarEvent");
+	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.MultiplierBarEvent");
 
-	UW_WpnCompHUD_C_ReloadTimerBarEvent_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-// Function W_WpnCompHUD.W_WpnCompHUD_C.OnInitialized
-// (BlueprintCosmetic, Event, Public, BlueprintEvent)
-
-void UW_WpnCompHUD_C::OnInitialized()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.OnInitialized");
-
-	UW_WpnCompHUD_C_OnInitialized_Params params;
+	UW_WpnCompHUD_C_MultiplierBarEvent_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -897,6 +840,48 @@ void UW_WpnCompHUD_C::AlwaysShowEvent()
 	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.AlwaysShowEvent");
 
 	UW_WpnCompHUD_C_AlwaysShowEvent_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function W_WpnCompHUD.W_WpnCompHUD_C.TrapBoxInfoEvent
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// bool*                          DestroyFirstOne_               (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+// class AItemBase_C**            TrapRef                        (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UW_WpnCompHUD_C::TrapBoxInfoEvent(bool* DestroyFirstOne_, class AItemBase_C** TrapRef)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.TrapBoxInfoEvent");
+
+	UW_WpnCompHUD_C_TrapBoxInfoEvent_Params params;
+	params.DestroyFirstOne_ = DestroyFirstOne_;
+	params.TrapRef = TrapRef;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function W_WpnCompHUD.W_WpnCompHUD_C.TrapBoxRemoveInfoEvent
+// (BlueprintCallable, BlueprintEvent)
+// Parameters:
+// class AItemBase_C**            TrapRef                        (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+
+void UW_WpnCompHUD_C::TrapBoxRemoveInfoEvent(class AItemBase_C** TrapRef)
+{
+	static auto fn = UObject::FindObject<UFunction>("Function W_WpnCompHUD.W_WpnCompHUD_C.TrapBoxRemoveInfoEvent");
+
+	UW_WpnCompHUD_C_TrapBoxRemoveInfoEvent_Params params;
+	params.TrapRef = TrapRef;
 
 	auto flags = fn->FunctionFlags;
 

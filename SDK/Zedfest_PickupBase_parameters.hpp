@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -94,14 +90,11 @@ struct APickupBase_C_Set_Detail_4_Params
 	struct FS_DetailsSettings                          Detail_Settings;                                          // (Parm, OutParm)
 };
 
-<<<<<<< HEAD
 // Function PickupBase.PickupBase_C.OnRep_ItemClass
 struct APickupBase_C_OnRep_ItemClass_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function PickupBase.PickupBase_C.Set Rarity Color
 struct APickupBase_C_Set_Rarity_Color_Params
 {
@@ -149,14 +142,11 @@ struct APickupBase_C_BndEvt__Pickup_Mesh_K2Node_ComponentBoundEvent_0_ComponentH
 	struct FHitResult*                                 Hit;                                                      // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ReferenceParm, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function PickupBase.PickupBase_C.SetRarityColorEvent
 struct APickupBase_C_SetRarityColorEvent_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function PickupBase.PickupBase_C.ExecuteUbergraph_PickupBase
 struct APickupBase_C_ExecuteUbergraph_PickupBase_Params
 {

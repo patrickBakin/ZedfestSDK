@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -18,14 +14,11 @@ namespace ZF
 //Parameters
 //---------------------------------------------------------------------------
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnRep_FreshJoin?
 struct ABP_Base_HordeController_C_OnRep_FreshJoin__Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.DiscordSend
 struct ABP_Base_HordeController_C_DiscordSend_Params
 {
@@ -46,10 +39,7 @@ struct ABP_Base_HordeController_C_AddScore_Params
 	int*                                               DamageCauserInt;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	class AActor**                                     DamageWeapon;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	struct FName*                                      ZedName;                                                  // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-<<<<<<< HEAD
 	bool*                                              DoubleKill_;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 };
 
 // Function BP_Base_HordeController.BP_Base_HordeController_C.CharacterCheck
@@ -69,18 +59,6 @@ struct ABP_Base_HordeController_C_Client_Play2DSound_Params
 	float*                                             VolumeMultiplier;                                         // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__FinishedFunc
-struct ABP_Base_HordeController_C_Timeline_0__FinishedFunc_Params
-{
-};
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__UpdateFunc
-struct ABP_Base_HordeController_C_Timeline_0__UpdateFunc_Params
-{
-};
-
-<<<<<<< HEAD
-=======
 // Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_2__FinishedFunc
 struct ABP_Base_HordeController_C_Timeline_2__FinishedFunc_Params
 {
@@ -91,7 +69,6 @@ struct ABP_Base_HordeController_C_Timeline_2__UpdateFunc_Params
 {
 };
 
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_1__FinishedFunc
 struct ABP_Base_HordeController_C_Timeline_1__FinishedFunc_Params
 {
@@ -99,6 +76,16 @@ struct ABP_Base_HordeController_C_Timeline_1__FinishedFunc_Params
 
 // Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_1__UpdateFunc
 struct ABP_Base_HordeController_C_Timeline_1__UpdateFunc_Params
+{
+};
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__FinishedFunc
+struct ABP_Base_HordeController_C_Timeline_0__FinishedFunc_Params
+{
+};
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_0__UpdateFunc
+struct ABP_Base_HordeController_C_Timeline_0__UpdateFunc_Params
 {
 };
 
@@ -112,61 +99,18 @@ struct ABP_Base_HordeController_C_Timeline_3__UpdateFunc_Params
 {
 };
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_2__FinishedFunc
-struct ABP_Base_HordeController_C_Timeline_2__FinishedFunc_Params
-{
-};
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.Timeline_2__UpdateFunc
-struct ABP_Base_HordeController_C_Timeline_2__UpdateFunc_Params
-{
-};
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_EscapeButton_K2Node_InputActionEvent_7
 struct ABP_Base_HordeController_C_InpActEvt_EscapeButton_K2Node_InputActionEvent_7_Params
 {
 	struct FKey*                                       Key;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm)
 };
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_E_K2Node_InputKeyEvent_6
 struct ABP_Base_HordeController_C_InpActEvt_E_K2Node_InputKeyEvent_6_Params
 {
 	struct FKey*                                       Key;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm)
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_6
-struct ABP_Base_HordeController_C_InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_6_Params
-{
-	struct FKey*                                       Key;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm)
-};
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_5
-struct ABP_Base_HordeController_C_InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_5_Params
-{
-	struct FKey*                                       Key;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm)
-};
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Enter Chat_K2Node_InputActionEvent_4
-struct ABP_Base_HordeController_C_InpActEvt_Enter_Chat_K2Node_InputActionEvent_4_Params
-{
-	struct FKey*                                       Key;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm)
-};
-
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_E_K2Node_InputKeyEvent_6
-struct ABP_Base_HordeController_C_InpActEvt_E_K2Node_InputKeyEvent_6_Params
-{
-	struct FKey*                                       Key;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm)
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_1E3F902448EAD1CDD4AF91B662FAC50C
 struct ABP_Base_HordeController_C_OnFailure_1E3F902448EAD1CDD4AF91B662FAC50C_Params
 {
@@ -263,19 +207,18 @@ struct ABP_Base_HordeController_C_OnSuccess_AAA8C9EA4449C3EDD2362395E636FE39_Par
 	int*                                               WrittenUserTag;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_B795C42244B186F8AA3FB6BEAB82D252
-struct ABP_Base_HordeController_C_OnFailure_B795C42244B186F8AA3FB6BEAB82D252_Params
+// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_6
+struct ABP_Base_HordeController_C_InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_6_Params
 {
+	struct FKey*                                       Key;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm)
 };
 
-// Function BP_Base_HordeController.BP_Base_HordeController_C.OnSuccess_B795C42244B186F8AA3FB6BEAB82D252
-struct ABP_Base_HordeController_C_OnSuccess_B795C42244B186F8AA3FB6BEAB82D252_Params
+// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Toggle Scoreboard_K2Node_InputActionEvent_5
+struct ABP_Base_HordeController_C_InpActEvt_Toggle_Scoreboard_K2Node_InputActionEvent_5_Params
 {
+	struct FKey*                                       Key;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm)
 };
 
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_934989E44C6FE8BFA49BE0A047327419
 struct ABP_Base_HordeController_C_OnFailure_934989E44C6FE8BFA49BE0A047327419_Params
 {
@@ -296,6 +239,12 @@ struct ABP_Base_HordeController_C_OnFailure_6AB578B54E4460E794CE54B16D6E1C3A_Par
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnSuccess_6AB578B54E4460E794CE54B16D6E1C3A
 struct ABP_Base_HordeController_C_OnSuccess_6AB578B54E4460E794CE54B16D6E1C3A_Params
 {
+};
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_Enter Chat_K2Node_InputActionEvent_4
+struct ABP_Base_HordeController_C_InpActEvt_Enter_Chat_K2Node_InputActionEvent_4_Params
+{
+	struct FKey*                                       Key;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm)
 };
 
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_F3A553344116D174FBAADC8966B16BD9
@@ -506,7 +455,6 @@ struct ABP_Base_HordeController_C_OnSuccess_52BF4CC945EBA06DD5EB93B396121BCF_Par
 {
 };
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_B795C42244B186F8AA3FB6BEAB82D252
 struct ABP_Base_HordeController_C_OnFailure_B795C42244B186F8AA3FB6BEAB82D252_Params
 {
@@ -517,8 +465,6 @@ struct ABP_Base_HordeController_C_OnSuccess_B795C42244B186F8AA3FB6BEAB82D252_Par
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.InpActEvt_F2_K2Node_InputKeyEvent_4
 struct ABP_Base_HordeController_C_InpActEvt_F2_K2Node_InputKeyEvent_4_Params
 {
@@ -643,7 +589,6 @@ struct ABP_Base_HordeController_C_InpActEvt_Q_K2Node_InputKeyEvent_1_Params
 	struct FKey*                                       Key;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm)
 };
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_CECE7ACF4D8785E45DEA1086D021A6B9
 struct ABP_Base_HordeController_C_OnFailure_CECE7ACF4D8785E45DEA1086D021A6B9_Params
 {
@@ -732,29 +677,30 @@ struct ABP_Base_HordeController_C_OnSuccess_E9A4D3824C6F975006EDCEBE8DC30D86_Par
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-// Function BP_Base_HordeController.BP_Base_HordeController_C.ControllerCurrentObjective
-struct ABP_Base_HordeController_C_ControllerCurrentObjective_Params
+// Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_1E15EEBE453A6D16565DFE9C48F83936
+struct ABP_Base_HordeController_C_OnFailure_1E15EEBE453A6D16565DFE9C48F83936_Params
 {
-	struct FText*                                      ObjectiveNameText;                                        // (BlueprintVisible, BlueprintReadOnly, Parm)
-	struct FText*                                      ObjectiveMittenText;                                      // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm)
-	struct FText*                                      ObjectiveText;                                            // (BlueprintVisible, BlueprintReadOnly, Parm)
-	bool*                                              ShowObjective1Image_;                                     // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	bool*                                              ShowObjective2Image_;                                     // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-// Function BP_Base_HordeController.BP_Base_HordeController_C.HordeIntPCEvent
-struct ABP_Base_HordeController_C_HordeIntPCEvent_Params
+// Function BP_Base_HordeController.BP_Base_HordeController_C.OnSuccess_1E15EEBE453A6D16565DFE9C48F83936
+struct ABP_Base_HordeController_C_OnSuccess_1E15EEBE453A6D16565DFE9C48F83936_Params
 {
-	int*                                               HordeIntPC;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	bool*                                              ObjectiveMode_;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-// Function BP_Base_HordeController.BP_Base_HordeController_C.AssignInventoryData
-struct ABP_Base_HordeController_C_AssignInventoryData_Params
+// Function BP_Base_HordeController.BP_Base_HordeController_C.OnFailure_9A1037514860DF32DD64E2B76D2296C4
+struct ABP_Base_HordeController_C_OnFailure_9A1037514860DF32DD64E2B76D2296C4_Params
 {
-	class AInventoryData_C**                           InventoryData;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	struct FName*                                      WrittenAchievementName;                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	float*                                             WrittenProgress;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	int*                                               WrittenUserTag;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.OnSuccess_9A1037514860DF32DD64E2B76D2296C4
+struct ABP_Base_HordeController_C_OnSuccess_9A1037514860DF32DD64E2B76D2296C4_Params
+{
+	struct FName*                                      WrittenAchievementName;                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	float*                                             WrittenProgress;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	int*                                               WrittenUserTag;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function BP_Base_HordeController.BP_Base_HordeController_C.LevelUp
@@ -786,14 +732,6 @@ struct ABP_Base_HordeController_C_ReceiveBeginPlay_Params
 {
 };
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveWidgets
-struct ABP_Base_HordeController_C_RemoveWidgets_Params
-{
-};
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.ResumeTheGame
 struct ABP_Base_HordeController_C_ResumeTheGame_Params
 {
@@ -810,14 +748,6 @@ struct ABP_Base_HordeController_C_SequencerPCEvent_Params
 {
 };
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.MoneyBanktick
-struct ABP_Base_HordeController_C_MoneyBanktick_Params
-{
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.EnterQuickItem
 struct ABP_Base_HordeController_C_EnterQuickItem_Params
 {
@@ -847,33 +777,42 @@ struct ABP_Base_HordeController_C_EventDifferentCharCallout_Params
 	bool*                                              FromCharCards_;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
+// Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveWidgets
+struct ABP_Base_HordeController_C_RemoveWidgets_Params
+{
+};
+
 // Function BP_Base_HordeController.BP_Base_HordeController_C.EventPersonalStatsArray
 struct ABP_Base_HordeController_C_EventPersonalStatsArray_Params
 {
 };
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.MoneyBanktick
 struct ABP_Base_HordeController_C_MoneyBanktick_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleCheatClose
+struct ABP_Base_HordeController_C_PCConsoleCheatClose_Params
+{
+};
+
 // Function BP_Base_HordeController.BP_Base_HordeController_C.GameStatEvent
 struct ABP_Base_HordeController_C_GameStatEvent_Params
 {
 	bool*                                              Death_;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleCheatClose
-struct ABP_Base_HordeController_C_PCConsoleCheatClose_Params
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveWidgets
-struct ABP_Base_HordeController_C_RemoveWidgets_Params
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Function BP_Base_HordeController.BP_Base_HordeController_C.AddVictoryMoney
+struct ABP_Base_HordeController_C_AddVictoryMoney_Params
 {
+	int*                                               Money;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.ChangeStartMoney
+struct ABP_Base_HordeController_C_ChangeStartMoney_Params
+{
+	int*                                               B;                                                        // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function BP_Base_HordeController.BP_Base_HordeController_C.ShowLoadingScreen
@@ -881,15 +820,11 @@ struct ABP_Base_HordeController_C_ShowLoadingScreen_Params
 {
 };
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.AddVictoryMoney
-struct ABP_Base_HordeController_C_AddVictoryMoney_Params
+// Function BP_Base_HordeController.BP_Base_HordeController_C.ShowUIEvent
+struct ABP_Base_HordeController_C_ShowUIEvent_Params
 {
-	int*                                               Money;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.FriendlyBotsText
 struct ABP_Base_HordeController_C_FriendlyBotsText_Params
 {
@@ -902,19 +837,8 @@ struct ABP_Base_HordeController_C_DifficultyText_Params
 	int*                                               DifficultyInt;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.ChangeStartMoney
-struct ABP_Base_HordeController_C_ChangeStartMoney_Params
-{
-	int*                                               B;                                                        // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.ShowUIEvent
-struct ABP_Base_HordeController_C_ShowUIEvent_Params
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleCheatClose
-struct ABP_Base_HordeController_C_PCConsoleCheatClose_Params
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Function BP_Base_HordeController.BP_Base_HordeController_C.PlayerListEvent
+struct ABP_Base_HordeController_C_PlayerListEvent_Params
 {
 };
 
@@ -927,32 +851,7 @@ struct ABP_Base_HordeController_C_AddScoreEvent_Params
 	int*                                               DamageCauserInt;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	class AActor**                                     DamageWeapon;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 	struct FName*                                      ZedName;                                                  // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-<<<<<<< HEAD
 	bool*                                              DoubleKill_;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-=======
-};
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.AddVictoryMoney
-struct ABP_Base_HordeController_C_AddVictoryMoney_Params
-{
-	int*                                               Money;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.ChangeStartMoney
-struct ABP_Base_HordeController_C_ChangeStartMoney_Params
-{
-	int*                                               B;                                                        // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.ShowUIEvent
-struct ABP_Base_HordeController_C_ShowUIEvent_Params
-{
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-};
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.PlayerListEvent
-struct ABP_Base_HordeController_C_PlayerListEvent_Params
-{
 };
 
 // Function BP_Base_HordeController.BP_Base_HordeController_C.MapVoteEvent
@@ -965,15 +864,6 @@ struct ABP_Base_HordeController_C_MapVoteClient_Params
 {
 };
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.RemoveMoney
-struct ABP_Base_HordeController_C_RemoveMoney_Params
-{
-	int*                                               B;                                                        // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.GameModeText
 struct ABP_Base_HordeController_C_GameModeText_Params
 {
@@ -1007,7 +897,6 @@ struct ABP_Base_HordeController_C_UpdatePlayerInfoFrontFromLobbySpectate_Params
 {
 };
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.DestroyBP_PawnEtc
 struct ABP_Base_HordeController_C_DestroyBP_PawnEtc_Params
 {
@@ -1019,8 +908,6 @@ struct ABP_Base_HordeController_C_RemoveMoney_Params
 	int*                                               B;                                                        // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.ToggleScoreboard
 struct ABP_Base_HordeController_C_ToggleScoreboard_Params
 {
@@ -1031,14 +918,6 @@ struct ABP_Base_HordeController_C_Close_Lobby_Params
 {
 };
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.DestroyBP_PawnEtc
-struct ABP_Base_HordeController_C_DestroyBP_PawnEtc_Params
-{
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.AssignPlayer
 struct ABP_Base_HordeController_C_AssignPlayer_Params
 {
@@ -1077,6 +956,11 @@ struct ABP_Base_HordeController_C_UpdateNumberOfPlayers_Params
 	int*                                               MaxPlayers;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
+// Function BP_Base_HordeController.BP_Base_HordeController_C.CameraShot
+struct ABP_Base_HordeController_C_CameraShot_Params
+{
+};
+
 // Function BP_Base_HordeController.BP_Base_HordeController_C.UpdateLobbySettings
 struct ABP_Base_HordeController_C_UpdateLobbySettings_Params
 {
@@ -1086,6 +970,12 @@ struct ABP_Base_HordeController_C_UpdateLobbySettings_Params
 	struct FText*                                      LevelDescription;                                         // (BlueprintVisible, BlueprintReadOnly, Parm)
 };
 
+// Function BP_Base_HordeController.BP_Base_HordeController_C.SlidingScoreEvent
+struct ABP_Base_HordeController_C_SlidingScoreEvent_Params
+{
+	int*                                               score;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
 // Function BP_Base_HordeController.BP_Base_HordeController_C.AddPlayerInfo
 struct ABP_Base_HordeController_C_AddPlayerInfo_Params
 {
@@ -1093,20 +983,6 @@ struct ABP_Base_HordeController_C_AddPlayerInfo_Params
 	TArray<class APlayerState*>*                       PlayerstateArray;                                         // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm, OutParm, ZeroConstructor, ReferenceParm)
 };
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.CameraShot
-struct ABP_Base_HordeController_C_CameraShot_Params
-{
-};
-
-// Function BP_Base_HordeController.BP_Base_HordeController_C.SlidingScoreEvent
-struct ABP_Base_HordeController_C_SlidingScoreEvent_Params
-{
-	int*                                               score;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.SetupLobbyMenu
 struct ABP_Base_HordeController_C_SetupLobbyMenu_Params
 {
@@ -1126,16 +1002,13 @@ struct ABP_Base_HordeController_C_Server_Lobby_CallUpdate_Params
 	bool*                                              Changed_Status;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.CameraShot
-struct ABP_Base_HordeController_C_CameraShot_Params
+// Function BP_Base_HordeController.BP_Base_HordeController_C.EnterChat
+struct ABP_Base_HordeController_C_EnterChat_Params
 {
 };
 
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-// Function BP_Base_HordeController.BP_Base_HordeController_C.EnterChat
-struct ABP_Base_HordeController_C_EnterChat_Params
+// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleOpen
+struct ABP_Base_HordeController_C_PCConsoleOpen_Params
 {
 };
 
@@ -1147,15 +1020,6 @@ struct ABP_Base_HordeController_C_UpdateChat_Params
 	int*                                               PlayerIndex;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.SlidingScoreEvent
-struct ABP_Base_HordeController_C_SlidingScoreEvent_Params
-{
-	int*                                               score;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.GetChatMessage
 struct ABP_Base_HordeController_C_GetChatMessage_Params
 {
@@ -1164,28 +1028,12 @@ struct ABP_Base_HordeController_C_GetChatMessage_Params
 	int*                                               PlayerIndex;                                              // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleOpen
-struct ABP_Base_HordeController_C_PCConsoleOpen_Params
-{
-};
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.Add Money
 struct ABP_Base_HordeController_C_Add_Money_Params
 {
 	int*                                               B;                                                        // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-=======
-// Function BP_Base_HordeController.BP_Base_HordeController_C.PCConsoleOpen
-struct ABP_Base_HordeController_C_PCConsoleOpen_Params
-{
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Base_HordeController.BP_Base_HordeController_C.CustomEvent_1
 struct ABP_Base_HordeController_C_CustomEvent_1_Params
 {
@@ -1212,7 +1060,6 @@ struct ABP_Base_HordeController_C_SomeoneIsTypingClient_Params
 	bool*                                              StoppedTyping_;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function BP_Base_HordeController.BP_Base_HordeController_C.DeflectChallengeEvent
 struct ABP_Base_HordeController_C_DeflectChallengeEvent_Params
 {
@@ -1238,8 +1085,35 @@ struct ABP_Base_HordeController_C_ZedCabOOmerKillEvent_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Function BP_Base_HordeController.BP_Base_HordeController_C.AddScoreMoneyEvent
+struct ABP_Base_HordeController_C_AddScoreMoneyEvent_Params
+{
+	int*                                               ScoreMoney;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.AssignInventoryData
+struct ABP_Base_HordeController_C_AssignInventoryData_Params
+{
+	class AInventoryData_C**                           InventoryData;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.ControllerCurrentObjective
+struct ABP_Base_HordeController_C_ControllerCurrentObjective_Params
+{
+	struct FText*                                      ObjectiveNameText;                                        // (BlueprintVisible, BlueprintReadOnly, Parm)
+	struct FText*                                      ObjectiveMittenText;                                      // (ConstParm, BlueprintVisible, BlueprintReadOnly, Parm)
+	struct FText*                                      ObjectiveText;                                            // (BlueprintVisible, BlueprintReadOnly, Parm)
+	bool*                                              ShowObjective1Image_;                                     // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	bool*                                              ShowObjective2Image_;                                     // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function BP_Base_HordeController.BP_Base_HordeController_C.HordeIntPCEvent
+struct ABP_Base_HordeController_C_HordeIntPCEvent_Params
+{
+	int*                                               HordeIntPC;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+	bool*                                              ObjectiveMode_;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
 // Function BP_Base_HordeController.BP_Base_HordeController_C.Add3HealthPoints
 struct ABP_Base_HordeController_C_Add3HealthPoints_Params
 {

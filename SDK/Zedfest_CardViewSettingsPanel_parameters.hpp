@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -89,11 +85,7 @@ struct UCardViewSettingsPanel_C_Destruct_Params
 // Function CardViewSettingsPanel.CardViewSettingsPanel_C.SetOnEscapeBehaviour
 struct UCardViewSettingsPanel_C_SetOnEscapeBehaviour_Params
 {
-<<<<<<< HEAD
 	TEnumAsByte<EEscapeBehaviour>*                     EscapeBehaviour;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-=======
-	TEnumAsByte<EEscapeBehaviour>*                     escapeBehaviour;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 };
 
 // Function CardViewSettingsPanel.CardViewSettingsPanel_C.BndEvt__SettingCards_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature

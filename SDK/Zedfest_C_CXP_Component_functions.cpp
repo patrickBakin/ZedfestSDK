@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -293,6 +289,23 @@ void UC_CXP_Component_C::ReceiveBeginPlay()
 	static auto fn = UObject::FindObject<UFunction>("Function C_CXP_Component.C_CXP_Component_C.ReceiveBeginPlay");
 
 	UC_CXP_Component_C_ReceiveBeginPlay_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
+// Function C_CXP_Component.C_CXP_Component_C.InitializeMainMenuPopup
+// (BlueprintCallable, BlueprintEvent)
+
+void UC_CXP_Component_C::InitializeMainMenuPopup()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function C_CXP_Component.C_CXP_Component_C.InitializeMainMenuPopup");
+
+	UC_CXP_Component_C_InitializeMainMenuPopup_Params params;
 
 	auto flags = fn->FunctionFlags;
 

@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -36,15 +32,12 @@ struct UHostGamePanel1_C_GetStepIndex_Params
 	int                                                StepIndex;                                                // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function HostGamePanel1.HostGamePanel1_C.TimeAttackToolTip
 struct UHostGamePanel1_C_TimeAttackToolTip_Params
 {
 	class UWidget*                                     ReturnValue;                                              // (Parm, OutParm, ZeroConstructor, ReturnParm, InstancedReference, IsPlainOldData)
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function HostGamePanel1.HostGamePanel1_C.HordeModeToolTip
 struct UHostGamePanel1_C_HordeModeToolTip_Params
 {
@@ -98,14 +91,6 @@ struct UHostGamePanel1_C_BndEvt__Randomizer_K2Node_ComponentBoundEvent_3_OnClick
 {
 };
 
-<<<<<<< HEAD
-=======
-// Function HostGamePanel1.HostGamePanel1_C.BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature
-struct UHostGamePanel1_C_BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature_Params
-{
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function HostGamePanel1.HostGamePanel1_C.BndEvt__3WavesButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature
 struct UHostGamePanel1_C_BndEvt__3WavesButton_K2Node_ComponentBoundEvent_2_OnClicked__DelegateSignature_Params
 {
@@ -126,14 +111,6 @@ struct UHostGamePanel1_C_BndEvt__EndlessButton_K2Node_ComponentBoundEvent_6_OnCl
 {
 };
 
-<<<<<<< HEAD
-// Function HostGamePanel1.HostGamePanel1_C.BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature
-struct UHostGamePanel1_C_BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature_Params
-{
-};
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function HostGamePanel1.HostGamePanel1_C.BndEvt__Button1_C_0_K2Node_ComponentBoundEvent_7_OnClicked__DelegateSignature
 struct UHostGamePanel1_C_BndEvt__Button1_C_0_K2Node_ComponentBoundEvent_7_OnClicked__DelegateSignature_Params
 {
@@ -141,21 +118,6 @@ struct UHostGamePanel1_C_BndEvt__Button1_C_0_K2Node_ComponentBoundEvent_7_OnClic
 
 // Function HostGamePanel1.HostGamePanel1_C.BndEvt__Endless+Button_K2Node_ComponentBoundEvent_8_OnClicked__DelegateSignature
 struct UHostGamePanel1_C_BndEvt__Endless_Button_K2Node_ComponentBoundEvent_8_OnClicked__DelegateSignature_Params
-{
-};
-
-// Function HostGamePanel1.HostGamePanel1_C.SetOnEscapeBehaviour
-struct UHostGamePanel1_C_SetOnEscapeBehaviour_Params
-{
-<<<<<<< HEAD
-	TEnumAsByte<EEscapeBehaviour>*                     EscapeBehaviour;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-=======
-	TEnumAsByte<EEscapeBehaviour>*                     escapeBehaviour;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-};
-
-// Function HostGamePanel1.HostGamePanel1_C.BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature
-struct UHostGamePanel1_C_BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature_Params
 {
 };
 
@@ -179,6 +141,11 @@ struct UHostGamePanel1_C_BndEvt__Button1_C_1_K2Node_ComponentBoundEvent_15_OnCli
 {
 };
 
+// Function HostGamePanel1.HostGamePanel1_C.BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature
+struct UHostGamePanel1_C_BndEvt__HostButton_K2Node_ComponentBoundEvent_83_OnButtonClickedEvent__DelegateSignature_Params
+{
+};
+
 // Function HostGamePanel1.HostGamePanel1_C.BndEvt__Button1_C_2_K2Node_ComponentBoundEvent_16_OnClicked__DelegateSignature
 struct UHostGamePanel1_C_BndEvt__Button1_C_2_K2Node_ComponentBoundEvent_16_OnClicked__DelegateSignature_Params
 {
@@ -186,6 +153,17 @@ struct UHostGamePanel1_C_BndEvt__Button1_C_2_K2Node_ComponentBoundEvent_16_OnCli
 
 // Function HostGamePanel1.HostGamePanel1_C.BndEvt__ChangeMapButto_K2Node_ComponentBoundEvent_17_OnClicked__DelegateSignature
 struct UHostGamePanel1_C_BndEvt__ChangeMapButto_K2Node_ComponentBoundEvent_17_OnClicked__DelegateSignature_Params
+{
+};
+
+// Function HostGamePanel1.HostGamePanel1_C.SetOnEscapeBehaviour
+struct UHostGamePanel1_C_SetOnEscapeBehaviour_Params
+{
+	TEnumAsByte<EEscapeBehaviour>*                     EscapeBehaviour;                                          // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function HostGamePanel1.HostGamePanel1_C.BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature
+struct UHostGamePanel1_C_BndEvt__backBtn_K2Node_ComponentBoundEvent_0_OnClicked__DelegateSignature_Params
 {
 };
 
@@ -245,6 +223,18 @@ struct UHostGamePanel1_C_BndEvt__Kamikaze_Button_K2Node_ComponentBoundEvent_18_O
 // Function HostGamePanel1.HostGamePanel1_C.CustomEvent_4
 struct UHostGamePanel1_C_CustomEvent_4_Params
 {
+};
+
+// Function HostGamePanel1.HostGamePanel1_C.LatestWaveAmountSelected
+struct UHostGamePanel1_C_LatestWaveAmountSelected_Params
+{
+	int*                                               Int;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
+};
+
+// Function HostGamePanel1.HostGamePanel1_C.LatestDiffSelected
+struct UHostGamePanel1_C_LatestDiffSelected_Params
+{
+	int*                                               Int;                                                      // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function HostGamePanel1.HostGamePanel1_C.ExecuteUbergraph_HostGamePanel1

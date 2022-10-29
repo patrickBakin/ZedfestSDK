@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -50,31 +46,6 @@ void ABP_NPC_PatrolRouteObjective_3_C::PerformSpecialDamage()
 }
 
 
-<<<<<<< HEAD
-=======
-// Function BP_NPC_PatrolRouteObjective_4.BP_NPC_PatrolRouteObjective_3_C.OnMeleeAttack
-// (BlueprintCallable, BlueprintEvent)
-// Parameters:
-// bool*                          HitSuccess                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// class UObject**                HitCharacter                   (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void ABP_NPC_PatrolRouteObjective_3_C::OnMeleeAttack(bool* HitSuccess, class UObject** HitCharacter)
-{
-	static auto fn = UObject::FindObject<UFunction>("Function BP_NPC_PatrolRouteObjective_4.BP_NPC_PatrolRouteObjective_3_C.OnMeleeAttack");
-
-	ABP_NPC_PatrolRouteObjective_3_C_OnMeleeAttack_Params params;
-	params.HitSuccess = HitSuccess;
-	params.HitCharacter = HitCharacter;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_NPC_PatrolRouteObjective_4.BP_NPC_PatrolRouteObjective_3_C.BndEvt__BehaviorComponent_K2Node_ComponentBoundEvent_0_OnEndAttackRanged__DelegateSignature
 // (BlueprintEvent)
 
@@ -226,7 +197,6 @@ void ABP_NPC_PatrolRouteObjective_3_C::OnDamaged(float* Damage, class AActor** D
 }
 
 
-<<<<<<< HEAD
 // Function BP_NPC_PatrolRouteObjective_4.BP_NPC_PatrolRouteObjective_3_C.OnMeleeAttack
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -249,8 +219,6 @@ void ABP_NPC_PatrolRouteObjective_3_C::OnMeleeAttack(bool* HitSuccess, class UOb
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_NPC_PatrolRouteObjective_4.BP_NPC_PatrolRouteObjective_3_C.StartScreenIndicatorNPC_Obj3
 // (Net, NetMulticast, BlueprintCallable, BlueprintEvent)
 

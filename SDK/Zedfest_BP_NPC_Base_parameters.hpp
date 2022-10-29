@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -208,7 +204,6 @@ struct ABP_NPC_Base_C_FlameThrowerEvent_Params
 	float*                                             Damage;                                                   // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function BP_NPC_Base.BP_NPC_Base_C.StunZedEvent
 struct ABP_NPC_Base_C_StunZedEvent_Params
 {
@@ -224,8 +219,6 @@ struct ABP_NPC_Base_C_StompGroundEvent_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_NPC_Base.BP_NPC_Base_C.ExecuteUbergraph_BP_NPC_Base
 struct ABP_NPC_Base_C_ExecuteUbergraph_BP_NPC_Base_Params
 {

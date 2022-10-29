@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -28,16 +24,6 @@ struct ABP_NPC_PatrolRouteObjective_3_C_PerformSpecialDamage_Params
 {
 };
 
-<<<<<<< HEAD
-=======
-// Function BP_NPC_PatrolRouteObjective_4.BP_NPC_PatrolRouteObjective_3_C.OnMeleeAttack
-struct ABP_NPC_PatrolRouteObjective_3_C_OnMeleeAttack_Params
-{
-	bool*                                              HitSuccess;                                               // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-	class UObject**                                    HitCharacter;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_NPC_PatrolRouteObjective_4.BP_NPC_PatrolRouteObjective_3_C.BndEvt__BehaviorComponent_K2Node_ComponentBoundEvent_0_OnEndAttackRanged__DelegateSignature
 struct ABP_NPC_PatrolRouteObjective_3_C_BndEvt__BehaviorComponent_K2Node_ComponentBoundEvent_0_OnEndAttackRanged__DelegateSignature_Params
 {
@@ -87,7 +73,6 @@ struct ABP_NPC_PatrolRouteObjective_3_C_OnDamaged_Params
 	class AActor**                                     DamageCauser;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function BP_NPC_PatrolRouteObjective_4.BP_NPC_PatrolRouteObjective_3_C.OnMeleeAttack
 struct ABP_NPC_PatrolRouteObjective_3_C_OnMeleeAttack_Params
 {
@@ -95,8 +80,6 @@ struct ABP_NPC_PatrolRouteObjective_3_C_OnMeleeAttack_Params
 	class UObject**                                    HitCharacter;                                             // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_NPC_PatrolRouteObjective_4.BP_NPC_PatrolRouteObjective_3_C.StartScreenIndicatorNPC_Obj3
 struct ABP_NPC_PatrolRouteObjective_3_C_StartScreenIndicatorNPC_Obj3_Params
 {

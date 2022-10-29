@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -40,11 +36,7 @@ public:
 	int                                                Cost;                                                     // 0x02D0(0x0004) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
 	unsigned char                                      UnknownData01[0x4];                                       // 0x02D4(0x0004) MISSED OFFSET
 	struct FText                                       TextBelowLabel;                                           // 0x02D8(0x0018) (Edit, BlueprintVisible)
-<<<<<<< HEAD
 	bool                                               ¡_C;                                                      // 0x02F0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
-=======
-	bool                                               _C;                                                      // 0x02F0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	static UClass* StaticClass()
 	{
@@ -61,11 +53,7 @@ public:
 	void OnEscapeInput_1_2();
 	void SetNavManager(class UBP_navigation_manager_C** NavManagerRef);
 	void SetStepIndex(int* StepIndex);
-<<<<<<< HEAD
 	void SetOnEscapeBehaviour(TEnumAsByte<EEscapeBehaviour>* EscapeBehaviour);
-=======
-	void SetOnEscapeBehaviour(TEnumAsByte<EEscapeBehaviour>* escapeBehaviour);
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void BndEvt__Button1_0_K2Node_ComponentBoundEvent_24_OnClicked__DelegateSignature();
 	void BndEvt__Button1_K2Node_ComponentBoundEvent_15_OnClicked__DelegateSignature();
 	void Construct();

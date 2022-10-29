@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,7 +13,7 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_Store.BP_Store_C
-// 0x0199 (0x04C9 - 0x0330)
+// 0x019A (0x04CA - 0x0330)
 class ABP_Store_C : public AActor
 {
 public:
@@ -53,6 +49,7 @@ public:
 	struct FEffects                                    Effects;                                                  // 0x0418(0x00A8) (Edit, BlueprintVisible, DisableEditOnInstance)
 	struct FVector2D                                   OnScPivot;                                                // 0x04C0(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               Debugging_;                                               // 0x04C8(0x0001) (Edit, BlueprintVisible, ZeroConstructor, IsPlainOldData)
+	bool                                               TimeAttackSpawn_;                                         // 0x04C9(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, IsPlainOldData)
 
 	static UClass* StaticClass()
 	{
@@ -77,13 +74,13 @@ public:
 	void UserConstructionScript();
 	void Timeline_0__FinishedFunc();
 	void Timeline_0__UpdateFunc();
-	void Clear_Target();
-	void Current_Target(class APawn** Pawn);
 	void Interact(struct FKey* Key, class APawn** Pawn);
 	void ReceiveBeginPlay();
 	void CloseTrader();
 	void OpenTrader();
 	void Closed();
+	void Clear_Target();
+	void Current_Target(class APawn** Pawn);
 	void Toggle_Widget(bool* Widget);
 	void ExecuteUbergraph_BP_Store(int* EntryPoint);
 	void On_Picked_up__DelegateSignature();

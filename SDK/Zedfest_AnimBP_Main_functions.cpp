@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -196,7 +192,6 @@ void UAnimBP_Main_C::Can_Jump(bool* Should_Jump, bool* bJumping)
 }
 
 
-<<<<<<< HEAD
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_925BEFC34857C9626878939C5FC99E08
 // (BlueprintEvent)
 
@@ -214,14 +209,14 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 }
 
 
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B
+// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B
 // (BlueprintEvent)
 
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B()
+void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B");
+	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B");
 
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B_Params params;
+	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -231,16 +226,14 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B
+// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B
 // (BlueprintEvent)
 
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B()
+void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B");
+	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B");
 
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B_Params params;
+	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -267,7 +260,6 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 }
 
 
-<<<<<<< HEAD
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_88BABD894B4082896663A9ACDAC40CBE
 // (BlueprintEvent)
 
@@ -276,16 +268,6 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_88BABD894B4082896663A9ACDAC40CBE");
 
 	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_88BABD894B4082896663A9ACDAC40CBE_Params params;
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B
-// (BlueprintEvent)
-
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B");
-
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B_Params params;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -312,26 +294,6 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 }
 
 
-<<<<<<< HEAD
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_88BABD894B4082896663A9ACDAC40CBE
-// (BlueprintEvent)
-
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_88BABD894B4082896663A9ACDAC40CBE()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_88BABD894B4082896663A9ACDAC40CBE");
-
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_88BABD894B4082896663A9ACDAC40CBE_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_B8F2AACE4B4597DC8D93DCAF3C0E1629
 // (BlueprintEvent)
 
@@ -485,6 +447,23 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 }
 
 
+// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9
+// (BlueprintEvent)
+
+void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9");
+
+	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function AnimBP_Main.AnimBP_Main_C.BlueprintUpdateAnimation
 // (Event, Public, BlueprintEvent)
 // Parameters:
@@ -559,14 +538,14 @@ void UAnimBP_Main_C::ReloadWeapon(class UAnimMontage** ReloadAnimMontage)
 }
 
 
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9
-// (BlueprintEvent)
+// Function AnimBP_Main.AnimBP_Main_C.BlueprintInitializeAnimation
+// (Event, Public, BlueprintEvent)
 
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9()
+void UAnimBP_Main_C::BlueprintInitializeAnimation()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9");
+	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.BlueprintInitializeAnimation");
 
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9_Params params;
+	UAnimBP_Main_C_BlueprintInitializeAnimation_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -576,14 +555,14 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 }
 
 
-// Function AnimBP_Main.AnimBP_Main_C.BlueprintInitializeAnimation
-// (Event, Public, BlueprintEvent)
+// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2
+// (BlueprintEvent)
 
-void UAnimBP_Main_C::BlueprintInitializeAnimation()
+void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2()
 {
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.BlueprintInitializeAnimation");
+	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2");
 
-	UAnimBP_Main_C_BlueprintInitializeAnimation_Params params;
+	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2_Params params;
 
 	auto flags = fn->FunctionFlags;
 
@@ -610,26 +589,6 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 }
 
 
-<<<<<<< HEAD
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2
-// (BlueprintEvent)
-
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2");
-
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function AnimBP_Main.AnimBP_Main_C.PlayAnimationMontage
 // (BlueprintCallable, BlueprintEvent)
 // Parameters:
@@ -652,26 +611,6 @@ void UAnimBP_Main_C::PlayAnimationMontage(class UAnimMontage** AnimMontage, floa
 }
 
 
-<<<<<<< HEAD
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2
-// (BlueprintEvent)
-
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2");
-
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function AnimBP_Main.AnimBP_Main_C.BlueprintBeginPlay
 // (Event, Public, BlueprintEvent)
 
@@ -811,33 +750,6 @@ void UAnimBP_Main_C::AnimNotify_UnequipThrowable()
 }
 
 
-<<<<<<< HEAD
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_CA2824774FC6F2A1FEFF04ADDCE3CA7A
-// (BlueprintEvent)
-
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_CA2824774FC6F2A1FEFF04ADDCE3CA7A()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_CA2824774FC6F2A1FEFF04ADDCE3CA7A");
-
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_CA2824774FC6F2A1FEFF04ADDCE3CA7A_Params params;
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_925BEFC34857C9626878939C5FC99E08
-// (BlueprintEvent)
-
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_925BEFC34857C9626878939C5FC99E08()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_925BEFC34857C9626878939C5FC99E08");
-
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_925BEFC34857C9626878939C5FC99E08_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_5DCDBDBE465627D7D5CC07A131DF748D
 // (BlueprintEvent)
 
@@ -846,7 +758,6 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_5DCDBDBE465627D7D5CC07A131DF748D");
 
 	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_5DCDBDBE465627D7D5CC07A131DF748D_Params params;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -878,7 +789,6 @@ void UAnimBP_Main_C::SlotCharWeaponEvent(class ASlotCharParent_BP_C** NewParam, 
 }
 
 
-<<<<<<< HEAD
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_E6DF84154D6543C4689FE093DBCBFF50
 // (BlueprintEvent)
 
@@ -896,8 +806,6 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 }
 
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function AnimBP_Main.AnimBP_Main_C.AnimNotify_EquipMelee
 // (BlueprintCallable, BlueprintEvent)
 
@@ -983,44 +891,6 @@ void UAnimBP_Main_C::AnimNotify_UnequipSpecialItem()
 }
 
 
-<<<<<<< HEAD
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_5DCDBDBE465627D7D5CC07A131DF748D
-// (BlueprintEvent)
-
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_5DCDBDBE465627D7D5CC07A131DF748D()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_5DCDBDBE465627D7D5CC07A131DF748D");
-
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_5DCDBDBE465627D7D5CC07A131DF748D_Params params;
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_E6DF84154D6543C4689FE093DBCBFF50
-// (BlueprintEvent)
-
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_E6DF84154D6543C4689FE093DBCBFF50()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_E6DF84154D6543C4689FE093DBCBFF50");
-
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_E6DF84154D6543C4689FE093DBCBFF50_Params params;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-<<<<<<< HEAD
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659
-// (BlueprintEvent)
-
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659");
-
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659_Params params;
-=======
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_CA2824774FC6F2A1FEFF04ADDCE3CA7A
 // (BlueprintEvent)
 
@@ -1038,6 +908,23 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 }
 
 
+// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659
+// (BlueprintEvent)
+
+void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659()
+{
+	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659");
+
+	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659_Params params;
+
+	auto flags = fn->FunctionFlags;
+
+	UObject::ProcessEvent(fn, &params);
+
+	fn->FunctionFlags = flags;
+}
+
+
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_9539F4DC4EA9378B11F0C0B11A733646
 // (BlueprintEvent)
 
@@ -1046,7 +933,6 @@ void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_Ani
 	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_9539F4DC4EA9378B11F0C0B11A733646");
 
 	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_9539F4DC4EA9378B11F0C0B11A733646_Params params;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 
@@ -1064,34 +950,6 @@ void UAnimBP_Main_C::AnimNotify_Transform()
 	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.AnimNotify_Transform");
 
 	UAnimBP_Main_C_AnimNotify_Transform_Params params;
-
-	auto flags = fn->FunctionFlags;
-
-	UObject::ProcessEvent(fn, &params);
-
-	fn->FunctionFlags = flags;
-}
-
-
-<<<<<<< HEAD
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_9539F4DC4EA9378B11F0C0B11A733646
-// (BlueprintEvent)
-
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_9539F4DC4EA9378B11F0C0B11A733646()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_9539F4DC4EA9378B11F0C0B11A733646");
-
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_9539F4DC4EA9378B11F0C0B11A733646_Params params;
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659
-// (BlueprintEvent)
-
-void UAnimBP_Main_C::EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659()
-{
-	static auto fn = UObject::FindObject<UFunction>("Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659");
-
-	UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659_Params params;
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	auto flags = fn->FunctionFlags;
 

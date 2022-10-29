@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,11 +13,7 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_BehaviorComponent.BP_BehaviorComponent_C
-<<<<<<< HEAD
 // 0x0B3D (0x0C35 - 0x00F8)
-=======
-// 0x0B38 (0x0C30 - 0x00F8)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 class UBP_BehaviorComponent_C : public UActorComponent
 {
 public:
@@ -141,11 +133,8 @@ public:
 	unsigned char                                      UnknownData16[0x3];                                       // 0x0C21(0x0003) MISSED OFFSET
 	float                                              AnimLength;                                               // 0x0C24(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	class ABP_GM_HordeMode_C*                          BehaviorGamemodeRef;                                      // 0x0C28(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData)
-<<<<<<< HEAD
 	float                                              RandomSpeedFloat;                                         // 0x0C30(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	bool                                               IsAttacking_;                                             // 0x0C34(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	static UClass* StaticClass()
 	{
@@ -200,10 +189,6 @@ public:
 	void CheckForDistanceTriggers(bool* CheckWithin);
 	void ChangeBehavior(TEnumAsByte<Enum_BehaviorType>* NewBehaviorType, bool* StopAnimations);
 	void SetDefaults(class AAIController** ControllerIn);
-<<<<<<< HEAD
-=======
-	void OnStopAnimation();
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void ReceiveBeginPlay();
 	void OnPerceptionUpdate(class AActor** ActorRef, struct FAIStimulus* StimulusRef);
 	void OnDelayTrigger();
@@ -216,10 +201,7 @@ public:
 	void OnBeginIdle_Event();
 	void OnStartTalking(class AActor** OtherActor, float* TalkLength, TEnumAsByte<Enum_IdleType>* PrevIdleType);
 	void ReceiveEndPlay(TEnumAsByte<EEndPlayReason>* EndPlayReason);
-<<<<<<< HEAD
 	void OnStopAnimation();
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void ExecuteUbergraph_BP_BehaviorComponent(int* EntryPoint);
 	void OnEndInvestigate__DelegateSignature();
 	void OnBeginInvestigate__DelegateSignature();

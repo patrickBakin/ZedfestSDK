@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,7 +13,7 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass BP_GM_HordeMode.BP_GM_HordeMode_C
-// 0x02F0 (0x06C0 - 0x03D0)
+// 0x02F1 (0x06C1 - 0x03D0)
 class ABP_GM_HordeMode_C : public AGameMode_ServerTravel
 {
 public:
@@ -46,20 +42,20 @@ public:
 	struct FText                                       Servername;                                               // 0x0448(0x0018) (Edit, BlueprintVisible, Net, DisableEditOnInstance)
 	int                                                Max_Players;                                              // 0x0460(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData05[0x4];                                       // 0x0464(0x0004) MISSED OFFSET
-	class UTexture2D*                                  GM_MapImage;                                              // 0x0468(0x0008) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-	struct FText                                       GM_MapName;                                               // 0x0470(0x0018) (Edit, BlueprintVisible, Net, DisableEditOnInstance)
-	struct FText                                       GM_MapTime;                                               // 0x0488(0x0018) (Edit, BlueprintVisible, Net, DisableEditOnInstance)
+	class UTexture2D*                                  GM_MapImage;                                              // 0x0468(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	struct FText                                       GM_MapName;                                               // 0x0470(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
+	struct FText                                       GM_MapTime;                                               // 0x0488(0x0018) (Edit, BlueprintVisible, DisableEditOnInstance)
 	int                                                CurrentPlayers;                                           // 0x04A0(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData06[0x4];                                       // 0x04A4(0x0004) MISSED OFFSET
 	TArray<struct FS_Player_Info1>                     ConnectedPlayers;                                         // 0x04A8(0x0010) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance)
 	TArray<bool>                                       Available_Characters;                                     // 0x04B8(0x0010) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance)
-	int                                                GM_MAPID;                                                 // 0x04C8(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
+	int                                                GM_MAPID;                                                 // 0x04C8(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData07[0x4];                                       // 0x04CC(0x0004) MISSED OFFSET
 	TArray<class UClass*>                              Characters;                                               // 0x04D0(0x0010) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance)
 	int                                                Aliveplayers;                                             // 0x04E0(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData08[0x4];                                       // 0x04E4(0x0004) MISSED OFFSET
 	TArray<struct FPlayableLevels>                     AvailableMaps;                                            // 0x04E8(0x0010) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance)
-	struct FPlayableLevels                             CurrentLevel;                                             // 0x04F8(0x0058) (Edit, BlueprintVisible, Net, DisableEditOnInstance)
+	struct FPlayableLevels                             CurrentLevel;                                             // 0x04F8(0x0058) (Edit, BlueprintVisible, DisableEditOnInstance)
 	TArray<class UClass*>                              ZedReference;                                             // 0x0550(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance)
 	int                                                Difficulty;                                               // 0x0560(0x0004) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData09[0x4];                                       // 0x0564(0x0004) MISSED OFFSET
@@ -102,6 +98,7 @@ public:
 	TArray<class ABP_CameraSpawnPoint_C*>              CameraSpawnPointsArray;                                   // 0x0698(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance)
 	TArray<class ABP_Security_Camera_Tracking_C*>      CameraBusyArray;                                          // 0x06A8(0x0010) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance)
 	class ABP_AIStorage_C*                             AiStorageRef;                                             // 0x06B8(0x0008) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnTemplate, DisableEditOnInstance, IsPlainOldData)
+	bool                                               TimeAttackPugsOpen_;                                      // 0x06C0(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 
 	static UClass* StaticClass()
 	{
@@ -156,6 +153,7 @@ public:
 	void HeadName();
 	void ResetSpawnZedsMacro();
 	void UpdateServerBrowserProperties();
+	void TimeAttackPUGSClosing();
 	void CheckZedEventTimer11();
 	void StartPauseTimerFirstTime();
 	void ExecuteUbergraph_BP_GM_HordeMode(int* EntryPoint);

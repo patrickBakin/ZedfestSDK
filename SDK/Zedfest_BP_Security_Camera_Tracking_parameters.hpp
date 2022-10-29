@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -25,14 +21,11 @@ struct ABP_Security_Camera_Tracking_C_Scene_capture_activation_Params
 	class UTextureRenderTarget2D*                      Capture_texture;                                          // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function BP_Security_Camera_Tracking.BP_Security_Camera_Tracking_C.OnRep_CameraShot?
 struct ABP_Security_Camera_Tracking_C_OnRep_CameraShot__Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Security_Camera_Tracking.BP_Security_Camera_Tracking_C.UserConstructionScript
 struct ABP_Security_Camera_Tracking_C_UserConstructionScript_Params
 {
@@ -136,14 +129,11 @@ struct ABP_Security_Camera_Tracking_C_ResetCamerasEvent_Params
 	bool*                                              Internmission;                                            // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function BP_Security_Camera_Tracking.BP_Security_Camera_Tracking_C.DisableCameraRepEvent
 struct ABP_Security_Camera_Tracking_C_DisableCameraRepEvent_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function BP_Security_Camera_Tracking.BP_Security_Camera_Tracking_C.ExecuteUbergraph_BP_Security_Camera_Tracking
 struct ABP_Security_Camera_Tracking_C_ExecuteUbergraph_BP_Security_Camera_Tracking_Params
 {

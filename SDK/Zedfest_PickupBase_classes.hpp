@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -17,11 +13,7 @@ namespace ZF
 //---------------------------------------------------------------------------
 
 // BlueprintGeneratedClass PickupBase.PickupBase_C
-<<<<<<< HEAD
 // 0x0058 (0x0388 - 0x0330)
-=======
-// 0x0048 (0x0378 - 0x0330)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 class APickupBase_C : public AActor
 {
 public:
@@ -36,12 +28,9 @@ public:
 	TEnumAsByte<EItemCategory>                         Pickup_Category;                                          // 0x0370(0x0001) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData00[0x3];                                       // 0x0371(0x0003) MISSED OFFSET
 	float                                              InitialZLocation;                                         // 0x0374(0x0004) (Edit, BlueprintVisible, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-<<<<<<< HEAD
 	bool                                               SetColor;                                                 // 0x0378(0x0001) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
 	unsigned char                                      UnknownData01[0x7];                                       // 0x0379(0x0007) MISSED OFFSET
 	class UClass*                                      ItemClass;                                                // 0x0380(0x0008) (Edit, BlueprintVisible, Net, ZeroConstructor, DisableEditOnInstance, IsPlainOldData)
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 
 	static UClass* StaticClass()
 	{
@@ -61,10 +50,7 @@ public:
 	void Set_Detail_2(bool* Return_Value, struct FS_DetailsSettings* Detail_Settings);
 	void Set_Detail_3(bool* Return_Value, struct FS_DetailsSettings* Detail_Settings);
 	void Set_Detail_4(bool* Return_Value, struct FS_DetailsSettings* Detail_Settings);
-<<<<<<< HEAD
 	void OnRep_ItemClass();
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void Set_Rarity_Color(class UClass** Item_Class);
 	void Toggle_Widget(bool* Widget);
 	void Interact(struct FKey* Key, class APawn** Pawn);
@@ -72,10 +58,7 @@ public:
 	void Current_Target(class APawn** Pawn);
 	void Clear_Target();
 	void BndEvt__Pickup_Mesh_K2Node_ComponentBoundEvent_0_ComponentHitSignature__DelegateSignature(class UPrimitiveComponent** HitComponent, class AActor** OtherActor, class UPrimitiveComponent** OtherComp, struct FVector* NormalImpulse, struct FHitResult* Hit);
-<<<<<<< HEAD
 	void SetRarityColorEvent();
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 	void ExecuteUbergraph_PickupBase(int* EntryPoint);
 };
 

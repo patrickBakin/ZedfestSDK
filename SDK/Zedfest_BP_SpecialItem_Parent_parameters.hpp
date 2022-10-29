@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -21,6 +17,12 @@ namespace ZF
 // Function BP_SpecialItem_Parent.BP_SpecialItem_Parent_C.ReceiveBeginPlay
 struct ABP_SpecialItem_Parent_C_ReceiveBeginPlay_Params
 {
+};
+
+// Function BP_SpecialItem_Parent.BP_SpecialItem_Parent_C.OnDestroyed_Event_1
+struct ABP_SpecialItem_Parent_C_OnDestroyed_Event_1_Params
+{
+	class AActor**                                     DestroyedActor;                                           // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
 // Function BP_SpecialItem_Parent.BP_SpecialItem_Parent_C.ExecuteUbergraph_BP_SpecialItem_Parent

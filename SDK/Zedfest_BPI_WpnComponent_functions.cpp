@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -139,17 +135,10 @@ void UBPI_WpnComponent_C::CWC_SwitchCamera()
 // Function BPI_WpnComponent.BPI_WpnComponent_C.WPN_SetWeaponToInteract
 // (Public, BlueprintCallable, BlueprintEvent)
 // Parameters:
-<<<<<<< HEAD
 // int*                           WeaponReference                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 // bool*                          AutoPickUp                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 
 void UBPI_WpnComponent_C::WPN_SetWeaponToInteract(int* WeaponReference, bool* AutoPickUp)
-=======
-// class ABPA_ParentWeapon_C**    WeaponReference                (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-// bool*                          AutoPickUp                     (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
-
-void UBPI_WpnComponent_C::WPN_SetWeaponToInteract(class ABPA_ParentWeapon_C** WeaponReference, bool* AutoPickUp)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BPI_WpnComponent.BPI_WpnComponent_C.WPN_SetWeaponToInteract");
 
@@ -287,15 +276,9 @@ void UBPI_WpnComponent_C::CWC_GetHUD(class UW_WpnCompHUD_C** HUD_Reference)
 // Function BPI_WpnComponent.BPI_WpnComponent_C.GetChar_CharacterWeaponsComponent
 // (Public, HasOutParms, BlueprintCallable, BlueprintEvent)
 // Parameters:
-<<<<<<< HEAD
 // int                            CWC_Reference                  (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 
 void UBPI_WpnComponent_C::GetChar_CharacterWeaponsComponent(int* CWC_Reference)
-=======
-// class UAC_CharacterWeapons_C*  CWC_Reference                  (Parm, OutParm, ZeroConstructor, InstancedReference, IsPlainOldData)
-
-void UBPI_WpnComponent_C::GetChar_CharacterWeaponsComponent(class UAC_CharacterWeapons_C** CWC_Reference)
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 {
 	static auto fn = UObject::FindObject<UFunction>("Function BPI_WpnComponent.BPI_WpnComponent_C.GetChar_CharacterWeaponsComponent");
 

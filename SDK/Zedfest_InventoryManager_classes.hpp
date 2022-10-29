@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -55,6 +51,12 @@ public:
 	void Decrease_Player_Health(float* Amount);
 	void Increase_Player_Health(float* Amount);
 	void Update_Inventory_View();
+	void Server_Pick_Item_Found();
+	void Server_Select_Next_Slot();
+	void Server_Select_Previous_Slot();
+	void Server_Select_Slot(TEnumAsByte<ESlotsIndex>* Slot);
+	void Server_Move_Item_To(int* Old_Slot_Index, int* New_Slot_Index);
+	void Server_Swap_Item(int* FirstSlotIndex, int* SecondSlotIndex);
 	void Server_Select_Item(int* Index, TEnumAsByte<EInventoryType>* SelectionType);
 	void Server_Drop_Selected_Item(TEnumAsByte<EInventoryType>* Inventory_Type);
 	void Client_Update_Inventory_View();
@@ -68,10 +70,6 @@ public:
 	void Server_Use_Weapon();
 	void Server_Consume_Item();
 	void Server_Use_Crafting_Station();
-	void Server_Select_Slot(TEnumAsByte<ESlotsIndex>* Slot);
-	void Server_Select_Previous_Slot();
-	void Server_Select_Next_Slot();
-	void Server_Pick_Item_Found();
 	void InventoryManagerWeapons(class ABP_Pawn_C** BP_Pawn, class UClass** MainWeapon, class UClass** SecondaryWeapon, class UClass** MeleeWeapon, class UClass** GrenadeWeapon, float* MaxPlayerHealth, float* MaxPlayerShield, float* RunSpeed, float* AmmoAmountMultiplier, int* ThrowableAmount, bool* StartWFullArmor_, int* SmallMedicKitAmount, int* BigMedicKitAmount, float* WeaponMagSizeMultiplier, float* AimRunSpeed, bool* Torpedo2Jumpcount, bool* HealthRegen, int* ClassIntSlot, float* MeleeWeaponDamageMultiplier, bool* BonebreakerPerk34Selected, bool* BonebreakerPerk36Selected, bool* FromLobby_, bool* DoctorPerk29Selected_, bool* NukerPerk12Selected_, bool* NukerPerk13Selected_, bool* NukerPerk15Selected_, int* C, bool* W_StorePerkSwitcher_);
 	void Server_Use_Zoom_Button(bool* ButtonDown_);
 	void ServerDropCurrentItem();
@@ -82,8 +80,6 @@ public:
 	void ClientStopUseWeapon(bool* IsShootWeapon_);
 	void InventoryManageWeaponsOnly(class UClass** MainWeapon, class UClass** SecondaryWeapon, class UClass** MeleeWeapon, class UClass** GrenadeWeapon);
 	void HealthRegen1();
-	void Server_Swap_Item(int* FirstSlotIndex, int* SecondSlotIndex);
-	void Server_Move_Item_To(int* Old_Slot_Index, int* New_Slot_Index);
 	void HealthRegenEvent();
 	void ExecuteUbergraph_InventoryManager(int* EntryPoint);
 };

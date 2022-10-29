@@ -1,10 +1,6 @@
 #pragma once
 
-<<<<<<< HEAD
-// Zedfest (0.804) SDK
-=======
-// Zedfest (0.763) SDK
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
+// Zedfest (0.811) SDK
 
 #ifdef _MSC_VER
 	#pragma pack(push, 0x8)
@@ -72,21 +68,18 @@ struct UAnimBP_Main_C_Can_Jump_Params
 	bool                                               bJumping;                                                 // (Parm, OutParm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_925BEFC34857C9626878939C5FC99E08
 struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_925BEFC34857C9626878939C5FC99E08_Params
 {
 };
 
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B_Params
+// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B
+struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_C635CC7745535E3C88ECCF9DE3A93D7B_Params
+// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B
+struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B_Params
 {
 };
 
@@ -95,13 +88,8 @@ struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_An
 {
 };
 
-<<<<<<< HEAD
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_88BABD894B4082896663A9ACDAC40CBE
 struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_88BABD894B4082896663A9ACDAC40CBE_Params
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_93BB5E0248717BE78A3D24952F67081B_Params
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 {
 };
 
@@ -110,14 +98,6 @@ struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_An
 {
 };
 
-<<<<<<< HEAD
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_88BABD894B4082896663A9ACDAC40CBE
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_88BABD894B4082896663A9ACDAC40CBE_Params
-{
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_B8F2AACE4B4597DC8D93DCAF3C0E1629
 struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_B8F2AACE4B4597DC8D93DCAF3C0E1629_Params
 {
@@ -163,6 +143,11 @@ struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_An
 {
 };
 
+// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9
+struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9_Params
+{
+};
+
 // Function AnimBP_Main.AnimBP_Main_C.BlueprintUpdateAnimation
 struct UAnimBP_Main_C_BlueprintUpdateAnimation_Params
 {
@@ -185,13 +170,13 @@ struct UAnimBP_Main_C_ReloadWeapon_Params
 	class UAnimMontage**                               ReloadAnimMontage;                                        // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_0BFA5FB24902301644487ABBD5894BC9_Params
+// Function AnimBP_Main.AnimBP_Main_C.BlueprintInitializeAnimation
+struct UAnimBP_Main_C_BlueprintInitializeAnimation_Params
 {
 };
 
-// Function AnimBP_Main.AnimBP_Main_C.BlueprintInitializeAnimation
-struct UAnimBP_Main_C_BlueprintInitializeAnimation_Params
+// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2
+struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2_Params
 {
 };
 
@@ -200,14 +185,6 @@ struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_An
 {
 };
 
-<<<<<<< HEAD
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2_Params
-{
-};
-
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function AnimBP_Main.AnimBP_Main_C.PlayAnimationMontage
 struct UAnimBP_Main_C_PlayAnimationMontage_Params
 {
@@ -215,14 +192,6 @@ struct UAnimBP_Main_C_PlayAnimationMontage_Params
 	float*                                             PlayRate;                                                 // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_4C6C0CE54F56F6F0017AD798D12AA5B2_Params
-{
-};
-
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function AnimBP_Main.AnimBP_Main_C.BlueprintBeginPlay
 struct UAnimBP_Main_C_BlueprintBeginPlay_Params
 {
@@ -264,18 +233,8 @@ struct UAnimBP_Main_C_AnimNotify_UnequipThrowable_Params
 {
 };
 
-<<<<<<< HEAD
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_CA2824774FC6F2A1FEFF04ADDCE3CA7A
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_CA2824774FC6F2A1FEFF04ADDCE3CA7A_Params
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_925BEFC34857C9626878939C5FC99E08
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_925BEFC34857C9626878939C5FC99E08_Params
-{
-};
-
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_5DCDBDBE465627D7D5CC07A131DF748D
 struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_5DCDBDBE465627D7D5CC07A131DF748D_Params
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 {
 };
 
@@ -286,14 +245,11 @@ struct UAnimBP_Main_C_SlotCharWeaponEvent_Params
 	bool*                                              Main_;                                                    // (BlueprintVisible, BlueprintReadOnly, Parm, ZeroConstructor, IsPlainOldData)
 };
 
-<<<<<<< HEAD
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_E6DF84154D6543C4689FE093DBCBFF50
 struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_E6DF84154D6543C4689FE093DBCBFF50_Params
 {
 };
 
-=======
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 // Function AnimBP_Main.AnimBP_Main_C.AnimNotify_EquipMelee
 struct UAnimBP_Main_C_AnimNotify_EquipMelee_Params
 {
@@ -319,43 +275,23 @@ struct UAnimBP_Main_C_AnimNotify_UnequipSpecialItem_Params
 {
 };
 
-<<<<<<< HEAD
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_5DCDBDBE465627D7D5CC07A131DF748D
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_BlendListByBool_5DCDBDBE465627D7D5CC07A131DF748D_Params
-{
-};
-
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659_Params
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_E6DF84154D6543C4689FE093DBCBFF50
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_E6DF84154D6543C4689FE093DBCBFF50_Params
-{
-};
-
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_CA2824774FC6F2A1FEFF04ADDCE3CA7A
 struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TwoBoneIK_CA2824774FC6F2A1FEFF04ADDCE3CA7A_Params
 {
 };
 
+// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659
+struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659_Params
+{
+};
+
 // Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_9539F4DC4EA9378B11F0C0B11A733646
 struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_9539F4DC4EA9378B11F0C0B11A733646_Params
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 {
 };
 
 // Function AnimBP_Main.AnimBP_Main_C.AnimNotify_Transform
 struct UAnimBP_Main_C_AnimNotify_Transform_Params
-{
-};
-
-<<<<<<< HEAD
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_9539F4DC4EA9378B11F0C0B11A733646
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_9539F4DC4EA9378B11F0C0B11A733646_Params
-=======
-// Function AnimBP_Main.AnimBP_Main_C.EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659
-struct UAnimBP_Main_C_EvaluateGraphExposedInputs_ExecuteUbergraph_AnimBP_Main_AnimGraphNode_TransitionResult_77863D2648F71199105BBC9DEBBCF659_Params
->>>>>>> 797536caccfe399b6e4d522f8bf7978365d4b985
 {
 };
 
